@@ -1,0 +1,126 @@
+id,question
+0,What steps should I follow to reset my account password?
+0,Can you guide me on how to recover my password?
+0,What should I do if I forgot my password for my account?
+0,Where can I find the link to reset my password?
+0,How can I change my password if I can't log in?
+1,Is it possible to upgrade my current subscription plan at any time?
+1,What steps do I need to take to change my subscription plan?
+1,Where can I find the option to upgrade my plan after logging in?
+1,Will I be able to choose a new plan when I upgrade my subscription?
+1,Do I need to confirm anything after selecting my new plan for the upgrade?
+2,What are the steps for integrating your API with my CRM?
+2,How can I generate an API key for the integration?
+2,Where can I find the documentation for your API?
+2,Do you provide SDKs for API integration with CRMs?
+2,What should I do to test the integration after setup?
+3,What are the uptime guarantees included in the enterprise SLA?
+3,Does the enterprise SLA provide 24/7 support?
+3,Will I have a dedicated account manager with the enterprise SLA?
+3,How often will reviews be conducted under the enterprise SLA?
+3,Are there any advanced security features included in the enterprise SLA?
+4,What steps do I need to follow to turn on two-factor authentication for my account?
+4,Can you guide me through the process of setting up two-factor authentication?
+4,What options do I have for choosing a two-factor authentication method?
+4,How can I make sure I don’t lose access to my two-factor authentication backup codes?
+4,Where can I find additional resources about enabling two-factor authentication?
+5,What types of credit cards can I use for payment?
+5,Can I pay for my subscription using PayPal?
+5,Is it possible to use a bank transfer for my annual plan?
+5,How do I update my current payment method in the application?
+5,Where can I find information about the payment methods you accept?
+6,What steps should I follow to export my data from the application?
+6,"Can I choose the format in which my data is exported, like CSV or JSON?"
+6,Is there a specific setting I need to access to perform a data export?
+6,"After generating a data export, how do I download the file?"
+6,What types of data can I select for export during the process?
+7,What is your policy regarding data retention after an account is closed?
+7,How long do you keep user data before it is deleted?
+7,Can I request a data export after my account is closed?
+7,What regulations do you comply with in your data retention practices?
+7,What happens to my data after the 24-month retention period?
+8,What steps should I follow to invite new team members to my account?
+8,Can you guide me on how to set permissions while inviting users?
+8,Where in the application do I find the option to manage my team members?
+8,What happens after I send an invite to a new team member?
+8,Is there a limit on the number of team members I can add to my account?
+9,Is white-labeling available for all subscription plans or just specific ones?
+9,What features are included in the white-labeling option?
+9,How can I contact the sales team for more information on white-labeling?
+9,Can I customize the logo and color scheme when I white-label your product?
+9,Are there additional costs associated with white-labeling beyond the Enterprise plan?
+10,What steps should I follow to set up email notifications in my account?
+10,How can I select the events for which I want to receive email alerts?
+10,Is there an option to customize the frequency of email notifications?
+10,Where in the account settings can I find the notification options?
+10,What do I need to do to save changes after configuring my email notifications?
+11,What are the key differences between the Basic and Pro plans regarding user limits?
+11,Can you explain the storage capacity differences between the Basic and Pro plans?
+11,"Does the Pro plan offer API access, and if so, what about the Basic plan?"
+11,What kind of support can I expect with the Pro plan compared to the Basic plan?
+11,Are there any advanced analytics features available in the Basic plan?
+12,What steps do I need to follow in order to cancel my subscription?
+12,Is there a specific part of my account I need to navigate to for cancelling?
+12,Will my account be deactivated immediately after I cancel my subscription?
+12,Where can I find information on reasons for cancelling my subscription?
+12,Are there any related articles that guide me on how to cancel my subscription?
+13,Is your platform compliant with HIPAA regulations?
+13,What security features do you offer to ensure HIPAA compliance?
+13,Do you provide Business Associate Agreements (BAAs) for HIPAA compliance?
+13,Can you explain how you implement role-based access control for HIPAA?
+13,Are there specific plans that include HIPAA compliance features?
+14,What steps do I need to follow to generate an API key in the application?
+14,Can you guide me on how to set permissions for a new API key?
+14,Where can I find the option to generate a new API key?
+14,Is there a way to retrieve my API key after it has been generated?
+14,What should I do to ensure the security of my API key after I create it?
+15,How do I update the email associated with my account?
+15,What steps do I need to take to change my email address in the settings?
+15,Is there a verification process when I update my account email?
+15,Can you guide me through changing my email in profile management?
+15,What should I do if I can't log in with my new email after changing it?
+16,What are the steps to set up Single Sign-On (SSO) in the application?
+16,Do I need a specific plan to enable SSO functionality?
+16,Which Identity Providers (IdPs) are compatible with the SSO setup?
+16,How do I test the SSO connection after configuring it?
+16,Are there best practices for implementing SSO that I should follow?
+17,What is the uptime guarantee for your service plans?
+17,Can you provide details on the uptime percentage for the Enterprise plan?
+17,Where can I find real-time uptime information about your services?
+17,What happens if your service experiences downtime beyond the guarantee?
+17,Is there a status page available for historical uptime data?
+18,What are the steps to create custom reports in the analytics section?
+18,How can I select data sources and metrics for my custom report?
+18,What types of visualizations can I choose for my custom reports?
+18,How do I set filters and define the date range for my custom report?
+18,Is there an option to save and schedule my custom report after creating it?
+19,Is it possible to use a custom domain with your service?
+19,What plans allow the use of a custom domain?
+19,Can you guide me through the steps to set up my own domain?
+19,What should I do to verify ownership of my custom domain?
+19,Where can I find instructions for updating my DNS records?
+20,What steps do I need to follow to set up multi-factor authentication in my account?
+20,Can you guide me through enabling MFA and what options I have?
+20,Is there a specific method I need to choose for multi-factor authentication setup?
+20,"After enabling MFA, how do I store my backup codes securely?"
+20,What should I do if I lose access to my multi-factor authentication method?
+21,Can you describe your daily data backup schedule and locations?
+21,"How long do you retain daily, weekly, and monthly backups?"
+21,Is the backup data encrypted both at rest and in transit?
+21,What measures are in place to ensure data security during backups?
+21,Where can I find more information about your disaster recovery plans?
+22,What steps should I follow to invite a client to see the project updates?
+22,Can you explain how to customize the welcome message for client invitations?
+22,Is there an option to set permissions when inviting clients to view the project?
+22,What email information do I need to provide when sending a client access invitation?
+22,Are there any related articles that can help me with client access in project settings?
+23,What CRM systems can I integrate with your platform?
+23,Which communication tools are compatible with your software?
+23,Can I integrate your application with Jira or Asana for project management?
+23,What analytics tools do you support for integration?
+23,Is there an option for custom integrations through API?
+24,What steps should I follow to download my account invoices?
+24,Where can I find the option to download my invoices in the application?
+24,Is there a specific format in which the invoices are available for download?
+24,"After downloading an invoice, where will it be saved on my computer?"
+24,Can I access my invoice history from the billing section of my account?
