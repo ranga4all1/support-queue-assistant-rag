@@ -1,3 +1,13 @@
+# Added by me:
+
+.envrc
+commands
+
+
+
+
+###############################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
