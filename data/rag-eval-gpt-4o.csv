@@ -1,0 +1,83 @@
+answer,id,question,relevance,explanation
+"To ensure the security of your API key after you create it, you should:
+
+1. **Copy and Securely Store the Key:** The API key will only be shown once, so it's critical to copy it immediately and store it securely.
+2. **Set Appropriate Permissions:** Configure the appropriate permissions while generating the key to limit its access as needed.
+3. **Refer to Security Best Practices:** You can find related best practices and guidelines in articles like `/api-management/key-security`.
+
+By following these steps, you help protect your API key from unauthorized access or misuse.",14,What should I do to ensure the security of my API key after I create it?,RELEVANT,"The generated answer provides specific and actionable steps to secure an API key after its creation, directly addressing the question. It includes methods such as securely storing the key and setting appropriate permissions, which are essential practices for ensuring API key security."
+"White-labeling is available only on the Enterprise plan. This includes customization options such as custom domain, logo, and color scheme. Contact the sales team for further details on pricing and setup.",9,Is white-labeling available for all subscription plans or just specific ones?,RELEVANT,"The generated answer directly addresses the question by stating that white-labeling is available only on the Enterprise plan, which specifies that it is not available for all subscription plans. Furthermore, it provides additional details about customization options, enhancing the relevance."
+"Yes, you can customize the logo and color scheme when you white-label our product. This is available on our Enterprise plan, which includes options for custom domain, logo, and color scheme. Please contact our sales team for pricing and setup details.",9,Can I customize the logo and color scheme when I white-label your product?,RELEVANT,The generated answer directly addresses the question about customizing the logo and color scheme when white-labeling the product. It confirms that customization is possible and provides additional context regarding the availability of this feature on the Enterprise plan and the need to contact the sales team for more details.
+"Yes, you can choose the format in which your data is exported. Our platform allows you to select either CSV or JSON for data exports. To do this:
+
+1. Go to 'Settings'
+2. Click 'Data Export'
+3. Select the data you want to export
+4. Choose the file format (CSV or JSON)
+5. Click 'Generate Export'
+6. Download the file when ready.",6,"Can I choose the format in which my data is exported, like CSV or JSON?",RELEVANT,"The generated answer directly addresses the question by confirming that users can choose the format for data exports, specifically mentioning CSV and JSON as options. It also provides step-by-step instructions on how to do so, which is informative and directly relevant to the user's query."
+"Yes, our platform is HIPAA compliant on Enterprise plans. We offer BAAs, end-to-end encryption, audit logs, and role-based access control to meet HIPAA requirements.",13,Is your platform compliant with HIPAA regulations?,RELEVANT,The generated answer directly addresses the question about HIPAA compliance by confirming that the platform is HIPAA compliant on Enterprise plans and providing specific details about the features that support compliance.
+"To ensure HIPAA compliance, we offer the following security features on our Enterprise plans:
+
+1. **Business Associate Agreements (BAAs)**: We provide BAAs to formalize the responsibilities of managing protected health information (PHI).
+2. **End-to-End Encryption**: All data is encrypted both in transit and at rest.
+3. **Audit Logs**: Detailed logs are maintained to track access and modifications to data.
+4. **Role-Based Access Control**: User permissions are managed to ensure that only authorized personnel can access sensitive information. 
+
+For more information, please refer to our related articles on HIPAA compliance and enterprise security features.",13,What security features do you offer to ensure HIPAA compliance?,RELEVANT,"The generated answer directly addresses the question about security features for ensuring HIPAA compliance by listing specific offerings such as Business Associate Agreements, End-to-End Encryption, Audit Logs, and Role-Based Access Control, all of which are relevant to HIPAA compliance."
+"We support integrations with the following analytics tools:
+
+1. Google Analytics
+2. Mixpanel
+
+For more details, you can refer to our related articles on available integrations and API reference for webhooks.",23,What analytics tools do you support for integration?,RELEVANT,"The generated answer directly addresses the question by listing specific analytics tools (Google Analytics and Mixpanel) that are supported for integration, fulfilling the request for information about analytics tool integrations."
+"To set up multi-factor authentication (MFA) on your account, please follow these steps:
+
+1. Go to 'Security Settings'.
+2. Click 'Enable MFA'.
+3. Choose your preferred method for authentication (app, SMS, hardware key).
+4. Follow the setup instructions provided for the selected method.
+5. Enter a backup phone number.
+6. Save the generated backup codes in a secure location.
+
+For further information, you may refer to related articles available at:
+/account-security/multi-factor-authentication
+/security/mfa-best-practices",20,What steps do I need to follow to set up multi-factor authentication in my account?,RELEVANT,"The generated answer provides clear and direct steps to set up multi-factor authentication, which directly addresses the question asked. Each step contributes to the process outlined in the question, making it a complete and useful response."
+"Our platform supports integration with the following CRM systems:
+
+1. Salesforce
+2. HubSpot
+
+Additionally, custom integrations can be set up using our API. For more details on integrating with these systems, please refer to our integration guides and API reference documents.",23,What CRM systems can I integrate with your platform?,RELEVANT,"The generated answer directly addresses the question by listing specific CRM systems that can be integrated with the platform (Salesforce and HubSpot) and provides additional information about custom integrations, which is relevant to the user's inquiry."
+"After generating a data export, you can download the file by following these steps:
+
+1. Go to 'Settings'.
+2. Click 'Data Export'.
+3. Select the data you want to export.
+4. Choose the file format (CSV or JSON).
+5. Click 'Generate Export'.
+6. Download the file when it is ready.",6,"After generating a data export, how do I download the file?",RELEVANT,"The generated answer directly addresses the question by providing a clear and specific set of steps for downloading the file after a data export has been generated. It includes relevant actions that a user should take, making it fully pertinent to the inquiry."
+"No, your account will not be deactivated immediately after you cancel your subscription. Your account will remain active until the end of the current billing cycle.",12,Will my account be deactivated immediately after I cancel my subscription?,RELEVANT,The generated answer directly addresses the question by stating that the account will not be deactivated immediately after cancellation and provides additional context about remaining active until the end of the billing cycle.
+"The CONTEXT does not mention any limit on the number of team members you can add to your account. Therefore, based on the available information, there is no specified limit on the number of team members you can add.",8,Is there a limit on the number of team members I can add to my account?,RELEVANT,"The generated answer directly addresses the question about the limit on the number of team members by stating that there is no specified limit based on the provided context. It effectively communicates the absence of restrictions, making it relevant to the inquiry."
+"We perform daily data backups, which are stored in multiple geographic locations. The data is encrypted both at rest and in transit. Our retention periods are as follows: daily backups are kept for 30 days, weekly backups for 3 months, and monthly backups for 1 year.",21,Can you describe your daily data backup schedule and locations?,RELEVANT,"The generated answer directly addresses the question by describing the daily data backup schedule, mentioning that backups are performed daily and detailing the retention periods. Additionally, it discusses the locations of the backups being multiple geographic locations, which is also pertinent to the question."
+"If you lose access to your multi-factor authentication method, it is important to use the backup codes that you would have saved during the MFA setup process. These backup codes were provided as part of the setup instructions to ensure you can regain access to your account in situations like this. If you did not save your backup codes or if you need additional assistance, please contact our customer support team for further help.",20,What should I do if I lose access to my multi-factor authentication method?,RELEVANT,"The generated answer directly addresses the question by providing practical steps to take if access to the multi-factor authentication method is lost, specifically mentioning the use of backup codes and the option to contact customer support for further assistance."
+"Yes, there is an option for custom integrations through API. As per the context, custom integrations can be achieved via our API, in addition to standard integrations with various systems like CRM, communication tools, project management, and analytics platforms.",23,Is there an option for custom integrations through API?,RELEVANT,"The generated answer directly addresses the question by confirming the existence of an option for custom integrations through API. It also provides additional context about integrations with various systems, which enhances the relevance of the response."
+"We retain daily backups for 30 days, weekly backups for 3 months, and monthly backups for 1 year.",21,"How long do you retain daily, weekly, and monthly backups?",RELEVANT,"The generated answer directly addresses the question regarding the retention periods for daily, weekly, and monthly backups, providing specific time frames for each type, which meets the information requested."
+"We retain user data for 24 months after an account is closed. During this period, you can request a full data export. After 24 months, all data is permanently deleted to ensure compliance with GDPR and CCPA regulations.",7,What is your policy regarding data retention after an account is closed?,RELEVANT,"The generated answer directly addresses the question about data retention policy after an account is closed by specifying the duration of retention (24 months) and mentioning the conditions for data export and deletion, thereby providing a comprehensive response."
+"After enabling MFA, it is essential to store your backup codes securely to ensure you can access your account if you lose your primary authentication method. Here are some recommendations for storing your backup codes securely:
+
+1. **Print Them Out**: Print out your backup codes and store them in a safe place, such as a locked drawer or a safe.
+
+2. **Use a Secure Digital Storage**: Save the codes in a secure digital format, such as an encrypted USB drive or a secure password manager that supports multi-factor authentication.
+
+3. **Avoid Cloud Storage**: Do not store your backup codes in unencrypted cloud storage or email them to yourself, as this can make them vulnerable to unauthorized access.
+
+By taking these precautions, you can ensure that your backup codes are safe and accessible only to you.",20,"After enabling MFA, how do I store my backup codes securely?",RELEVANT,"The generated answer directly addresses the question by providing practical recommendations for securely storing backup codes after enabling MFA. It covers multiple secure storage options and emphasizes the importance of avoiding insecure practices, making it highly relevant to the user's inquiry."
+"Based on the provided CONTEXT, invoices are available for download specifically in PDF format.",24,Is there a specific format in which the invoices are available for download?,RELEVANT,"The generated answer directly addresses the question by specifying that invoices are available for download in PDF format, which is the information that the question inquires about."
+"If you forgot your password for your account, you can reset it by following these steps:
+
+1. Go to the login page.
+2. Click 'Forgot Password'.
+3. Enter your email address.
+4. Check your email for a reset link.
+5. Click the reset link and enter a new password.",0,What should I do if I forgot my password for my account?,RELEVANT,"The generated answer directly addresses the question by providing clear and concise steps to reset a forgotten password, making it fully relevant to the user's inquiry."
