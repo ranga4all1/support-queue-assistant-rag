@@ -1,126 +1,626 @@
 id,question
-0,What steps should I follow to reset my account password?
-0,Can you guide me on how to recover my password?
-0,What should I do if I forgot my password for my account?
-0,Where can I find the link to reset my password?
-0,How can I change my password if I can't log in?
-1,Is it possible to upgrade my current subscription plan at any time?
-1,What steps do I need to take to change my subscription plan?
-1,Where can I find the option to upgrade my plan after logging in?
-1,Will I be able to choose a new plan when I upgrade my subscription?
-1,Do I need to confirm anything after selecting my new plan for the upgrade?
-2,What are the steps for integrating your API with my CRM?
-2,How can I generate an API key for the integration?
-2,Where can I find the documentation for your API?
-2,Do you provide SDKs for API integration with CRMs?
-2,What should I do to test the integration after setup?
-3,What are the uptime guarantees included in the enterprise SLA?
-3,Does the enterprise SLA provide 24/7 support?
-3,Will I have a dedicated account manager with the enterprise SLA?
-3,How often will reviews be conducted under the enterprise SLA?
-3,Are there any advanced security features included in the enterprise SLA?
-4,What steps do I need to follow to turn on two-factor authentication for my account?
-4,Can you guide me through the process of setting up two-factor authentication?
-4,What options do I have for choosing a two-factor authentication method?
-4,How can I make sure I don’t lose access to my two-factor authentication backup codes?
-4,Where can I find additional resources about enabling two-factor authentication?
-5,What types of credit cards can I use for payment?
-5,Can I pay for my subscription using PayPal?
-5,Is it possible to use a bank transfer for my annual plan?
-5,How do I update my current payment method in the application?
-5,Where can I find information about the payment methods you accept?
-6,What steps should I follow to export my data from the application?
-6,"Can I choose the format in which my data is exported, like CSV or JSON?"
-6,Is there a specific setting I need to access to perform a data export?
-6,"After generating a data export, how do I download the file?"
-6,What types of data can I select for export during the process?
-7,What is your policy regarding data retention after an account is closed?
-7,How long do you keep user data before it is deleted?
-7,Can I request a data export after my account is closed?
-7,What regulations do you comply with in your data retention practices?
-7,What happens to my data after the 24-month retention period?
-8,What steps should I follow to invite new team members to my account?
-8,Can you guide me on how to set permissions while inviting users?
-8,Where in the application do I find the option to manage my team members?
-8,What happens after I send an invite to a new team member?
-8,Is there a limit on the number of team members I can add to my account?
-9,Is white-labeling available for all subscription plans or just specific ones?
-9,What features are included in the white-labeling option?
-9,How can I contact the sales team for more information on white-labeling?
-9,Can I customize the logo and color scheme when I white-label your product?
-9,Are there additional costs associated with white-labeling beyond the Enterprise plan?
-10,What steps should I follow to set up email notifications in my account?
-10,How can I select the events for which I want to receive email alerts?
-10,Is there an option to customize the frequency of email notifications?
-10,Where in the account settings can I find the notification options?
-10,What do I need to do to save changes after configuring my email notifications?
-11,What are the key differences between the Basic and Pro plans regarding user limits?
-11,Can you explain the storage capacity differences between the Basic and Pro plans?
-11,"Does the Pro plan offer API access, and if so, what about the Basic plan?"
-11,What kind of support can I expect with the Pro plan compared to the Basic plan?
-11,Are there any advanced analytics features available in the Basic plan?
-12,What steps do I need to follow in order to cancel my subscription?
-12,Is there a specific part of my account I need to navigate to for cancelling?
-12,Will my account be deactivated immediately after I cancel my subscription?
-12,Where can I find information on reasons for cancelling my subscription?
-12,Are there any related articles that guide me on how to cancel my subscription?
-13,Is your platform compliant with HIPAA regulations?
-13,What security features do you offer to ensure HIPAA compliance?
-13,Do you provide Business Associate Agreements (BAAs) for HIPAA compliance?
-13,Can you explain how you implement role-based access control for HIPAA?
-13,Are there specific plans that include HIPAA compliance features?
-14,What steps do I need to follow to generate an API key in the application?
-14,Can you guide me on how to set permissions for a new API key?
-14,Where can I find the option to generate a new API key?
-14,Is there a way to retrieve my API key after it has been generated?
-14,What should I do to ensure the security of my API key after I create it?
-15,How do I update the email associated with my account?
-15,What steps do I need to take to change my email address in the settings?
-15,Is there a verification process when I update my account email?
-15,Can you guide me through changing my email in profile management?
-15,What should I do if I can't log in with my new email after changing it?
-16,What are the steps to set up Single Sign-On (SSO) in the application?
-16,Do I need a specific plan to enable SSO functionality?
-16,Which Identity Providers (IdPs) are compatible with the SSO setup?
-16,How do I test the SSO connection after configuring it?
-16,Are there best practices for implementing SSO that I should follow?
-17,What is the uptime guarantee for your service plans?
-17,Can you provide details on the uptime percentage for the Enterprise plan?
-17,Where can I find real-time uptime information about your services?
-17,What happens if your service experiences downtime beyond the guarantee?
-17,Is there a status page available for historical uptime data?
-18,What are the steps to create custom reports in the analytics section?
-18,How can I select data sources and metrics for my custom report?
-18,What types of visualizations can I choose for my custom reports?
-18,How do I set filters and define the date range for my custom report?
-18,Is there an option to save and schedule my custom report after creating it?
-19,Is it possible to use a custom domain with your service?
-19,What plans allow the use of a custom domain?
-19,Can you guide me through the steps to set up my own domain?
-19,What should I do to verify ownership of my custom domain?
-19,Where can I find instructions for updating my DNS records?
-20,What steps do I need to follow to set up multi-factor authentication in my account?
-20,Can you guide me through enabling MFA and what options I have?
-20,Is there a specific method I need to choose for multi-factor authentication setup?
-20,"After enabling MFA, how do I store my backup codes securely?"
-20,What should I do if I lose access to my multi-factor authentication method?
-21,Can you describe your daily data backup schedule and locations?
-21,"How long do you retain daily, weekly, and monthly backups?"
-21,Is the backup data encrypted both at rest and in transit?
-21,What measures are in place to ensure data security during backups?
-21,Where can I find more information about your disaster recovery plans?
-22,What steps should I follow to invite a client to see the project updates?
-22,Can you explain how to customize the welcome message for client invitations?
-22,Is there an option to set permissions when inviting clients to view the project?
-22,What email information do I need to provide when sending a client access invitation?
-22,Are there any related articles that can help me with client access in project settings?
-23,What CRM systems can I integrate with your platform?
-23,Which communication tools are compatible with your software?
-23,Can I integrate your application with Jira or Asana for project management?
-23,What analytics tools do you support for integration?
-23,Is there an option for custom integrations through API?
-24,What steps should I follow to download my account invoices?
-24,Where can I find the option to download my invoices in the application?
-24,Is there a specific format in which the invoices are available for download?
-24,"After downloading an invoice, where will it be saved on my computer?"
-24,Can I access my invoice history from the billing section of my account?
+0,What steps do I need to follow to reset my password for my account?
+0,Can you guide me through the password recovery process for the application?
+0,Where can I find the link to reset my password on the login page?
+0,Is there a specific email address I need to use to receive password reset instructions?
+0,What resources are available if I encounter issues while trying to reset my password?
+1,What are the accepted payment methods for your service?
+1,Can I use PayPal to pay for my subscription?
+1,Do you accept credit cards for payment?
+1,What invoicing options are available for enterprise customers?
+1,Where can I find more information about payment methods?
+2,How do I integrate your service with Salesforce?
+2,What is the process for setting up the Salesforce integration?
+2,Is there any documentation available for integrating with Salesforce?
+2,Do I need an API key to connect to Salesforce?
+2,Where can I find the step-by-step instructions for Salesforce integration?
+3,What steps should I follow to add a new user to my account?
+3,Can you explain how to invite a user and assign them a role?
+3,Where do I find the option to manage users in my account settings?
+3,Is there a way to change a user's role after they've been added?
+3,How will the new user receive their invitation to join?
+4,What features are part of the Enterprise plan offered by your company?
+4,Is priority support included in the Enterprise plan?
+4,Can you tell me about the custom integrations available in the Enterprise plan?
+4,Does the Enterprise plan come with dedicated account management?
+4,Where can I find a detailed comparison of features between different plans?
+5,What measures are in place for data encryption on your platform?
+5,Can you explain how you ensure compliance with GDPR requirements?
+5,What types of security audits do you conduct regularly?
+5,How is data encrypted both at rest and in transit?
+5,What does SOC 2 compliance entail for your service?
+6,What steps should I take to dispute an incorrect charge on my account?
+6,Who should I contact for assistance with my billing dispute?
+6,Can you provide the email address for the billing support team?
+6,How can I provide details about the specific charge I want to dispute?
+6,Where can I find more information about billing disputes and resolutions?
+7,What steps do I need to follow to export my data from the system?
+7,Can you explain how to access the data export feature in my account?
+7,What options do I have when selecting the date range for data export?
+7,How will I know when my data export is ready for download?
+7,Is there a detailed guide available on data export and reporting features?
+8,What is the uptime guarantee offered by your service?
+8,Can you explain the uptime percentage outlined in your SLA?
+8,What should I do if I experience unscheduled downtime?
+8,"Are service credits available for downtime, and how are they determined?"
+8,Where can I find more information about your Service Level Agreement?
+9,What steps should I follow to cancel my subscription?
+9,Where can I find the option to cancel my subscription?
+9,Will my subscription remain active after I choose to cancel it?
+9,Are there any specific instructions for canceling my subscription?
+9,Is there a page I can refer to for guidance on canceling my subscription?
+10,How can I change my subscription plan?
+10,Is it possible to upgrade or downgrade my plan anytime?
+10,Where do I find the option to change my plan in the settings?
+10,Will my billing be adjusted if I change my plan mid-cycle?
+10,What steps do I need to follow to confirm a new plan choice?
+11,What steps should I follow to enable two-factor authentication for my account?
+11,Where can I find the option to set up two-factor authentication in the settings?
+11,Which methods can I choose from for the second factor during the 2FA setup?
+11,Is there a wizard that guides me through the two-factor authentication process?
+11,Can you provide a link to related articles on setting up two-factor authentication?
+12,What types of APIs does your company provide?
+12,Can you explain the capabilities of your APIs in detail?
+12,Where can I find the documentation for your APIs?
+12,Do your APIs support user management functionalities?
+12,Are example requests included in your API documentation?
+13,What is the frequency of your product updates?
+13,How often do you roll out major feature updates?
+13,Are updates automatically applied to my account?
+13,Where can I find the release notes for updates?
+13,How can I view upcoming features in your product?
+14,What steps should I follow to recover my forgotten username?
+14,Is there a specific link to click for username recovery?
+14,What information do I need to provide to retrieve my username?
+14,How long will it take to receive my username after I request it?
+14,Can I recover my username using a different email address?
+15,Does your company provide discounts for non-profit organizations?
+15,How can I apply for a non-profit discount on your services?
+15,What proof do I need to provide to demonstrate my non-profit status?
+15,Who should I contact for more information about non-profit discounts?
+15,Is there a specific review process for non-profit discount applications?
+16,What steps should I follow to set up email notifications in the application?
+16,Where can I find the settings to configure my email alerts?
+16,Can I customize the events that trigger my email notifications?
+16,How do I ensure my changes to notifications are saved correctly?
+16,Is there a resource that explains how to use the notifications feature effectively?
+17,What is your policy on data retention for user information?
+17,How long do you keep user data after an account is closed?
+17,Can I request to have my data deleted before the specified retention period?
+17,What happens to my data after the 30-day period post-account closure?
+17,Where can I find more information regarding your privacy practices and data management?
+18,What steps do I need to follow to generate a new API key?
+18,Can you guide me through the process of creating an API key in the application?
+18,Is there a specific section in the settings where I can find the API key generation option?
+18,What should I do after I generate my API key to ensure its security?
+18,Where can I find further documentation on API key management and related integrations?
+19,How can I obtain an invoice for my subscription?
+19,Where do I go to download my subscription invoices?
+19,Is it possible to view all my previous invoices in the application?
+19,What steps should I follow to download an invoice as a PDF?
+19,Can you guide me on accessing the billing section for invoices?
+20,What steps should I follow to create a custom report in the application?
+20,Where can I find the option to start a new custom report?
+20,How do I select my data sources when creating a custom report?
+20,"Is it possible to set filters while creating a custom report, and if so, how?"
+20,Can I save and schedule my custom report for regular delivery?
+21,Can I get a full refund for my subscription if I cancel within 14 days?
+21,What happens if I request a refund after the 14-day period?
+21,Are there any exceptions to the refund policy for certain cases?
+21,How do I contact the billing support team for refund inquiries?
+21,Where can I find more information about your refund policy?
+22,What steps do I need to follow to configure SSO for my account?
+22,Can you tell me which identity providers are supported for SSO setup?
+22,Is SSO setup included in all subscription plans or just for Enterprise?
+22,Where can I find more detailed instructions for setting up SSO?
+22,Who should I contact if I encounter issues while setting up SSO?
+23,Is white-labeling an option for all customers or just Enterprise?
+23,What customization features are available for white-labeling?
+23,How can I contact my account manager regarding white-labeling?
+23,Does white-labeling include custom colors and logos for my interface?
+23,"Where can I find more information on your Enterprise features, including white-labeling?"
+24,What steps do I need to follow to access the Audit Logs for user activity tracking?
+24,Can I filter user activity reports by specific actions or users?
+24,Where can I find the detailed logs of user actions in my account?
+24,Is there a way to set a date range for viewing user activity in the Audit Logs?
+24,How can I ensure that I am monitoring all user actions in my account effectively?
+25,What steps should I follow to create a new team workspace in the application?
+25,Can you explain how to add team members when setting up a workspace?
+25,How do I customize a team workspace after I've created it?
+25,Where can I find the settings to manage workspaces in the application?
+25,Is there a guide available for setting up workspaces and collaboration tools?
+26,Can you explain what features the Pro plan includes compared to the Basic plan?
+26,What kind of businesses typically choose the Pro subscription over the Basic one?
+26,Is the storage capacity the only difference between the Basic and Pro plans?
+26,Where can I find a detailed comparison of the Basic and Pro plans?
+26,Does the Pro plan offer any type of dedicated support that the Basic plan does not?
+27,What steps should I take to troubleshoot slow performance in the application?
+27,How can I check if my internet connection is causing slow performance?
+27,What should I do if clearing my browser cache does not improve performance?
+27,Where can I find the status page to check for ongoing issues affecting performance?
+27,Who should I contact for assistance if my performance issues continue after troubleshooting?
+28,Is there a discount available for choosing annual billing?
+28,What percentage discount do I receive if I switch to annual billing?
+28,How do I change my billing cycle to annual?
+28,When will the annual billing discount be applied to my account?
+28,Where can I find more information about the annual discount for billing?
+29,What steps should I take to add custom fields to my forms?
+29,Can you guide me through the process of editing a form to include new fields?
+29,What field types can I choose from when customizing my forms?
+29,How do I adjust the properties of a custom field once I add it to my form?
+29,Is there a way to rearrange the order of custom fields after I've added them to my form?
+30,What will happen to my data if I decide to cancel my subscription?
+30,Is there a time frame during which I can access my data after cancellation?
+30,How can I export my data before my subscription ends?
+30,What should I do if I want to keep my data after canceling the subscription?
+30,Will my data be permanently deleted immediately upon cancellation of my account?
+31,What steps should I follow to create scheduled reports in the application?
+31,"Can I choose different frequencies for my automated reports, like daily or monthly?"
+31,How do I select the recipients for the scheduled reports I want to automate?
+31,Is there a way to deliver automated reports via Slack instead of just email?
+31,What do I need to do to save and activate my automated report schedule?
+32,Is there a free trial available for your services?
+32,How long does the trial period last for your plans?
+32,Do I need to provide my credit card information to start the trial?
+32,Can I switch to a paid plan during the trial period?
+32,Where can I sign up for the free trial offered?
+33,What steps do I need to follow to update my billing information in the application?
+33,Where can I find the section to change my payment methods?
+33,What should I do if I want to add a new credit card for payments?
+33,Is there a way to edit my existing payment information easily?
+33,"After updating my billing info, how can I confirm that the changes have been saved?"
+34,Is there a Python SDK for your API?
+34,What version of Python do I need for your API?
+34,Where can I find documentation for using your API with Python?
+34,Can I get code examples for your API in Python?
+34,How do I install the Python SDK for your API?
+35,What steps do I take to set user permissions in my account?
+35,Where can I find the option to manage user roles and permissions?
+35,Can I create custom roles with specific permissions for my users?
+35,How can I modify the individual permissions for a specific user?
+35,Is there a resource I can refer to for detailed guidance on user permissions?
+36,Can you provide details on your GDPR compliance measures?
+36,What specific actions have you taken for GDPR compliance?
+36,How does your Data Processing Agreement address GDPR requirements?
+36,Who can I contact for more information on GDPR compliance?
+36,Is there an article available that explains your GDPR compliance status?
+37,What steps do I need to follow to connect my database?
+37,Where can I find the database connection settings in the application?
+37,Do I need to test the database connection before saving it?
+37,What details do I need to enter when adding a new database connection?
+37,How can I ensure that my firewall settings are compatible with the integration?
+38,How can I change my billing cycle in the application?
+38,Is it possible to switch from monthly to annual billing?
+38,What steps should I follow to adjust my billing cycle?
+38,Will I receive a credit if I change to annual billing mid-month?
+38,Where can I find more information about changing my billing cycle?
+39,What steps do I follow to set up email templates in the application?
+39,Can you guide me on how to access the email template creation feature?
+39,Is there a specific editor I need to use for designing email templates?
+39,How can I utilize the email templates once they are created?
+39,Where can I find additional resources related to email template setup?
+40,Can you explain your policy regarding data backups for customer information?
+40,What is the frequency of your data backups and how is the data secured?
+40,How long do you retain daily and monthly backups of customer data?
+40,Are the backups tested regularly to ensure they are reliable?
+40,Where are the backup copies stored geographically?
+41,What steps do I need to follow to generate a new API token?
+41,Is there a way to set an expiration date when I create an API token?
+41,Where can I find the option to generate API tokens in the settings?
+41,What should I do after I generate my API token?
+41,Are there any best practices for keeping my API tokens secure?
+42,Is there phone support available for all plans?
+42,How can I find the dedicated support number for phone support?
+42,What types of support are offered for plans other than Enterprise?
+42,Are there competitive response times for email and chat support?
+42,Where can I access information about contact options for support?
+43,What steps do I need to follow to enable multi-factor authentication on my account?
+43,Can you guide me on how to choose the best method for multi-factor authentication?
+43,Is there a specific section in the settings where I can find MFA options?
+43,What security measures should I consider when setting up multi-factor authentication?
+43,Where can I find additional resources or articles on multi-factor authentication?
+44,How can I access our Service Level Agreement through my account?
+44,Where do I find the Service Level Agreement in the settings?
+44,Can I download our SLA from the application?
+44,What should I do if we need a custom Service Level Agreement?
+44,Is there a link to additional information regarding the Service Level Agreement?
+45,What steps should I follow to customize my dashboard effectively?
+45,"Can I rearrange the widgets on my dashboard, and if so, how?"
+45,Is there a way to configure settings for individual widgets on my dashboard?
+45,Where can I find the option to save my custom dashboard changes?
+45,Are there any articles or resources available that explain dashboard customization in detail?
+46,Which currencies can I use for payments?
+46,How do I change my billing currency?
+46,Will changing my billing currency affect my pricing?
+46,Is there a limit to the currencies supported for billing?
+46,What happens if I want to bill in a currency not listed?
+47,What are the steps to set up webhooks in the application?
+47,How can I test a webhook before going live with it?
+47,Where can I find the settings for API & Integrations to manage webhooks?
+47,What should I do after entering the destination URL for my webhook?
+47,"Can I select specific events for my webhooks, and how?"
+48,Can you explain how you protect user data according to your privacy policy?
+48,What specific rights do users have regarding their data?
+48,Where can I find the full text of your privacy policy?
+48,How often do you update your privacy policy?
+48,What practices do you have in place for data sharing as mentioned in your privacy policy?
+49,What steps do I need to follow to invite external collaborators to my account?
+49,Can you explain how I can set permissions for invited external collaborators?
+49,Where do I find the option to invite external collaborators in the settings?
+49,Is there a way to identify external collaborators once they are invited to the system?
+49,Could you provide a link to the related articles about inviting external collaborators?
+50,What steps should I follow to enable IP restrictions for my account?
+50,Where can I find the option to set up IP restrictions in the application?
+50,Is there a way to prevent being locked out when setting up IP restrictions?
+50,Can I add multiple IP addresses or ranges when enabling IP restrictions?
+50,What would happen if I forget to include my current IP address while setting up IP restrictions?
+51,How can I access a detailed breakdown of my usage?
+51,Where do I find my usage reports in the billing settings?
+51,Is there a way to visualize my usage across different features?
+51,Can I export my usage data for external analysis?
+51,Are there options to set up alerts for my usage thresholds?
+52,What steps are necessary to set up SAML authentication in my account?
+52,Is SAML authentication available for all subscription plans or just Enterprise?
+52,Where can I find the SAML Configuration settings to begin the setup process?
+52,What information do I need to enter for my Identity Provider during SAML setup?
+52,Whom should I contact for help if I encounter issues while configuring SAML authentication?
+53,Can you provide information about your service's uptime history?
+53,Where can I find details on past service incidents and uptime records?
+53,What is the average uptime percentage for your services?
+53,Do you have a publicly accessible status page for your service reliability?
+53,What are the specific uptime guarantees outlined in your SLA?
+54,What steps do I need to follow to generate an API key for creating a custom integration?
+54,Where can I find the API documentation to assist with my custom integration?
+54,Is there a specific section in settings where I can manage API and integrations?
+54,What programming languages are supported by your SDKs for developing complex integrations?
+54,Are there any resources available for understanding how to implement webhooks in my custom integration?
+55,How do I transfer my subscription to another account with your service?
+55,Is it possible to switch my subscription to someone else's account?
+55,What steps should I take to initiate a subscription transfer?
+55,Will you assist me if I want to move my subscription to a different account?
+55,Where can I find more information about transferring subscriptions between accounts?
+56,What are the steps to create automated workflows in the application?
+56,How can I test my workflow before making it active?
+56,Where can I find the visual workflow builder for setting up automation?
+56,What should I do after defining the trigger event in my workflow setup?
+56,Can you guide me on accessing the Workflow section for automation features?
+57,What industry-standard certifications does your platform hold?
+57,Is your platform compliant with HIPAA for healthcare customers?
+57,Where can I find detailed information about your certifications?
+57,Do you have any information on your PCI DSS certification?
+57,What security measures are in place to protect data management?
+58,What steps do I need to follow to perform a full data export?
+58,Is there a specific format for the exported data when I request a full export?
+58,How long should I expect the data export process to take for a large account?
+58,Where can I find the option to request a full data export in my account settings?
+58,Are there any related articles that provide more information about data export options?
+59,Is login page customization included in all pricing plans?
+59,How can I access the login page customization options?
+59,What elements can I customize on the login page?
+59,Will my changes to the login page apply to the unique URL?
+59,Where can I find more information about login customization features?
+60,Can you explain your data residency options for customers?
+60,What is the default location for data storage?
+60,Do you offer dedicated instances for data residency?
+60,What should I do to get more information on data residency?
+60,Are there specific regions available for Enterprise customers regarding data storage?
+61,What are the steps to configure role-based access control in my account?
+61,How can I create custom roles with specific permissions for my users?
+61,Is it possible to modify existing user roles in the role-based access control setup?
+61,Where can I find the settings to manage user roles and permissions?
+61,How do changes to roles impact users assigned to them?
+62,Do you provide discounts for bulk purchases on your plans?
+62,How can I qualify for a volume discount with my subscription?
+62,Is there a specific threshold of usage or users to get volume discounts?
+62,Who should I contact to discuss volume discount pricing options?
+62,What type of plans are eligible for volume discounts?
+63,What steps should I follow to create new users using the API?
+63,Can you describe the required JSON payload for user creation via API?
+63,What endpoint do I need to use for adding new users through the API?
+63,"Is authentication needed to create users, and if so, how do I handle it?"
+63,Where can I find detailed documentation and examples for user creation via API?
+64,Can you explain the steps involved in your incident response process?
+64,How does your company ensure transparent communication during a security incident?
+64,What actions do you take during the containment and mitigation phase of an incident?
+64,"Is there a post-incident review process, and what does it entail?"
+64,What can customers expect in terms of communication during a security incident?
+65,What steps should I take to set up a custom domain for my account?
+65,Can you guide me on where to find the custom domains section in the settings?
+65,Is there a specific process for verifying my domain after adding it?
+65,Will SSL certificates be provided automatically once I set up the custom domain?
+65,Where can I find more information about custom domain setup and related features?
+66,Is your software available as an on-premise solution?
+66,What are the requirements for an on-premise deployment?
+66,Will I need to go through a custom implementation for on-premise software?
+66,How does on-premise deployment affect pricing and features?
+66,Who should I contact to discuss on-premise deployment options?
+67,What are the steps to configure SSO with Azure AD in the application?
+67,Where can I find the settings for configuring Azure AD as my SSO provider?
+67,Are there specific URLs and certificates required for Azure AD SSO setup?
+67,Can you provide a link to the step-by-step instructions for Azure AD SSO configuration?
+67,What category and subcategory does Azure AD SSO setup fall under in the support documentation?
+68,What are the conditions under which I can receive a prorated refund for my unused subscription time?
+68,"If I cancel my annual subscription, how is my refund calculated?"
+68,Can I request a refund for a monthly subscription that I no longer need?
+68,What steps do I need to take to request a refund for my canceled subscription?
+68,Is there a specific team I should contact for billing-related refund inquiries?
+69,What steps should I follow to utilize the bulk import feature in the Data Management section?
+69,Can you explain how to fill out the template CSV for bulk import?
+69,What should I do after uploading my data for bulk import?
+69,Is there a way to map fields during the bulk import process?
+69,Do large data imports happen immediately or are they processed in the background?
+70,Can you explain your commitment to ethical AI use in detail?
+70,What principles guide your approach to AI ethics?
+70,How do you ensure transparency in your AI systems?
+70,Are there options for users to opt-out of AI processing?
+70,How often do you conduct audits on your AI systems for bias?
+71,What steps do I need to follow to enable multi-region failover for my account?
+71,Is multi-region failover available for all plans or just for Enterprise plans?
+71,Where can I find the failover configuration settings once the feature is enabled?
+71,Who should I contact to activate the multi-region failover feature?
+71,Can you explain how to define failover policies in the system?
+72,How can I obtain a signed BAA for HIPAA compliance?
+72,Is a Business Associate Agreement included in the Enterprise plan?
+72,Who should I contact to start the BAA process for HIPAA compliance?
+72,What steps are involved in getting a BAA for my account?
+72,Can you provide more information about HIPAA compliance and BAAs?
+73,What steps do I follow to access the query builder for creating reports?
+73,Can you explain how to write SQL-like queries in the query builder?
+73,"Is there a visual interface available for building queries, or do I need to write raw SQL?"
+73,How can I join multiple data sources when using the advanced query builder?
+73,Are there any resources or articles that can help me understand the advanced query building feature better?
+74,What is your policy regarding third-party audits for Enterprise customers?
+74,Are there any specific security protocols I need to follow for a third-party audit?
+74,Can you provide information on the latest audit reports and certifications available?
+74,Who should I contact if I want to request a third-party audit?
+74,Is there a requirement for signing an NDA when conducting a third-party audit?
+75,What steps do I need to take to add a custom OAuth provider to my account?
+75,Can you guide me on how to enter the OAuth provider's endpoints and client ID?
+75,What should I configure for scopes and attribute mapping when setting up OAuth?
+75,Is there a way to test the custom OAuth provider before I enable it for users?
+75,Where can I find more detailed information about integrating a custom OAuth provider?
+76,Can you explain your data deletion policy in detail?
+76,How long does it take to permanently delete my data from your systems?
+76,What happens to my data backups after deletion is requested?
+76,Is there a way to get a certificate of deletion once my data is removed?
+76,Are there any legal reasons that may prevent the deletion of my data?
+77,What steps do I need to follow to create a staging environment in the application?
+77,Can I clone data from production when setting up my staging environment?
+77,Where can I find the setting options for creating a new staging environment?
+77,"Is it possible to use a custom domain for my staging setup, and how do I do that?"
+77,What access controls should I consider when configuring my staging environment?
+78,Is it possible to obtain an enterprise-wide license for my organization?
+78,What are the benefits included with an enterprise-wide license?
+78,How do I contact the sales team for an enterprise licensing proposal?
+78,Can you explain what 'unlimited users' means in the context of an enterprise license?
+78,Are there any specific requirements to qualify for an enterprise-wide license?
+79,What is the method used for pagination in your API?
+79,How can I specify the number of results I want per page when using the API?
+79,Can you explain how to retrieve the next set of results using the pagination feature in the API?
+79,Where can I find more detailed information about API pagination?
+79,What should I include in my API request to utilize cursor-based pagination effectively?
+80,Can you explain your company's commitment to sustainable computing practices?
+80,What measures do you take to ensure your data centers are environmentally friendly?
+80,How do you optimize your algorithms for energy efficiency?
+80,What steps are in place to offset your carbon footprint?
+80,When do you plan to achieve carbon neutrality?
+81,What steps do I need to take to create a custom alert for my metrics?
+81,Can I receive custom alerts through SMS notifications?
+81,How do I test my alert before saving it in the system?
+81,Is it possible to integrate custom alerts with external tools like PagerDuty?
+81,Where can I find more information on setting up custom alerts?
+82,What types of organizations qualify for your academic discounts?
+82,How much of a discount can educational institutions receive?
+82,What proof do I need to provide to apply for the education discount?
+82,Who should I contact to get more information about the academic discounts?
+82,Is there a specific application process for education discounts for my project?
+83,What steps should I follow to set up row-level security in the application?
+83,Where can I find the data policies feature to implement row-level security?
+83,How can I define conditions for data access when creating a row-level security policy?
+83,Is it possible to apply row-level security to specific tables or views within the application?
+83,Can I utilize user attributes in my policy definitions for row-level security?
+84,Can you provide an overview of your product roadmap and its content?
+84,How frequently is the product roadmap updated and where can I access it?
+84,Are there any upcoming features in the product roadmap that I should be aware of?
+84,Is there an opportunity for Enterprise customers to discuss the product roadmap directly with your team?
+84,What type of information is included in the public product roadmap?
+85,What steps should I follow to initiate an A/B test in the application?
+85,How can I define the audience split for my A/B testing variants?
+85,What types of elements can I run A/B tests on within the platform?
+85,How do I select success metrics for my A/B tests?
+85,Is there a way to determine the significance of my test results?
+86,What is the guaranteed uptime percentage for Enterprise customers under your SLA?
+86,Can you explain the response time for critical issues in the Enterprise SLA?
+86,Are there any financial penalties for breaches of the Enterprise SLA?
+86,Is it possible to customize the Enterprise SLA terms based on my company's needs?
+86,Who should I contact for specific details regarding our Enterprise SLA?
+87,What is the process for sending a POST request to the bulk update endpoint?
+87,Can you explain how to structure the objects for bulk updates?
+87,How does the API handle errors during bulk updates?
+87,What should I do to check the success status of the bulk update operation?
+87,Where can I find more information about using the bulk update API?
+88,Can you share how I can obtain a SOC 2 report for compliance purposes?
+88,What steps do I need to take to request a SOC 2 report from your security team?
+88,Is there a specific agreement I need to sign before receiving the SOC 2 Type II report?
+88,"How frequently is the SOC 2 report updated, and what areas does it cover?"
+88,Where can I find more information about your SOC 2 compliance and security measures?
+89,What are the steps to create a custom error page in the application?
+89,Can I upload my own HTML file for different error types like 404 or 500?
+89,How do I access the Error Pages customization section in the settings?
+89,Is there a way to use a template for error pages instead of uploading HTML files?
+89,What should I include on my custom error pages to improve user experience?
+90,What standards do you follow for data encryption at rest and in transit?
+90,Can you describe the encryption methods used for database backups?
+90,Do you offer any options for customer-managed encryption keys for Enterprise customers?
+90,What is your TLS version for securing data in transit?
+90,Where can I find more information about your encryption policies?
+91,What steps do I need to take to enable single logout in my application?
+91,Where can I find the logout settings for implementing single logout?
+91,Is it possible to provide a logout URL for my identity provider when setting up single logout?
+91,What happens when a user logs out of my app with single logout enabled?
+91,Can you point me to any articles that explain single logout setup further?
+92,Is there a bug bounty program available for reporting security vulnerabilities?
+92,What kind of rewards can I expect from your bug bounty program?
+92,Where can I find the rules and scope for the bug bounty program?
+92,How do you handle the responsible disclosure of security vulnerabilities?
+92,What factors do you consider when determining the severity of reported issues in your bug bounty program?
+93,What steps should I follow to send a query using the GraphQL API?
+93,Do I need to include an API key when accessing the GraphQL API?
+93,Where can I find the documentation for the GraphQL API usage?
+93,Are there specific libraries provided for different programming languages to interact with the GraphQL API?
+93,How do I authenticate my requests when using the GraphQL API?
+94,Can you explain your data portability policy and how it relates to GDPR?
+94,What steps do I need to follow to export my data from your platform?
+94,In what formats can I export my data for portability?
+94,Is there a limit to how often I can request a data export?
+94,Where can I find more information on your privacy policies regarding data portability?
+95,What steps should I follow to add CAPTCHA to my forms?
+95,Which types of CAPTCHA are available for selection in the settings?
+95,Can I customize the appearance of the CAPTCHA on my forms?
+95,Where do I find the CAPTCHA configuration within the application?
+95,Will enabling CAPTCHA automatically apply it to all my forms?
+96,What are the eligibility requirements for obtaining a dedicated account manager?
+96,How can I upgrade my account to receive dedicated account management?
+96,What specific services does a dedicated account manager provide to Enterprise customers?
+96,Is there a minimum usage threshold to qualify for having a dedicated account manager?
+96,Where can I find more information about enterprise support options?
+97,What parameters do I need to include in my POST request to the recommendation engine API?
+97,How can I customize the recommendations generated by the recommendation engine API?
+97,What kind of data does the recommendation engine use to provide personalized recommendations?
+97,Where can I find documentation for the recommendation engine API?
+97,What is the endpoint to access the recommendation engine API?
+98,What are the guidelines for conducting penetration tests on my instance?
+98,Do I need to inform you before starting a penetration test?
+98,Can you provide a safe environment for my penetration test?
+98,Who should I contact to schedule a penetration test?
+98,What are the terms I need to agree to before performing penetration testing?
+99,What steps should I follow to set up federated search in the application?
+99,Where can I find the settings to add external data sources for federated search?
+99,How do I adjust the search weights for various sources in federated search?
+99,Is there a way to test the federated search configuration before enabling it?
+99,Can you provide a link to the related articles about implementing federated search?
+100,What steps do I take to set up event tracking in the application?
+100,Can you explain how to define event properties during event tracking setup?
+100,Is it possible to track custom events with your analytics feature?
+100,How do I use the SDK or API for sending events from my app?
+100,Where can I view the events I have tracked in the analytics dashboard?
+101,What options do you provide for data localization?
+101,Are there specific regulatory requirements that data localization addresses?
+101,Can you explain how data localization affects pricing?
+101,Is data localization available for non-Enterprise customers?
+101,What impact does data localization have on feature availability?
+102,What steps do I need to follow to implement custom authentication using your SDK?
+102,Where can I find my SDK keys for custom authentication implementation?
+102,What methods does the Authentication SDK provide for managing user sessions?
+102,Is there any documentation available for the custom authentication process?
+102,How do I handle user credentials and token management during custom authentication implementation?
+103,What types of partners do you seek in your partner program?
+103,Can you explain the benefits of joining your partner program?
+103,How can I apply to become a partner in your program?
+103,Is there a specific training provided for partners in your program?
+103,Where can I find more information about your partner program and its tiers?
+104,What steps should I take to create a machine learning pipeline using your platform?
+104,Can you guide me on how to define data sources and preprocessing steps in the ML pipeline?
+104,Is it possible to use pre-built models or do I need to import my own for the machine learning pipeline?
+104,How do I set up automated retraining and model deployment within the ML pipeline?
+104,Where can I find additional resources or articles related to using the machine learning pipeline?
+105,What standards do you follow for accessibility compliance on your platform?
+105,Can you explain the features that support accessibility in your user interface?
+105,How often do you audit your platform for accessibility compliance?
+105,Is there a way to obtain your accessibility statement and VPAT?
+105,What specific measures do you have for users who rely on screen readers?
+106,What steps are necessary to implement real-time collaboration using your tools?
+106,How can I initialize the collaboration client in my application?
+106,What should I do to subscribe to document changes for real-time collaboration?
+106,How do I handle conflict resolution when implementing real-time collaboration?
+106,Are there any resources available for customizing the collaboration UI with React components?
+107,Is it possible to request a custom contract for my organization's needs?
+107,Who should I contact to discuss custom contract options?
+107,Are there any specific qualifications required to obtain a custom contract?
+107,How can a custom contract impact my current pricing and implementation timelines?
+107,What types of custom terms can be included in a contract for Enterprise customers?
+108,What steps do I need to follow to enable the content delivery network in my account?
+108,How can I select specific assets for distribution using the CDN?
+108,Are there any caching rules I need to configure for optimal CDN performance?
+108,What options do I have for purging content from the CDN once it's cached?
+108,Where can I find the CDN URLs to implement in my application?
+109,What is your company's approach to sharing customer data with third parties?
+109,Under what circumstances do you share data with external vendors?
+109,How do you ensure the security and compliance of third-party vendors?
+109,Can you clarify if customer data is sold to other companies?
+109,Where can I find more information on your data sharing policy?
+110,What steps should I follow to implement a multi-tenant architecture using your SDK?
+110,How can I ensure tenant isolation in my data model?
+110,What is the best way to manage tenant provisioning and data separation?
+110,Can I configure tenant-specific branding in the admin panel during the setup?
+110,Where can I find additional resources or documentation on using the Multi-Tenant SDK?
+111,What features are included in your bug tracking system?
+111,How can I submit a new bug through your platform?
+111,Is there a way to prioritize bugs in your tracking system?
+111,"Can I attach files when reporting a bug, and if so, how?"
+111,How does your support team use the bug tracking system for communication?
+112,What steps do I follow to create a serverless function using your SDK?
+112,How can I set up triggers for my serverless functions after implementation?
+112,Where can I monitor the performance and logs of my deployed serverless functions?
+112,Is there a way to configure environment variables for my serverless functions?
+112,Can you provide a link to the documentation for implementing serverless functions?
+113,What is your company's policy regarding Data Subject Access Requests?
+113,How can I submit a request for my personal data under the DSAR policy?
+113,What is the timeframe for receiving a complete record of my stored personal data?
+113,Is there a way to automate the fulfillment of DSARs using your platform's features?
+113,Where can I find additional information on your DSAR policy and related procedures?
+114,What steps should I follow to create a custom dashboard in the application?
+114,Can I add different types of data visualizations to my custom dashboard?
+114,Is there a way to customize dashboards programmatically using an API?
+114,How can I create multiple dashboards for various user roles?
+114,Where can I find additional resources on implementing custom dashboards?
+115,Is it possible to obtain a demo environment specifically for sales presentations?
+115,How can I request a demo environment for my sales team?
+115,What features are included in the demo environment for sales purposes?
+115,Do you customize the demo environment for different industries?
+115,Can partners also request a demo environment for sales demonstrations?
+116,What steps should I follow to set up blue-green deployments using your Deployment Manager?
+116,Can you explain how to switch traffic between the blue and green environments during the deployment process?
+116,What are the benefits of using blue-green deployments for zero-downtime updates?
+116,Where can I find more information on implementing blue-green deployments within the platform?
+116,How do I ensure easy rollbacks after deploying with the blue-green strategy?
+117,What types of background checks do you perform on employees?
+117,Is there any specific information you verify during the employment verification process?
+117,How often do you conduct security training for your staff?
+117,Where can I find more details about your employee screening policy?
+117,Do you check criminal records for all contractors as well?
+118,What steps should I follow to use the Search Customization API for custom search algorithms?
+118,How do I access the 'Custom Algorithms' section to create my algorithm?
+118,What factors can I define when setting up my custom search algorithm?
+118,Is it possible to test my custom search algorithm with sample queries?
+118,Where can I find additional resources on implementing custom search algorithms?
+119,Is there a minimum requirement to qualify for volume-based pricing?
+119,How do I know what pricing tier I'm currently in?
+119,Can you explain how the volume discounts are calculated?
+119,What should I do if I need a custom volume pricing plan?
+119,Are there specific volume pricing options for different features like API calls or data storage?
+120,What steps should I follow to set up feature flags using your system?
+120,Can you explain how to define flag variations and targeting rules when creating a flag?
+120,How do I utilize the Feature Management SDK in my existing code for managing feature flags?
+120,Is it possible to update feature flags in real-time and how can I do that?
+120,Where can I find more information or documentation on feature flag implementation?
+121,What features do you provide for data anonymization in your platform?
+121,"Can I anonymize specific fields, or is it only for full datasets?"
+121,How do I apply the anonymization rules to my data exports?
+121,Are there options for pseudonymization within your data management tools?
+121,Is it possible to implement k-anonymity algorithms with your service?
+122,What steps should I follow to implement WebSocket connections using your SDK?
+122,Can you explain how to initialize the WebSocket client with my API key?
+122,What are the options for subscribing to channels when setting up WebSockets?
+122,How do I handle incoming messages when using WebSocket connections?
+122,What features can I implement with WebSockets for real-time communication?
+123,How can I request a security questionnaire to be filled out for my account?
+123,Who should I contact to get a security questionnaire completed for our company?
+123,What is the typical turnaround time for custom security questionnaires?
+123,Are there any pre-filled security questionnaires available for common assessments?
+123,Where can I find more information regarding security questionnaire completion?
+124,What are the steps to create a custom workflow in your application?
+124,Can I integrate external systems when setting up a custom workflow?
+124,How does the Workflow Builder help in automating processes?
+124,Is there a way to test my custom workflow before I make it live?
+124,What kind of logic can I incorporate into my custom workflows using your tools?

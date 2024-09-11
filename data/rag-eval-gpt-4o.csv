@@ -1,83 +1,981 @@
 answer,id,question,relevance,explanation
-"To ensure the security of your API key after you create it, you should:
+"The best way to manage tenant provisioning and data separation in a multi-tenant architecture is to use our Multi-Tenant SDK. Here are the essential steps:
 
-1. **Copy and Securely Store the Key:** The API key will only be shown once, so it's critical to copy it immediately and store it securely.
-2. **Set Appropriate Permissions:** Configure the appropriate permissions while generating the key to limit its access as needed.
-3. **Refer to Security Best Practices:** You can find related best practices and guidelines in articles like `/api-management/key-security`.
+1. **Design Your Data Model**: Ensure tenant isolation by using either separate databases or row-level security mechanisms.
+2. **Use the Multi-Tenant SDK**: This SDK aids in tenant provisioning, data separation, and handling cross-tenant operations.
+3. **Tenant-Specific Configurations**: Customize tenant-specific branding and settings via the admin panel.
 
-By following these steps, you help protect your API key from unauthorized access or misuse.",14,What should I do to ensure the security of my API key after I create it?,RELEVANT,"The generated answer provides specific and actionable steps to secure an API key after its creation, directly addressing the question. It includes methods such as securely storing the key and setting appropriate permissions, which are essential practices for ensuring API key security."
-"White-labeling is available only on the Enterprise plan. This includes customization options such as custom domain, logo, and color scheme. Contact the sales team for further details on pricing and setup.",9,Is white-labeling available for all subscription plans or just specific ones?,RELEVANT,"The generated answer directly addresses the question by stating that white-labeling is available only on the Enterprise plan, which specifies that it is not available for all subscription plans. Furthermore, it provides additional details about customization options, enhancing the relevance."
-"Yes, you can customize the logo and color scheme when you white-label our product. This is available on our Enterprise plan, which includes options for custom domain, logo, and color scheme. Please contact our sales team for pricing and setup details.",9,Can I customize the logo and color scheme when I white-label your product?,RELEVANT,The generated answer directly addresses the question about customizing the logo and color scheme when white-labeling the product. It confirms that customization is possible and provides additional context regarding the availability of this feature on the Enterprise plan and the need to contact the sales team for more details.
-"Yes, you can choose the format in which your data is exported. Our platform allows you to select either CSV or JSON for data exports. To do this:
+By following these steps, you can efficiently manage tenant provisioning and maintain strong data separation between tenants.
 
-1. Go to 'Settings'
-2. Click 'Data Export'
-3. Select the data you want to export
-4. Choose the file format (CSV or JSON)
-5. Click 'Generate Export'
-6. Download the file when ready.",6,"Can I choose the format in which my data is exported, like CSV or JSON?",RELEVANT,"The generated answer directly addresses the question by confirming that users can choose the format for data exports, specifically mentioning CSV and JSON as options. It also provides step-by-step instructions on how to do so, which is informative and directly relevant to the user's query."
-"Yes, our platform is HIPAA compliant on Enterprise plans. We offer BAAs, end-to-end encryption, audit logs, and role-based access control to meet HIPAA requirements.",13,Is your platform compliant with HIPAA regulations?,RELEVANT,The generated answer directly addresses the question about HIPAA compliance by confirming that the platform is HIPAA compliant on Enterprise plans and providing specific details about the features that support compliance.
-"To ensure HIPAA compliance, we offer the following security features on our Enterprise plans:
+For more detailed guidance, refer to our [Developer Documentation on Multi-Tenant SDK](https://developers.example.com/multi-tenant-sdk).",110,What is the best way to manage tenant provisioning and data separation?,RELEVANT,"The generated answer directly addresses the question about managing tenant provisioning and data separation by providing specific steps and recommendations for implementation. It explains the use of a Multi-Tenant SDK and different approaches to ensure tenant isolation, which addresses the core aspects of the question effectively."
+"Yes, the Enterprise plan includes dedicated account management.",4,Does the Enterprise plan come with dedicated account management?,RELEVANT,"The generated answer directly addresses the question by confirming that the Enterprise plan does indeed come with dedicated account management, providing a clear and accurate response."
+"Our Service Level Agreement (SLA) guarantees 99.9% uptime for our services. This high level of reliability ensures that our services are available nearly all the time, minimizing potential disruptions to your business operations. In the event of any unscheduled downtime, we provide service credits according to the terms outlined in our SLA. 
 
-1. **Business Associate Agreements (BAAs)**: We provide BAAs to formalize the responsibilities of managing protected health information (PHI).
-2. **End-to-End Encryption**: All data is encrypted both in transit and at rest.
-3. **Audit Logs**: Detailed logs are maintained to track access and modifications to data.
-4. **Role-Based Access Control**: User permissions are managed to ensure that only authorized personnel can access sensitive information. 
+For more information about our SLA, you can visit [this link](https://www.example.com/sla).
 
-For more information, please refer to our related articles on HIPAA compliance and enterprise security features.",13,What security features do you offer to ensure HIPAA compliance?,RELEVANT,"The generated answer directly addresses the question about security features for ensuring HIPAA compliance by listing specific offerings such as Business Associate Agreements, End-to-End Encryption, Audit Logs, and Role-Based Access Control, all of which are relevant to HIPAA compliance."
-"We support integrations with the following analytics tools:
+If you are an Enterprise customer, your SLA might offer even higher uptime guarantees, such as 99.99%. For details specific to Enterprise plans, you can refer to [this link](https://www.example.com/enterprise-sla). 
 
-1. Google Analytics
-2. Mixpanel
+Should you need a detailed copy of the SLA, it can be accessed through your account by navigating to 'Settings' > 'Legal & Compliance' > 'Service Agreements'.",8,Can you explain the uptime percentage outlined in your SLA?,RELEVANT,"The generated answer directly addresses the question about uptime percentage in the SLA by providing specific uptime figures (99.9% and 99.99%), along with context about service reliability and information on how downtime is handled. It also offers links for additional details and information specific to different customer tiers, which are pertinent to the overall understanding of the SLA."
+"If you need a custom volume pricing plan, please contact our sales team. They will provide you with a custom quote based on your expected usage. You can reach them with the necessary details about your usage to discuss and negotiate a tailored volume-based pricing plan.",119,What should I do if I need a custom volume pricing plan?,RELEVANT,"The generated answer directly addresses the question by providing specific guidance on what to do if a custom volume pricing plan is needed. It advises contacting the sales team and mentions that they will provide a custom quote based on usage, which is exactly what the question inquires about."
+"Our policy regarding third-party audits for Enterprise customers is that we welcome them, provided our security protocols are adhered to. Typically, this involves signing a Non-Disclosure Agreement (NDA) and mutually agreeing on the audit's scope. We can also provide our latest audit reports and certifications. If you wish to request a third-party audit, please contact your account manager.",74,What is your policy regarding third-party audits for Enterprise customers?,RELEVANT,"The generated answer directly addresses the question about the policy for third-party audits for Enterprise customers by outlining the conditions under which audits are welcome, mentioning the requirement for an NDA, discussing the scope of the audit, and stating that recent audit reports and certifications can be provided. This provides comprehensive information pertinent to the inquiry."
+We typically release minor updates weekly and major feature updates monthly. All updates are automatically applied to your account. You can find our release notes and upcoming features on our [product updates page](https://www.example.com/product-updates).,13,What is the frequency of your product updates?,RELEVANT,"The generated answer directly addresses the question about the frequency of product updates, providing specific information on minor and major updates along with their respective release schedules."
+"Yes, you can receive custom alerts through SMS notifications. To set this up, go to 'Monitoring' > 'Alerts' > 'Create Alert'. Choose the metric to monitor, set thresholds, and define the alert message. You can configure the alert to be sent via SMS, email, or integrate with tools like PagerDuty. Make sure to test your alert before saving it.",81,Can I receive custom alerts through SMS notifications?,RELEVANT,The generated answer directly addresses the question by confirming that custom alerts can be received through SMS notifications and provides detailed instructions on how to set them up.
+"After the 30-day period post-account closure, your data is permanently deleted from our systems. We strongly recommend exporting your data before cancelling your subscription if you wish to retain it.",17,What happens to my data after the 30-day period post-account closure?,RELEVANT,"The generated answer directly addresses the question by explaining what happens to the user's data after the 30-day period post-account closure, stating that the data is permanently deleted. It also provides useful information about the importance of exporting data before cancellation, which is relevant to the user's concerns."
+"There does not appear to be an explicit minimum requirement to qualify for volume-based pricing mentioned in the provided context. Volume-based pricing is available for customers with high usage, and pricing tiers are influenced by factors such as the number of users, API calls, or data storage. For large-scale usage, customers are advised to contact the sales team for custom volume pricing plans. It may be best to reach out to the sales team directly for specific qualification criteria based on your usage details.
 
-For more details, you can refer to our related articles on available integrations and API reference for webhooks.",23,What analytics tools do you support for integration?,RELEVANT,"The generated answer directly addresses the question by listing specific analytics tools (Google Analytics and Mixpanel) that are supported for integration, fulfilling the request for information about analytics tool integrations."
-"To set up multi-factor authentication (MFA) on your account, please follow these steps:
+For more information, you can visit the related articles on volume discounts provided in the context:
+- [Volume Discounts](https://www.example.com/pricing/volume-discounts)
+- [Enterprise Pricing](https://www.example.com/enterprise-pricing)",119,Is there a minimum requirement to qualify for volume-based pricing?,PARTLY_RELEVANT,"The generated answer addresses the question about the minimum requirement for volume-based pricing by stating there is no explicit minimum mentioned, but it also notes that high usage qualifies. It provides insights into factors influencing pricing, yet it does not clearly define a minimum requirement, leaving some ambiguity regarding qualifying criteria."
+"You can find documentation for using our API with Python in our Developer Center. We provide a Python SDK that includes installation instructions, code examples, and full documentation. Make sure to use Python 3.6 or later for compatibility. For your convenience, here is the direct link to the documentation: [https://developers.example.com/python-sdk](https://developers.example.com/python-sdk).",34,Where can I find documentation for using your API with Python?,RELEVANT,"The generated answer directly addresses the question by providing a specific location (Developer Center) where the API documentation for Python can be found, along with additional relevant details such as the existence of a Python SDK, compatibility requirements, and a direct link to the documentation."
+"Before performing penetration testing, you need to do the following:
 
-1. Go to 'Security Settings'.
-2. Click 'Enable MFA'.
-3. Choose your preferred method for authentication (app, SMS, hardware key).
-4. Follow the setup instructions provided for the selected method.
-5. Enter a backup phone number.
-6. Save the generated backup codes in a secure location.
+1. Notify our security team in advance of your intention to conduct a penetration test.
+2. Agree to our specific penetration testing terms.
 
-For further information, you may refer to related articles available at:
-/account-security/multi-factor-authentication
-/security/mfa-best-practices",20,What steps do I need to follow to set up multi-factor authentication in my account?,RELEVANT,"The generated answer provides clear and direct steps to set up multi-factor authentication, which directly addresses the question asked. Each step contributes to the process outlined in the question, making it a complete and useful response."
-"Our platform supports integration with the following CRM systems:
+We can also provide a safe testing environment upon request. You can contact our security team to schedule the penetration test. For further details, you can refer to [this article](https://www.example.com/security/penetration-testing).",98,What are the terms I need to agree to before performing penetration testing?,PARTLY_RELEVANT,"The generated answer provides some elements related to the terms that need to be agreed upon before conducting penetration testing, such as notifying the security team and agreeing to specific terms. However, it lacks detailed information about those specific terms, which makes it only partially relevant to the question."
+"To upgrade your account to receive dedicated account management, you'll need to contact our sales team. Dedicated account managers are provided for Enterprise customers and accounts above a certain usage threshold. They offer personalized support, strategic advice, and act as your primary point of contact. You can discuss upgrading to a plan with dedicated account management by reaching out to our sales team.
 
-1. Salesforce
-2. HubSpot
+For more information, please refer to the following link: [Enterprise Support](https://www.example.com/enterprise-support).",96,How can I upgrade my account to receive dedicated account management?,RELEVANT,"The generated answer directly addresses the question by explaining how to upgrade the account for dedicated account management, mentioning the need to contact the sales team and specifying that this service is available for Enterprise customers or those above a certain usage threshold."
+The guaranteed uptime percentage for Enterprise customers under our SLA is 99.99%.,86,What is the guaranteed uptime percentage for Enterprise customers under your SLA?,RELEVANT,"The generated answer directly addresses the question by providing the specific uptime percentage for Enterprise customers under the SLA, which is the information being sought."
+"To get a security questionnaire completed for your company, you should contact either your account manager or our security team. They will assist you with pre-filled responses for common questionnaires (e.g., SIG, CAIQ) or provide comprehensive responses for custom questionnaires typically within 5-10 business days.",123,Who should I contact to get a security questionnaire completed for our company?,RELEVANT,The generated answer directly addresses the question by specifying who to contact (account manager or security team) in order to get a security questionnaire completed. It provides additional helpful details about the type of assistance available.
+"The demo environment for sales purposes includes all the features of our platform. It is set up as a sanitized instance with sample data relevant to your target industry. Additionally, it can be customized to fit specific use cases. For more information or to request a demo environment, you should contact our sales team.",115,What features are included in the demo environment for sales purposes?,RELEVANT,"The generated answer directly addresses the question by stating that the demo environment includes all platform features and provides additional context about its setup and customization options, which is pertinent to sales purposes."
+"Yes, you need an API key to connect to Salesforce. You will need to generate an API key and then configure the connection in your Salesforce account. You can follow the step-by-step instructions provided in our developer documentation for setting up the integration.
 
-Additionally, custom integrations can be set up using our API. For more details on integrating with these systems, please refer to our integration guides and API reference documents.",23,What CRM systems can I integrate with your platform?,RELEVANT,"The generated answer directly addresses the question by listing specific CRM systems that can be integrated with the platform (Salesforce and HubSpot) and provides additional information about custom integrations, which is relevant to the user's inquiry."
-"After generating a data export, you can download the file by following these steps:
+For more information, you can refer to our related article on Salesforce integration: [Salesforce Integration Documentation](https://developers.example.com/integrations/salesforce).",2,Do I need an API key to connect to Salesforce?,RELEVANT,"The generated answer directly addresses the question by confirming that an API key is needed to connect to Salesforce. It further provides additional context about generating the API key and configuring the connection, which adds to the completeness of the response."
+SAML authentication is available only for Enterprise plans.,52,Is SAML authentication available for all subscription plans or just Enterprise?,RELEVANT,"The generated answer directly addresses the question by stating that SAML authentication is only available for Enterprise plans, which is exactly what the question asks about."
+"Yes, we offer volume discounts for customers with high usage. Pricing tiers are based on factors such as the number of users, API calls, or data storage. These discounts are automatically applied as you reach higher tiers. For large-scale usage, you should contact our sales team for custom volume pricing plans.",62,Is there a specific threshold of usage or users to get volume discounts?,RELEVANT,"The generated answer directly addresses the question by confirming the existence of volume discounts based on usage and users, providing details on how pricing tiers work and suggesting contacting the sales team for custom plans. This aligns well with the inquiry about a specific threshold for discounts."
+"Yes, there are exceptions to the refund policy in certain cases. Although generally, refunds are not provided for subscription fees after the first 14 days of a new subscription, prorated refunds are available for unused time if an annual subscription is canceled early. Monthly subscriptions, however, are not eligible for partial refunds. For any specific cases, it is recommended to contact the billing support team for personalized assistance.",21,Are there any exceptions to the refund policy for certain cases?,RELEVANT,"The generated answer directly addresses the question about exceptions to the refund policy by providing specific details regarding the conditions under which refunds may or may not be granted, as well as guidance on how to seek further assistance for unique cases."
+"To set up email templates in the application, follow these steps:
 
-1. Go to 'Settings'.
-2. Click 'Data Export'.
-3. Select the data you want to export.
-4. Choose the file format (CSV or JSON).
-5. Click 'Generate Export'.
-6. Download the file when it is ready.",6,"After generating a data export, how do I download the file?",RELEVANT,"The generated answer directly addresses the question by providing a clear and specific set of steps for downloading the file after a data export has been generated. It includes relevant actions that a user should take, making it fully pertinent to the inquiry."
-"No, your account will not be deactivated immediately after you cancel your subscription. Your account will remain active until the end of the current billing cycle.",12,Will my account be deactivated immediately after I cancel my subscription?,RELEVANT,The generated answer directly addresses the question by stating that the account will not be deactivated immediately after cancellation and provides additional context about remaining active until the end of the billing cycle.
-"The CONTEXT does not mention any limit on the number of team members you can add to your account. Therefore, based on the available information, there is no specified limit on the number of team members you can add.",8,Is there a limit on the number of team members I can add to my account?,RELEVANT,"The generated answer directly addresses the question about the limit on the number of team members by stating that there is no specified limit based on the provided context. It effectively communicates the absence of restrictions, making it relevant to the inquiry."
-"We perform daily data backups, which are stored in multiple geographic locations. The data is encrypted both at rest and in transit. Our retention periods are as follows: daily backups are kept for 30 days, weekly backups for 3 months, and monthly backups for 1 year.",21,Can you describe your daily data backup schedule and locations?,RELEVANT,"The generated answer directly addresses the question by describing the daily data backup schedule, mentioning that backups are performed daily and detailing the retention periods. Additionally, it discusses the locations of the backups being multiple geographic locations, which is also pertinent to the question."
-"If you lose access to your multi-factor authentication method, it is important to use the backup codes that you would have saved during the MFA setup process. These backup codes were provided as part of the setup instructions to ensure you can regain access to your account in situations like this. If you did not save your backup codes or if you need additional assistance, please contact our customer support team for further help.",20,What should I do if I lose access to my multi-factor authentication method?,RELEVANT,"The generated answer directly addresses the question by providing practical steps to take if access to the multi-factor authentication method is lost, specifically mentioning the use of backup codes and the option to contact customer support for further assistance."
-"Yes, there is an option for custom integrations through API. As per the context, custom integrations can be achieved via our API, in addition to standard integrations with various systems like CRM, communication tools, project management, and analytics platforms.",23,Is there an option for custom integrations through API?,RELEVANT,"The generated answer directly addresses the question by confirming the existence of an option for custom integrations through API. It also provides additional context about integrations with various systems, which enhances the relevance of the response."
-"We retain daily backups for 30 days, weekly backups for 3 months, and monthly backups for 1 year.",21,"How long do you retain daily, weekly, and monthly backups?",RELEVANT,"The generated answer directly addresses the question regarding the retention periods for daily, weekly, and monthly backups, providing specific time frames for each type, which meets the information requested."
-"We retain user data for 24 months after an account is closed. During this period, you can request a full data export. After 24 months, all data is permanently deleted to ensure compliance with GDPR and CCPA regulations.",7,What is your policy regarding data retention after an account is closed?,RELEVANT,"The generated answer directly addresses the question about data retention policy after an account is closed by specifying the duration of retention (24 months) and mentioning the conditions for data export and deletion, thereby providing a comprehensive response."
-"After enabling MFA, it is essential to store your backup codes securely to ensure you can access your account if you lose your primary authentication method. Here are some recommendations for storing your backup codes securely:
+1. Navigate to 'Settings' > 'Communications' > 'Email Templates'.
+2. Click 'Create New Template'.
+3. Design your template using either the WYSIWYG editor or HTML as per your preference.
+4. Save the template.
 
-1. **Print Them Out**: Print out your backup codes and store them in a safe place, such as a locked drawer or a safe.
+Once saved, you can use these templates in automated emails or campaigns.
 
-2. **Use a Secure Digital Storage**: Save the codes in a secure digital format, such as an encrypted USB drive or a secure password manager that supports multi-factor authentication.
+For further details, you can refer to the related article [here](https://help.example.com/features/email-templates).",39,What steps do I follow to set up email templates in the application?,RELEVANT,"The generated answer provides clear and specific steps to set up email templates in the application, directly addressing the question asked. It includes a sequence of actions, making it easy for the user to follow along."
+"The Workflow Builder helps in automating processes by allowing you to define triggers, conditions, and actions using a visual editor. This tool supports the integration with external systems via webhooks, the implementation of branching logic, and the setup of approval processes. Here's how it works:
 
-3. **Avoid Cloud Storage**: Do not store your backup codes in unencrypted cloud storage or email them to yourself, as this can make them vulnerable to unauthorized access.
+1. **Define Trigger Events**: Choose the event that will start the workflow.
+2. **Set Conditions**: Specify the conditions under which the workflow actions will be executed.
+3. **Add Actions**: Define the actions that should be performed once the conditions are met.
+4. **Visual Workflow Connection**: Use the visual editor to connect the steps of your workflow, making it easier to design complex processes without needing to write code.
+5. **Integration and Customization**: Integrate with external systems and customize your workflow to suit specific business needs.
+6. **Testing**: Test your workflow to ensure it works as expected before deploying it in a production environment.
 
-By taking these precautions, you can ensure that your backup codes are safe and accessible only to you.",20,"After enabling MFA, how do I store my backup codes securely?",RELEVANT,"The generated answer directly addresses the question by providing practical recommendations for securely storing backup codes after enabling MFA. It covers multiple secure storage options and emphasizes the importance of avoiding insecure practices, making it highly relevant to the user's inquiry."
-"Based on the provided CONTEXT, invoices are available for download specifically in PDF format.",24,Is there a specific format in which the invoices are available for download?,RELEVANT,"The generated answer directly addresses the question by specifying that invoices are available for download in PDF format, which is the information that the question inquires about."
-"If you forgot your password for your account, you can reset it by following these steps:
+By streamlining and automating tasks, the Workflow Builder improves productivity and ensures processes run smoothly and consistently.",124,How does the Workflow Builder help in automating processes?,RELEVANT,"The generated answer directly addresses the question by explaining how the Workflow Builder automates processes through specific features such as defining triggers, setting conditions, adding actions, and providing a visual editor. It also mentions integration with external systems and customization, which are key aspects of automating processes. Overall, the answer is comprehensive and clearly relevant to the question asked."
+"Yes, you can clone data from production when setting up your staging environment. To do so, go to 'Settings' > 'Environments' > 'Create New', and choose 'Staging' as the type. You then have the option to clone your production data or start fresh. Ensure you set appropriate access controls once the staging environment is set up.",77,Can I clone data from production when setting up my staging environment?,RELEVANT,"The generated answer directly addresses the question by confirming that it is possible to clone data from production to set up a staging environment. It also provides a clear step-by-step guide on how to do this, including guidance on access controls, which is pertinent to the question asked."
+"Yes, you can customize the events that trigger your email notifications. To do so, go to 'Settings' > 'Notifications'. There, you can choose which events trigger notifications and customize the frequency. Make sure to click 'Save Changes' after making your selections.",16,Can I customize the events that trigger my email notifications?,RELEVANT,"The generated answer directly addresses the question about customizing email notification triggers by confirming that it is possible and providing specific steps to do so. It includes details on navigating to the settings and the importance of saving changes, making it a comprehensive and relevant response."
+"To configure SSO with Azure AD in the application, follow these steps:
+
+1. Go to 'Settings' in your application.
+2. Navigate to the 'Security' section.
+3. Click on 'Single Sign-On'.
+4. Select 'Azure AD' as your identity provider.
+5. Follow the provided step-by-step instructions for configuring both your application platform and Azure AD. These instructions will include necessary URLs and certificates.
+
+For detailed instructions, you can refer to the related article: [Azure AD SSO Setup](https://help.example.com/account/azure-ad-sso).",67,What are the steps to configure SSO with Azure AD in the application?,RELEVANT,"The generated answer provides a clear and structured set of steps to configure SSO with Azure AD, directly addressing the question. It outlines specific actions to be taken and mentions the need for additional detailed instructions, which aligns well with the inquiry about the configuration process."
+"Our platform is designed with accessibility in mind and adheres to WCAG 2.1 AA standards. Here are the key accessibility features in our user interface:
+
+1. **Keyboard Navigation**: Our interface can be navigated using a keyboard, ensuring that users who rely on keyboard input can fully utilize the platform.
+
+2. **Screen Reader Support**: We support screen readers, enabling visually impaired users to access and interact with our platform's content effectively.
+
+3. **Customizable Contrast**: Users can adjust the contrast settings to meet their specific visual needs, enhancing readability and ease of use.
+
+Additionally, we regularly audit our interface to maintain compliance and are committed to continuous improvement. We also provide an accessibility statement and a Voluntary Product Accessibility Template (VPAT) upon request.
+
+For more information, you can refer to our accessibility statement available on our website.",105,Can you explain the features that support accessibility in your user interface?,RELEVANT,"The generated answer directly addresses the question about features that support accessibility in the user interface by listing specific features such as keyboard navigation, screen reader support, and customizable contrast. It provides clear and relevant information that demonstrates the platform’s commitment to accessibility."
+We typically release minor updates weekly and major feature updates monthly. All updates are automatically applied to your account. You can find our release notes and upcoming features on our product updates page.,13,How often do you roll out major feature updates?,PARTLY_RELEVANT,"The generated answer provides information on the frequency of major feature updates, stating that they are rolled out monthly. However, it also includes details about minor updates and additional resources, which, while informative, may not directly address the core question about major feature updates."
+"To initialize the collaboration client in your application, you should follow these steps:
+
+1. **Use the Collaboration API:** Integrate our Collaboration API into your app.
+2. **Client Initialization:** Initialize the collaboration client within your application code.
+3. **Subscribe to Document Changes:** Set up your client to subscribe to changes in the document you are working on.
+4. **Broadcast User Actions:** Ensure that the client broadcasts user actions to all participants in real-time.
+5. **Handle Conflict Resolution:** Utilize our built-in Operational Transformation (OT) algorithm to manage conflict resolution.
+6. **Customize Collaboration UI:** Optionally, you can use our React components to customize the user interface for collaboration features.
+
+For more detailed information, you might find our developer documentation helpful: [Collaboration API Documentation](https://developers.example.com/collaboration-api).",106,How can I initialize the collaboration client in my application?,RELEVANT,"The generated answer provides a detailed and step-by-step guide on how to initialize the collaboration client, directly addressing the question asked. Each point is pertinent to the initialization process, making it highly relevant to the inquiry."
+Your subscription will remain active until the end of your current billing cycle after you choose to cancel it.,9,Will my subscription remain active after I choose to cancel it?,RELEVANT,The generated answer directly addresses the question about subscription cancellation and provides clear information that the subscription will remain active until the end of the current billing cycle.
+"Our API uses cursor-based pagination for list endpoints. To utilize this feature, you should include a 'limit' parameter to set the size of the page. The response you receive will include a 'next_cursor' field if there are more results available. To fetch the next page of results, you need to include this cursor value in the 'cursor' parameter of your next request. For further details, you can refer to our [API documentation on pagination](https://developers.example.com/api/pagination).",79,What is the method used for pagination in your API?,RELEVANT,"The generated answer directly addresses the question by specifying that the API uses cursor-based pagination and explains how to use it, including details about the 'limit' parameter and 'next_cursor' field. This provides a clear and complete response to the inquiry about the pagination method used."
+"For more information on our Enterprise features, including white-labeling, you can visit the following page: [Enterprise Features](https://www.example.com/enterprise-features). Additionally, you can contact your account manager or our sales team for detailed information and pricing.",23,"Where can I find more information on your Enterprise features, including white-labeling?",RELEVANT,"The generated answer directly addresses the question by providing a specific link to a page where more information on Enterprise features, including white-labeling, can be found. It also includes alternative options for obtaining additional information, making it highly relevant to the user's request."
+"Yes, you can configure environment variables for your serverless functions. When you go to 'Development' > 'Serverless' > 'Create Function' in our platform, you can use environment variables for configuration. This allows you to manage and change settings without altering your function code.
+
+For more detailed instructions on setting up and managing serverless functions, refer to our related documentation: [Serverless SDK](https://developers.example.com/serverless-sdk).",112,Is there a way to configure environment variables for my serverless functions?,RELEVANT,"The generated answer directly addresses the question by confirming that environment variables can be configured for serverless functions and provides specific instructions on how to do so within the platform. It also mentions the benefit of managing settings without changing the code, which is relevant to the user's inquiry."
+"When setting up your custom search algorithm, you can define the following factors:
+
+1. **Ranking Factors**: Criteria used to determine the order of search results.
+2. **Boosting Rules**: Specific rules that increase the relevance of certain results based on various conditions.
+3. **Machine Learning Models**: Algorithms and models to improve search relevance and accuracy through machine learning techniques.
+
+Once you've defined these factors, you can test your algorithm against sample queries and fine-tune it based on relevance metrics.
+
+For detailed implementation, refer to our [Search Customization API](https://developers.example.com/search-customization-api).",118,What factors can I define when setting up my custom search algorithm?,RELEVANT,"The generated answer directly addresses the question by outlining specific factors that can be defined when setting up a custom search algorithm, such as ranking factors, boosting rules, and machine learning models. Additionally, it provides context for the implementation and testing of these factors, making it highly relevant to the question asked."
+"No, there isn't a specific editor you need to use for designing email templates. You can design your email templates using either our WYSIWYG editor or HTML.
+
+To set up email templates:
+1. Navigate to 'Settings' > 'Communications' > 'Email Templates'.
+2. Click 'Create New Template'.
+3. Design your template using our WYSIWYG editor or HTML.
+4. Save your template.
+
+You can then use these templates in automated emails or campaigns.",39,Is there a specific editor I need to use for designing email templates?,RELEVANT,"The generated answer directly addresses the question by stating that there isn't a specific editor required for designing email templates. It provides additional useful information about options available (WYSIWYG editor or HTML) and includes steps for setting up email templates, making it highly relevant to the question asked."
+"Yes, you can anonymize specific fields. Our data anonymization features allow you to set up rules for anonymizing specific fields, use pseudonymization, or apply k-anonymity algorithms. This can be applied to exports, reports, or live data based on user roles.",121,"Can I anonymize specific fields, or is it only for full datasets?",RELEVANT,"The generated answer directly addresses the question by confirming that it is possible to anonymize specific fields, which aligns perfectly with the inquiry about the scope of anonymization."
+The average uptime percentage for our services is consistently over 99.9%. You can find more information about our uptime history and any past incidents on our public status page at [status.example.com](https://status.example.com).,53,What is the average uptime percentage for your services?,RELEVANT,"The generated answer directly addresses the question by providing the average uptime percentage, which is specifically what the question asks for. Additionally, it offers a source for more detailed information, enhancing its relevance."
+"Yes, SSL certificates will be automatically provided once you set up the custom domain. As stated in the CONTEXT, ""SSL certificates are automatically provisioned"" after you complete the domain setup and DNS configuration steps.",65,Will SSL certificates be provided automatically once I set up the custom domain?,RELEVANT,The generated answer directly and accurately responds to the question about the automatic provision of SSL certificates upon setting up a custom domain. It not only confirms that SSL certificates will be provided automatically but also references the context to support its statement.
+"To save and activate your automated report schedule, follow these steps:
+
+1. Go to 'Reports'.
+2. Navigate to 'Scheduled Reports'.
+3. Click on 'Create Schedule'.
+4. Choose the type of report you want to automate.
+5. Set the frequency (daily, weekly, monthly).
+6. Specify the recipients who should receive the report.
+7. Select the delivery method (email, Slack, etc.).
+8. Click 'Save' to activate the schedule.",31,What do I need to do to save and activate my automated report schedule?,RELEVANT,"The generated answer provides a clear and step-by-step guide on how to save and activate an automated report schedule, directly addressing the question asked."
+You can find the documentation for the recommendation engine API at the following link: [https://developers.example.com/api/recommendations](https://developers.example.com/api/recommendations).,97,Where can I find documentation for the recommendation engine API?,RELEVANT,"The generated answer directly addresses the question by providing a specific link to the documentation for the recommendation engine API, which is exactly what was requested."
+"To reset your password for your account, follow these steps:
 
 1. Go to the login page.
-2. Click 'Forgot Password'.
-3. Enter your email address.
-4. Check your email for a reset link.
-5. Click the reset link and enter a new password.",0,What should I do if I forgot my password for my account?,RELEVANT,"The generated answer directly addresses the question by providing clear and concise steps to reset a forgotten password, making it fully relevant to the user's inquiry."
+2. Click on the 'Forgot Password' link.
+3. Enter your email address associated with the account.
+4. Follow the instructions sent to your email to create a new password.
+
+For more detailed instructions, you can refer to this [article](https://help.example.com/account/reset-password).",0,What steps do I need to follow to reset my password for my account?,RELEVANT,"The generated answer provides clear and specific steps to reset a password for an account, directly addressing the question asked. All the steps mentioned are appropriate and typical for a password reset process."
+"To find the CDN URLs to implement in your application, follow these steps:
+
+1. Go to 'Settings'.
+2. Navigate to 'Performance'.
+3. Click on 'CDN Configuration'.
+4. Enable the CDN and select the assets you want to distribute (such as images and static files).
+5. Configure the caching rules and purge options.
+6. Use the provided CDN URLs from this section in your application to serve content from the nearest edge location.
+
+You can also refer to the related article for more detailed instructions: [CDN Setup](https://help.example.com/features/cdn-setup).",108,Where can I find the CDN URLs to implement in my application?,RELEVANT,"The generated answer directly addresses the question by providing a step-by-step guide on how to find and implement CDN URLs in an application. It includes specific instructions and mentions where to find the CDN URLs, making it highly relevant."
+"To find the option to invite external collaborators, go to **'Settings' > 'User Management' > 'External Collaborators'**. Click **'Invite Collaborator'**, enter their email, set permissions, and send the invite.",49,Where do I find the option to invite external collaborators in the settings?,RELEVANT,"The generated answer provides clear and specific instructions on how to find the option to invite external collaborators in the settings, directly addressing the question asked."
+"To create a custom dashboard in the application, follow these steps:
+
+1. Navigate to `Analytics`.
+2. Select `Dashboards`.
+3. Click on `Create Custom Dashboard`.
+4. Use the drag-and-drop interface to add and arrange widgets as needed. Each widget can display different data visualizations.
+5. Optionally, configure each widget by clicking on it to set specific settings.
+6. You can create multiple dashboards to cater to different purposes or user roles.
+7. For advanced customization, you can use the Dashboard API.
+
+Don't forget to save your dashboard once you have made all the desired customizations.
+
+For more detailed guidance, you can refer to this article: [Custom Dashboards](https://help.example.com/features/custom-dashboards).
+
+Tags: dashboard, analytics, customization",114,What steps should I follow to create a custom dashboard in the application?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide on how to create a custom dashboard in the application, directly addressing the question asked. It covers essential actions needed to accomplish the task, such as navigating to the right section, creating the dashboard, and configuring widgets, making it highly relevant to the query."
+"To submit a request for your personal data under our Data Subject Access Request (DSAR) policy, please visit our privacy portal. You can initiate the DSAR process there, and we will provide a complete record of the stored personal data within 30 days. For more information on this process, you can consult our related article [here](https://www.example.com/privacy/dsar). Additionally, you can use our API to automate the DSAR fulfillment if needed.",113,How can I submit a request for my personal data under the DSAR policy?,RELEVANT,"The generated answer directly addresses the question by providing clear instructions on how to submit a request under the DSAR policy, including specific details about visiting the privacy portal and the timeline for receiving the requested data. It also offers additional resources, which enhances its relevance."
+"Our SDKs support the following programming languages for developing complex integrations:
+
+- Python
+- Other popular languages (specific languages not listed but implied as multiple SDKs are available)
+
+For more details on available SDKs, you can refer to our [developer documentation](https://developers.example.com/custom-integrations).",54,What programming languages are supported by your SDKs for developing complex integrations?,PARTLY_RELEVANT,"The generated answer partially addresses the question by mentioning Python as a supported programming language but lacks specificity by not listing the other 'popular languages' clearly. The reference to 'developer documentation' suggests additional information might be available, but the answer itself does not fully enumerate the languages, which is essential for completeness."
+"To request a full data export, you'll need to navigate to 'Settings' > 'Account' > 'Data Export' in your account. Then, click on 'Request Full Export'. This action will initiate the process of preparing a complete export of your data, which typically comes in CSV or JSON format. Please note that this process may take several hours, especially for large accounts.",58,Where can I find the option to request a full data export in my account settings?,RELEVANT,"The generated answer directly addresses the question by providing specific steps to find the option for requesting a full data export in account settings. It includes the navigation path and additional useful information about the export format and processing time, which enhances its relevance."
+"To configure scopes and attribute mapping when setting up OAuth using a custom OAuth provider, you will need to follow these steps:
+
+1. **Go to 'Settings' > 'Security' > 'OAuth Providers' > 'Add Custom Provider'.**
+2. **Enter the required details:**
+   - **Provider's endpoints**
+   - **Client ID**
+   - **Client secret**
+3. **Configure Scopes:**
+   Scopes determine what permissions the OAuth provider will grant to our platform. The specific scopes you need to configure will depend on what type of data and permissions are required for your integration.
+
+4. **Configure Attribute Mapping:**
+   Attribute mapping allows you to map the user information from the OAuth provider to the appropriate fields within our system. This may include user attributes such as email, username, ID, and other custom fields.
+
+5. **Test the setup before enabling it for users:**
+   Ensure everything is working correctly by testing the integration.
+
+For a detailed guide, you can refer to our related article: [Custom OAuth Setup Guide](https://help.example.com/account/custom-oauth).
+
+Make sure you follow these steps to ensure a successful OAuth integration.",75,What should I configure for scopes and attribute mapping when setting up OAuth?,RELEVANT,"The generated answer provides specific steps for configuring scopes and attribute mapping in an OAuth setup, which directly addresses the question. It outlines the necessary actions to be taken, clarifying what scopes and attribute mapping entail, making it highly relevant to the query."
+"Yes, it is possible to use pre-built models for the machine learning pipeline. Additionally, you have the option to import your own models if you prefer.",104,Is it possible to use pre-built models or do I need to import my own for the machine learning pipeline?,RELEVANT,"The generated answer directly addresses the question by confirming that it is possible to use pre-built models in the machine learning pipeline, while also mentioning the option to import custom models. This clearly provides the information the question seeks."
+"To define data sources and preprocessing steps in the machine learning (ML) pipeline, please follow these steps:
+
+1. **Navigate to the ML Pipeline Section:**
+   - Go to the 'AI & ML' tab in the platform.
+   - Select 'Pipelines' and then click 'Create Pipeline'.
+
+2. **Define Your Data Sources:**
+   - Select the data sources that you want to use in your ML pipeline. These could be internal databases, external APIs, cloud storage, etc.
+
+3. **Specify Preprocessing Steps:**
+   - After selecting the data sources, define the preprocessing steps required to clean and prepare your data. This could include:
+     - Data cleaning: Removing duplicates, handling missing values, etc.
+     - Data transformation: Normalization, scaling, encoding categorical variables, etc.
+     - Feature engineering: Creating or modifying features to improve model performance.
+
+4. **Model Selection:**
+   - Choose from available pre-built models or import your own custom models.
+
+5. **Evaluation Metrics:**
+   - Define the metrics you will use to evaluate the performance of your model (e.g., accuracy, precision, recall, F1-score).
+
+6. **Automated Retraining and Deployment:**
+   - Set up automated retraining schedules to ensure your model stays updated with new data.
+   - Deploy your model to make predictions or integrate it with other applications.
+
+You can refer to the related article [here](https://help.example.com/features/ml-pipeline) for more detailed instructions and additional features.",104,Can you guide me on how to define data sources and preprocessing steps in the ML pipeline?,RELEVANT,"The generated answer directly addresses the question by outlining the process to define data sources and preprocessing steps in an ML pipeline. It includes specific steps such as navigating to the ML pipeline section, selecting data sources, and specifying preprocessing steps, which are essential components of the ML pipeline as requested."
+"To adjust the properties of a custom field once you have added it to your form, follow these steps:
+
+1. Navigate to 'Forms' > 'Edit Form'.
+2. Find the custom field you want to adjust.
+3. Click on the field to open its properties.
+4. Modify the desired properties (such as label, field type, validation rules, etc.).
+5. Save your changes.
+
+Remember that you can also drag and drop the field to reposition it within the form if needed.",29,How do I adjust the properties of a custom field once I add it to my form?,RELEVANT,"The generated answer provides a clear and step-by-step guide on how to adjust the properties of a custom field after it has been added to a form, directly addressing the question asked."
+"The product roadmap is updated quarterly. You can access the public roadmap of upcoming features and improvements at [example.com/roadmap](https://www.example.com/roadmap). For Enterprise customers, private roadmap sessions with the product team are also available.",84,How frequently is the product roadmap updated and where can I access it?,RELEVANT,"The generated answer directly addresses both aspects of the question: it specifies the frequency of updates to the product roadmap as quarterly and provides a link to access the public roadmap, fulfilling the information request."
+"Certainly! You can find the related articles on setting up two-factor authentication at the following link: 
+
+[Related Articles on Two-Factor Authentication](https://help.example.com/account/two-factor-authentication)",11,Can you provide a link to related articles on setting up two-factor authentication?,RELEVANT,"The generated answer directly addresses the question by providing a link to related articles on setting up two-factor authentication, which is precisely what was requested."
+"You can find more information about billing disputes and resolutions by visiting the following article: [Billing Disputes](https://help.example.com/billing/billing-disputes). For immediate assistance, please contact our billing support team at billing@example.com with your account details and specifics of the charge in question.",6,Where can I find more information about billing disputes and resolutions?,RELEVANT,"The generated answer provides a direct resource for more information on billing disputes and resolutions, including a link to an article and contact details for immediate assistance, making it highly relevant to the question asked."
+"To view upcoming features in our product, you can visit our public roadmap at [example.com/roadmap](https://www.example.com/roadmap). The roadmap is updated quarterly and includes both near-term and long-term plans. For Enterprise customers, we also offer private roadmap sessions with our product team.",13,How can I view upcoming features in your product?,RELEVANT,"The generated answer directly addresses the question by providing clear instructions on how to view upcoming features through a public roadmap, along with additional information about private roadmap sessions for Enterprise customers, which further enhances the response."
+"Yes, there is a way to determine the significance of your test results. According to our support resources, you can use our statistical engine to determine when your A/B test results are significant. This feature is part of the A/B Test setup process where you define your variants, set the audience split, and choose your success metrics. The statistical engine will help you analyze the data and ascertain the significance of the outcomes.",85,Is there a way to determine the significance of my test results?,RELEVANT,"The generated answer directly addresses the question about determining the significance of test results by outlining the use of a statistical engine during the A/B test setup process. It provides information on how to assess the significance, making it relevant to the inquiry."
+"Yes, we conduct comprehensive background checks on all employees and contractors who have access to customer data or critical systems, and this includes checking criminal records.",117,Do you check criminal records for all contractors as well?,RELEVANT,"The generated answer directly addresses the question by confirming that criminal records are indeed checked for all contractors, thus clearly indicating the procedure and context related to background checks."
+"Volume discounts are typically negotiated for **Enterprise plans**. For large user counts or high usage volumes, you should contact our sales team with details about your expected usage, and they will provide a custom quote.",62,What type of plans are eligible for volume discounts?,RELEVANT,"The generated answer directly addresses the question by specifying that Enterprise plans are eligible for volume discounts and suggests contacting the sales team for further details, which is pertinent information regarding the types of plans that qualify."
+"To start the BAA process for HIPAA compliance, you should contact your account manager or our sales team. They will review your needs and provide the necessary agreement.",72,Who should I contact to start the BAA process for HIPAA compliance?,RELEVANT,"The generated answer directly addresses the question by specifying who to contact to start the Business Associate Agreement (BAA) process for HIPAA compliance, namely the account manager or sales team. This aligns well with the inquiry about initiating the BAA process."
+"To access a detailed breakdown of your usage, follow these steps:
+
+1. Go to 'Settings'.
+2. Navigate to 'Billing'.
+3. Select 'Usage Reports'.
+
+Here, you'll find charts and tables that show your usage across different features. You can also export this data or set up alerts for usage thresholds.
+
+For more detailed information, you can refer to this related article: [Usage Reports](https://help.example.com/billing/usage-reports).",51,How can I access a detailed breakdown of my usage?,RELEVANT,"The generated answer provides clear steps to access a detailed breakdown of usage, directly addressing the question. It includes specific navigation instructions and additional resources, which enhance its relevance."
+"No, the storage capacity is not the only difference between the Basic and Pro plans. According to the provided context, the Pro plan offers several additional features over the Basic plan, including advanced analytics, priority support, and additional integrations. The Basic plan is more suitable for individuals or small teams, while the Pro plan is designed for growing businesses. For a detailed comparison, you can refer to the comparison on the pricing page.",26,Is the storage capacity the only difference between the Basic and Pro plans?,RELEVANT,"The generated answer directly addresses the question by stating that storage capacity is not the only difference between the Basic and Pro plans. It further elaborates on other features that distinguish the two plans, which is exactly what the question seeks to clarify."
+"Yes, you can set up alerts for your usage thresholds. To do this, go to 'Settings' > 'Billing' > 'Usage Reports'. Here, you'll find the option to configure alerts for different usage thresholds, allowing you to receive notifications when certain limits are reached.",51,Are there options to set up alerts for my usage thresholds?,RELEVANT,"The generated answer directly addresses the question about setting up alerts for usage thresholds by providing specific steps on how to do so, thus makes it highly relevant."
+"To implement custom authentication using our SDK, follow these steps:
+
+1. **Get SDK Keys**: Navigate to `Settings > Security > Custom Authentication` in your account to obtain your SDK keys.
+
+2. **Implement Authentication Flow**: Integrate the authentication flow into your application. This involves handling user credentials and managing tokens.
+
+3. **Utilize SDK Methods**: Make use of the SDK-provided methods for login, logout, and session management.
+
+For further details, you can refer to the related article [here](https://developers.example.com/authentication-sdk).",102,What steps do I need to follow to implement custom authentication using your SDK?,RELEVANT,"The generated answer directly addresses the question by providing clear and specific steps for implementing custom authentication using the SDK. It includes necessary actions like obtaining SDK keys, implementing the authentication flow, and using SDK methods, which are all relevant to the implementation process."
+"Yes, there is a post-incident review process. It is the final step in our incident response process, which includes the following stages:
+
+1. Detection and alerting
+2. Assessment and triage
+3. Containment and mitigation
+4. Customer communication
+5. Resolution and recovery
+6. Post-incident review
+
+The post-incident review involves analyzing the incident to understand its root cause, the effectiveness of the response, and identifying areas for improvement. This step aims to enhance future incident response efforts and ensure better preparedness. We commit to transparent communication throughout the entire process.",64,"Is there a post-incident review process, and what does it entail?",RELEVANT,"The generated answer directly addresses the question about the post-incident review process by outlining its existence and detailing its components, including the purpose and goals of the review. It provides a clear understanding of what the process entails, making it highly relevant to the inquiry."
+"Yes, you can refer to a detailed guide on user permissions using the following resource:
+
+[Detailed guidance on user permissions](https://help.example.com/account/user-permissions)
+
+This article will provide comprehensive instructions for managing user permissions, including how to set up roles and assign permissions to users.",35,Is there a resource I can refer to for detailed guidance on user permissions?,RELEVANT,"The generated answer directly addresses the question by providing a specific resource for detailed guidance on user permissions, including information on roles and assignments, making it highly relevant."
+"Our data deletion policy is as follows:
+
+- Once you request data deletion, we permanently remove your data from our active systems within 30 days.
+- Backups containing your data are overwritten within 90 days.
+- If you need confirmation, we can provide a certificate of deletion upon request.
+- Please note that we may retain some data if required by law.
+
+For further details, you can visit our related article here: [Data Deletion Policy](https://www.example.com/privacy/data-deletion).",76,Can you explain your data deletion policy in detail?,RELEVANT,"The generated answer clearly explains the data deletion policy in detail, addressing the specific aspects of the policy such as the timeline for data removal, backup overwriting, confirmation of deletion, and legal retention requirements. It directly answers the question asked."
+"To send a POST request to the bulk update endpoint, follow these steps:
+
+1. **Endpoint:** Send the request to `/bulk-update`.
+2. **Payload:** The request body should contain an array of objects, where each object includes an ID and the fields that need to be updated.
+3. **Batch Processing:** The API processes these updates in batches for efficiency.
+4. **Response:** Check the response to confirm the success status and review any error details that may be included.
+
+For more detailed information, refer to the related article: [Bulk Update API Documentation](https://developers.example.com/api/bulk-update).",87,What is the process for sending a POST request to the bulk update endpoint?,RELEVANT,"The generated answer provides a clear and structured process for sending a POST request to the bulk update endpoint, detailing the endpoint, payload requirements, batch processing, and how to handle the response. This directly addresses the question asked."
+"No, you do not need to provide your credit card information to start the trial. You can sign up for the 14-day free trial on our website without entering credit card information. If you decide to continue using the service after the trial, you can upgrade to a paid plan at any time.",32,Do I need to provide my credit card information to start the trial?,RELEVANT,"The generated answer directly addresses the question by confirming that credit card information is not needed to start the trial. It provides additional context about the trial duration and future options, which enhances the clarity of the response."
+"To start a new custom report, navigate to 'Reports' > 'Custom Reports' > 'New Report'. From there, you can select your data sources, choose the metrics and dimensions to include, and set any necessary filters. You can then save and schedule the report according to your needs.",20,Where can I find the option to start a new custom report?,RELEVANT,"The generated answer directly addresses the question by providing clear and specific instructions on where to find the option to start a new custom report, including a step-by-step navigation path."
+"When setting up multi-factor authentication (MFA), consider the following security measures for optimal protection:
+
+1. **Preferred Method**: We recommend using an authenticator app for the best security. This method is generally more secure compared to SMS or security keys which also provide robust security options.
+
+2. **Implementation**: Navigate to `Settings` > `Security` > `Multi-Factor Authentication`, click `Enable MFA`, and follow the setup wizard. Choosing the method that works best for your use case is essential.
+
+3. **Backup Codes**: Ensure you store any provided backup codes in a secure location. These codes are crucial if you lose access to your authentication device.
+
+4. **Regular Updates**: Keep your authentication apps and devices updated to benefit from the latest security features and patches.
+
+5. **User Training**: Educate all users about the importance and use of MFA, as well as how to handle potential threats like phishing attempts.
+
+6. **Monitoring**: Regularly monitor and review MFA logs for any unusual activity, and establish procedures to quickly respond to any security alerts.
+
+For further detailed guidance, you can refer to our related article on setting up multi-factor authentication at [this link](https://help.example.com/account/multi-factor-authentication).",43,What security measures should I consider when setting up multi-factor authentication?,RELEVANT,"The generated answer provides comprehensive and specific security measures to consider when setting up multi-factor authentication. It covers various aspects including preferred methods, implementation steps, backup codes, regular updates, user training, and monitoring, all of which are directly relevant to the question asked."
+"Joining our partner program offers several key benefits designed to support and enhance your business development efforts:
+
+1. **Training**: Gain access to specialized training that helps you understand our products deeply, enabling you to provide better service and solutions to your clients.
+
+2. **Co-Marketing Opportunities**: Leverage co-marketing efforts that include joint promotional activities, events, and campaigns to expand your business reach and visibility.
+
+3. **Revenue Sharing**: Enjoy revenue sharing opportunities that can provide additional income streams for your business as you resell or consult on our products.
+
+To learn more about the different tiers and additional benefits, you can visit our [ partners page](https://www.example.com/partners). You can apply online or reach out to our partnerships team for further assistance.",103,Can you explain the benefits of joining your partner program?,RELEVANT,"The generated answer directly addresses the question by outlining several specific benefits of joining the partner program, such as training, co-marketing opportunities, and revenue sharing. This information is pertinent to someone inquiring about the advantages of participation in the program."
+"To define event properties during event tracking setup, follow these steps based on the guidelines from our support queue knowledge database:
+
+1. **Navigate to Event Tracking:**
+   - Go to 'Analytics' > 'Event Tracking' > 'Create New Event'.
+
+2. **Define the Event Properties:**
+   - **Event Name:** Start by giving your event a descriptive name.
+   - **Properties:** Specify the properties that you want to track with this event. These can include details like user ID, timestamp, page URL, and any custom attributes relevant to your business logic.
+   - **Triggers:** Set up the conditions or triggers that will capture the event. This could be user actions (e.g., button clicks), system events (e.g., page loads), or other custom events.
+
+3. **Using SDK or API for Event Tracking:**
+   - Use our SDK or API to send the defined events from your application to our analytics system.
+
+4. **View Tracked Events:**
+   - Once you’ve set up the event properties and implemented the tracking, you can view the tracked events in the analytics dashboard.
+
+If you need more detailed instructions, you can consult the related article available at: [Event Tracking Help](https://help.example.com/features/event-tracking).
+
+By following these steps, you'll be able to set up event tracking and define the necessary properties to gather meaningful data about user interactions and system activities.",100,Can you explain how to define event properties during event tracking setup?,RELEVANT,"The generated answer directly addresses the question by providing a detailed, step-by-step guide on how to define event properties during event tracking setup. It includes specific actions to take and elements to consider, such as naming the event, specifying properties, and setting triggers, which are all pertinent to the setup process."
+"Yes, I can point you to an article that explains single logout setup further. Please refer to the following link for detailed instructions: 
+
+[Single Logout Setup](https://help.example.com/account/single-logout)
+
+This article will provide you with comprehensive guidance on setting up single logout for your application.",91,Can you point me to any articles that explain single logout setup further?,RELEVANT,"The generated answer directly addresses the question by providing a specific link to an article that explains single logout setup. It indicates that the article contains comprehensive guidance, making it highly relevant to the user's request for further information."
+"Yes, there is a page you can refer to for guidance on canceling your subscription. You can find detailed instructions in this related article: [https://help.example.com/billing/cancel-subscription](https://help.example.com/billing/cancel-subscription).",9,Is there a page I can refer to for guidance on canceling my subscription?,RELEVANT,The generated answer directly addresses the question by affirming that there is a page for guidance on canceling the subscription and provides a specific link to the relevant article.
+"We offer data localization options for customers with specific regulatory requirements. By default, data is stored in our primary data centers, but we can provision dedicated instances in specific geographic regions for Enterprise customers. This may affect pricing and some feature availability. For more information, you can contact our sales team or visit our related article [here](https://www.example.com/data-localization).",101,What options do you provide for data localization?,RELEVANT,"The generated answer directly addresses the question about data localization options by explaining the default data storage practice and the provision of dedicated instances for Enterprise customers. It also mentions the implications on pricing and feature availability, providing relevant details for customers considering such options."
+"Yes, our platform supports Single Sign-On (SSO) setup with identity providers like Okta and Azure AD. For additional details or assistance with the configuration, please refer to our setup instructions in the 'Settings' section under 'Security' or contact our support team.",22,Can you tell me which identity providers are supported for SSO setup?,RELEVANT,"The generated answer directly addresses the question by listing specific identity providers (Okta and Azure AD) that are supported for SSO setup. It also provides additional helpful information about where to find more details and assistance, reinforcing the relevance to the original query."
+"After defining the trigger event in your workflow setup, you should **set conditions and add actions**. You can use the visual workflow builder to connect these steps. Additionally, make sure to test your workflow before activating it in production. This process ensures that your automated workflow is set up correctly and functions as intended.",56,What should I do after defining the trigger event in my workflow setup?,RELEVANT,"The generated answer directly addresses the question by providing specific next steps after defining the trigger event in a workflow setup. It mentions setting conditions and adding actions, which are logical follow-ups, and emphasizes the importance of testing the workflow, which is also relevant and helpful advice."
+"To invite external collaborators to your account, follow these steps:
+
+1. Navigate to 'Settings'.
+2. Select 'User Management'.
+3. Choose 'External Collaborators'.
+4. Click 'Invite Collaborator'.
+5. Enter the email address of the external collaborator.
+6. Set the permissions you want to grant to the collaborator.
+7. Send the invite.
+
+External collaborators will have limited access and will be clearly marked in the system.
+
+For more information, you can refer to this article: [External Collaborators Help Article](https://help.example.com/account/external-collaborators).",49,What steps do I need to follow to invite external collaborators to my account?,RELEVANT,"The generated answer provides a clear, step-by-step guide on how to invite external collaborators, directly aligning with the question asked. It includes specific actions to take, which would be useful for the user seeking this information."
+"To set up automated retraining and model deployment within the ML pipeline, follow these steps:
+
+1. **Navigate to the ML Pipeline:** Go to 'AI & ML' > 'Pipelines' > 'Create Pipeline'.
+2. **Define the Pipeline Components:**
+    - **Data Sources:** Specify where your data is coming from.
+    - **Preprocessing Steps:** Define how your data will be cleaned and prepared for modeling.
+    - **Model Selection:** Choose from our pre-built models or import your own custom models.
+    - **Evaluation Metrics:** Set up the metrics you'll use to evaluate model performance.
+3. **Set Up Automated Retraining and Deployment:**
+    - **Automated Retraining:** Integrate retraining steps into your pipeline to ensure your model stays updated with new data.
+    - **Model Deployment:** Configure deployment processes so new versions of your models are automatically pushed to production after retraining.
+
+For more detailed instructions, visit the related article: [ML Pipeline Setup](https://help.example.com/features/ml-pipeline).",104,How do I set up automated retraining and model deployment within the ML pipeline?,RELEVANT,"The generated answer directly addresses the question by providing clear steps on how to set up automated retraining and model deployment within an ML pipeline. It includes specific actions and components that are necessary for implementing these processes, making it highly relevant to the query."
+"To enable multi-region failover for your account, follow these steps:
+
+1. **Contact Your Account Manager**: Multi-region failover is a feature available for Enterprise plans. You need to reach out to your account manager to enable this feature for your account.
+
+2. **Access Failover Configuration Settings**: Once the feature is activated, navigate to:
+   - **Settings**
+   - **Infrastructure**
+   - **Failover Configuration**
+
+3. **Set Primary and Secondary Regions**: Within the Failover Configuration settings, specify your primary and secondary regions.
+
+4. **Define Failover Policies**: Establish and configure your failover policies to ensure your application has the necessary directives for failover scenarios.
+
+For more detailed guidance, refer to this related article: [Multi-Region Failover](https://help.example.com/enterprise/multi-region-failover).
+
+If you require any further assistance, please feel free to contact our support team.",71,What steps do I need to follow to enable multi-region failover for my account?,RELEVANT,"The generated answer provides a clear and step-by-step guide on how to enable multi-region failover, directly addressing the question. It includes specific actions to be taken, such as contacting the account manager, accessing configuration settings, setting primary and secondary regions, and defining policies, which makes it a comprehensive response to the inquiry."
+"Our data retention policy states that we retain user data for the duration of your active subscription plus 30 days after account closure. After this period, data is permanently deleted from our systems. If you'd like your data to be deleted earlier, you can request this by contacting our support team. For more details, you can refer to our [privacy policy](https://www.example.com/privacy-policy).",17,What is your policy on data retention for user information?,RELEVANT,"The generated answer directly addresses the question about the policy on data retention for user information by detailing the specific duration for which user data is retained and the procedure for early deletion of data, which is pertinent to the inquiry."
+"We perform daily backups of all customer data. These backups are encrypted and stored in geographically distributed locations. We retain daily backups for 30 days and monthly backups for 12 months. Additionally, backups are tested regularly to ensure data integrity and recoverability.",40,What is the frequency of your data backups and how is the data secured?,RELEVANT,"The generated answer directly addresses both parts of the question by specifying the frequency of data backups (daily backups, retention periods) and detailing how the data is secured (encryption, geographic distribution, and regular testing)."
+"Yes, you can add different types of data visualizations to your custom dashboard. To implement custom dashboards, go to 'Analytics' > 'Dashboards' > 'Create Custom Dashboard'. Use our drag-and-drop interface to add and arrange widgets, each of which can display different data visualizations. You can create multiple dashboards for different purposes or user roles.",114,Can I add different types of data visualizations to my custom dashboard?,RELEVANT,"The generated answer directly addresses the question by confirming that different types of data visualizations can be added to a custom dashboard and provides specific instructions on how to do so, thereby ensuring clarity and relevance to the user's inquiry."
+You can find additional information on our DSAR policy and related procedures by visiting the following article: [DSAR Policy and Procedures](https://www.example.com/privacy/dsar). This link provides comprehensive details on how we handle Data Subject Access Requests in compliance with GDPR and other privacy regulations.,113,Where can I find additional information on your DSAR policy and related procedures?,RELEVANT,"The generated answer directly addresses the question by providing a specific resource (a link) where additional information on the DSAR policy and related procedures can be found, which is exactly what was requested."
+You can find additional resources on implementing custom dashboards by visiting the following article: [Custom Dashboards](https://help.example.com/features/custom-dashboards). This resource provides detailed guidance on using our system’s features to create and customize dashboards.,114,Where can I find additional resources on implementing custom dashboards?,RELEVANT,"The generated answer directly addresses the question by providing a specific resource (an article) on implementing custom dashboards, along with a brief description of what the resource contains. This makes it highly relevant to the user's request for resources."
+"To utilize the bulk import feature in the Data Management section, follow these steps:
+
+1. Navigate to the 'Data' section in your dashboard.
+2. Select 'Import' and then choose 'Bulk Import'.
+3. Choose the type of data you want to import.
+4. Download our template CSV file.
+5. Fill the template with your data.
+6. Upload the filled CSV file.
+7. Review the data preview and map the fields if necessary.
+8. Confirm the import.
+
+Note: Large imports will run in the background.
+
+For more detailed instructions, you can refer to the related article [here](https://help.example.com/features/bulk-import).",69,What steps should I follow to utilize the bulk import feature in the Data Management section?,RELEVANT,"The generated answer provides a clear and detailed set of steps for utilizing the bulk import feature in the Data Management section, directly addressing the question asked."
+"You can find the documentation for our APIs in our Developer Center. Full documentation, including endpoints and example requests, is available at [https://developers.example.com/api](https://developers.example.com/api).",12,Where can I find the documentation for your APIs?,RELEVANT,"The generated answer directly addresses the question by providing a specific location (Developer Center) and an explicit URL to the API documentation, making it highly relevant to the inquiry about where to find the documentation."
+"To specify the number of results you want per page when using our API, you should use the pagination feature. Our API employs cursor-based pagination for list endpoints. Specifically, you need to include a 'limit' parameter in your request to set the page size. The response you receive will include a 'next_cursor' field if there are more results available. To retrieve the next page of results, include this cursor value as the 'cursor' parameter in your subsequent request.
+
+For more detailed information, you can refer to our API pagination documentation here: [https://developers.example.com/api/pagination](https://developers.example.com/api/pagination).",79,How can I specify the number of results I want per page when using the API?,RELEVANT,"The generated answer directly addresses the question about specifying the number of results per page by explaining how to use the 'limit' parameter in the API request. It also provides additional context about cursor-based pagination and includes a helpful link to documentation, making the response comprehensive and pertinent to the user's inquiry."
+"Yes, you can customize the appearance of the CAPTCHA on your forms. To do this, go to 'Settings' > 'Security' > 'CAPTCHA Configuration'. Once there, you can enable CAPTCHA and choose the type (image, audio, or invisible) and customize its appearance and behavior.",95,Can I customize the appearance of the CAPTCHA on my forms?,RELEVANT,"The generated answer directly addresses the question by confirming that customization of the CAPTCHA appearance is possible and provides specific steps to achieve this, fulfilling the user's inquiry."
+"We regularly audit our AI systems for bias. This is part of our commitment to ethical AI use, ensuring fairness, transparency, privacy, and human oversight in our AI-driven features.",70,How often do you conduct audits on your AI systems for bias?,RELEVANT,"The generated answer directly addresses the question regarding the frequency of audits on AI systems for bias, stating that audits are conducted regularly as part of their ethical AI commitment. This response provides a clear indication of their auditing practices."
+"Yes, it is possible to test your custom search algorithm with sample queries. You can utilize the Search Customization API to define your ranking factors, boosting rules, and machine learning models. Once you have created your algorithm, you can test it against sample queries and fine-tune it based on relevance metrics.
+
+For more detailed instructions, refer to the related article: [Search Customization API](https://developers.example.com/search-customization-api).",118,Is it possible to test my custom search algorithm with sample queries?,RELEVANT,"The generated answer directly addresses the question by confirming that it is possible to test a custom search algorithm with sample queries. It also provides additional context on how to do this using the Search Customization API, which adds to the relevance of the information provided."
+"To enable single logout in your application, follow these steps:
+
+1. Navigate to 'Settings' in your application.
+2. Select 'Security'.
+3. Click on 'SSO Configuration'.
+4. Go to 'Logout Settings'.
+5. Enable the option for single logout.
+6. Provide the logout URL for your identity provider. 
+
+When a user logs out of your app, a logout request will be sent to the provided URL to end all associated sessions.
+
+For more detailed instructions, you can refer to the related article: [Single Logout](https://help.example.com/account/single-logout).",91,What steps do I need to take to enable single logout in my application?,RELEVANT,"The generated answer provides clear and specific steps to enable single logout in an application, directly addressing the question asked. It includes necessary actions such as navigating to settings, selecting security, and enabling the single logout option, which are all relevant to the user's query."
+"Our bug tracking system includes the following features:
+
+1. **Reporting Issues**: Users can submit new bugs.
+2. **Monitoring Issues**: Users can check the status of existing bugs.
+3. **Categorization**: Issues can be categorized to improve organization and prioritization.
+4. **Priority Setting**: Users can set the priority of reported issues.
+5. **File Attachments**: Relevant files can be attached to bug reports.
+6. **Support Team Communication**: Our support team uses the system to communicate updates and resolutions regarding the reported issues.
+
+For more information, you can visit the related help article [here](https://help.example.com/support/bug-tracker).",111,What features are included in your bug tracking system?,RELEVANT,"The generated answer directly addresses the question by listing specific features included in the bug tracking system, providing clear and detailed information about its functionalities."
+You can find the full text of our privacy policy on our website. Here is the direct link to the policy: [Privacy Policy](https://www.example.com/privacy-policy).,48,Where can I find the full text of your privacy policy?,RELEVANT,"The generated answer directly addresses the question by indicating where to find the full text of the privacy policy and providing a direct link, which fulfills the request for information."
+"To obtain a signed Business Associate Agreement (BAA) for HIPAA compliance, please follow these steps:
+
+1. **Contact Your Account Manager or Sales Team**: Reach out to your dedicated account manager or our sales team to initiate the BAA process.
+2. **Review Your Needs**: We will review your specific requirements for HIPAA compliance.
+3. **Provision of Agreement**: After understanding your needs, we will provide the BAA for your review and signature.
+
+Please note that BAAs are typically part of our Enterprise plan. For more detailed information, you might also want to visit our related article [here](https://www.example.com/hipaa-compliance).
+
+If you have any further questions or need immediate assistance, do not hesitate to contact us.
+
+Tags: HIPAA, BAA, compliance",72,How can I obtain a signed BAA for HIPAA compliance?,RELEVANT,"The generated answer directly addresses the question about obtaining a signed BAA for HIPAA compliance by providing clear steps to follow, including contacting an account manager, reviewing needs, and receiving the agreement. It is focused and pertinent to the inquiry."
+"To manage users in your account settings, navigate to 'Settings' > 'User Management'.",3,Where do I find the option to manage users in my account settings?,RELEVANT,"The generated answer directly addresses the question by providing specific instructions on how to locate the user management option within the account settings, making it fully relevant to the inquiry."
+"Users have the following specific rights regarding their data:
+
+1. **Data Retention**: Users' data is retained for the duration of their active subscription plus 30 days after account closure. After this period, the data is permanently deleted from the company's systems.
+
+2. **Data Export**: Users can export all their data at any time in standard, machine-readable formats. This can be done by going to 'Settings' > 'Account' > 'Data Export'.
+
+3. **Data Portability**: Users have the right to data portability, which allows them to export their data in standard formats, ensuring compliance with regulations such as GDPR.
+
+4. **Data Deletion**: Users can request the deletion of their data, which will be permanently removed from active systems within 30 days, and backups overwritten within 90 days. Some data may be retained if required by law.
+
+5. **Data Residency**: Users, particularly Enterprise customers, can request data to be stored in specific geographic regions to meet data residency requirements.
+
+6. **Data Localization**: Similar to data residency, users can request data localization options to comply with specific regulatory requirements, potentially affecting pricing and feature availability.
+
+The above rights ensure users have control over their data management and compliance with various privacy regulations.",48,What specific rights do users have regarding their data?,RELEVANT,"The generated answer directly addresses the question by listing specific rights users have regarding their data, including data retention, export, portability, deletion, residency, and localization. Each point is relevant and provides a clear understanding of the rights users possess, ensuring compliance with various privacy regulations."
+"We provide RESTful APIs for most of our services, including data retrieval, user management, and reporting. Full documentation, including endpoints and example requests, can be found in our API documentation.",12,What types of APIs does your company provide?,RELEVANT,"The generated answer directly addresses the question by specifying that the company provides RESTful APIs and further detailing the types of services included. It also mentions the availability of documentation, which is relevant for understanding the API offerings."
+"To update your billing information in the application, follow these steps:
+1. Go to 'Settings'.
+2. Select 'Billing'.
+3. Click on 'Payment Methods'.
+4. Click 'Edit' next to your current method or 'Add New Method' to enter new card details.
+5. Make sure to click 'Save Changes' when you're done.
+
+For more detailed instructions, you can visit the related article [here](https://help.example.com/billing/update-payment).
+
+Tags: billing, payment, credit card",33,What steps do I need to follow to update my billing information in the application?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide on how to update billing information in the application, directly addressing the question asked."
+"To generate a new API key, follow these steps:
+
+1. Go to 'Settings'.
+2. Navigate to 'API & Integrations'.
+3. Click on 'API Keys'.
+4. Click 'Generate New Key'.
+5. Give the new API key a name.
+6. Select the appropriate permissions for the API key.
+7. Copy the API key immediately, as it won’t be displayed again.
+
+For more details, you can refer to the related article: [API Authentication Documentation](https://developers.example.com/api/authentication).",18,What steps do I need to follow to generate a new API key?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide on how to generate a new API key, directly answering the question."
+"Yes, you can obtain a SOC 2 Type II report from us for compliance purposes. This report covers our security, availability, and confidentiality controls and is updated annually. To get the report, you will need to sign a non-disclosure agreement (NDA). Please contact your account manager or our security team to request the report and initiate the NDA process.",88,Can you share how I can obtain a SOC 2 report for compliance purposes?,RELEVANT,"The generated answer directly addresses the question by explaining how to obtain a SOC 2 report for compliance purposes, detailing the necessary steps such as signing a non-disclosure agreement and contacting the appropriate team."
+"Yes, partners can request a demo environment for sales demonstrations. You need to contact our sales team to initiate the request. They will set up a sanitized instance with sample data tailored to your target industry, which includes all features and can be customized for specific use cases.",115,Can partners also request a demo environment for sales demonstrations?,RELEVANT,"The generated answer directly addresses the question about whether partners can request a demo environment for sales demonstrations. It confirms that they can, and also provides additional useful information about the process and features of the demo environment."
+"Based on the current context from our support queue knowledge database, there is no specific information available regarding the automation of Data Subject Access Requests (DSARs) using our platform's features. For such specific inquiries, I recommend reaching out to our support team directly or exploring our help documentation for further assistance.",113,Is there a way to automate the fulfillment of DSARs using your platform's features?,PARTLY_RELEVANT,"The generated answer acknowledges the inquiry about automating DSARs but ultimately states that there is no specific information available on this topic. It suggests reaching out to support or checking documentation, which may provide further assistance but does not directly answer the question about automation capabilities."
+"The eligibility requirements for obtaining a dedicated account manager are that you must be an Enterprise customer or have an account above a certain usage threshold. To learn more or to discuss upgrading to a plan with dedicated account management, you should contact the sales team.",96,What are the eligibility requirements for obtaining a dedicated account manager?,RELEVANT,"The generated answer directly addresses the question by specifying the eligibility requirements for obtaining a dedicated account manager, namely being an Enterprise customer or meeting a certain usage threshold. It also provides additional guidance on how to inquire further, which adds to its relevance."
+"You can find more information about using the bulk update API by visiting the following related article:
+[https://developers.example.com/api/bulk-update](https://developers.example.com/api/bulk-update)",87,Where can I find more information about using the bulk update API?,RELEVANT,"The generated answer directly addresses the question by providing a specific resource (a URL) where more information about the bulk update API can be found, which is exactly what the question is asking for."
+"SOC 2 compliance for our service entails adherence to stringent standards for security, availability, and confidentiality controls. We provide a SOC 2 Type II report, which is updated annually and available under a non-disclosure agreement (NDA). This report documents our compliance efforts and is accessible by contacting your account manager or our security team to request the report and initiate the NDA process. 
+
+For more detailed information, you can refer to our related article: [SOC 2 Compliance](https://www.example.com/security/soc2).",5,What does SOC 2 compliance entail for your service?,RELEVANT,"The generated answer directly addresses the question by explaining what SOC 2 compliance entails, including specific standards and the provision of a SOC 2 Type II report. It also provides information on how to access the report, which is pertinent to the inquiry about SOC 2 compliance."
+"To check the success status of the bulk update operation, you should examine the response from the POST request made to the /bulk-update endpoint. The response will include the success status and any error details that might occur during the operation.",87,What should I do to check the success status of the bulk update operation?,RELEVANT,"The generated answer directly addresses the question by describing how to check the success status of a bulk update operation, specifically mentioning the examination of the response from the POST request to the /bulk-update endpoint. It provides useful information on where to find the success status and error details, making it highly relevant."
+"Based on the context provided from our support queue knowledge database, there is no specific information related to the implementation of k-anonymity algorithms using our service. The given context covers various topics such as Service Level Agreements (SLAs), uptime guarantees, custom search algorithms, integrations with Salesforce, data security, sustainability, account recovery, and API usage with Python, but none of these relate directly to k-anonymity or anonymization algorithms.
+
+Therefore, I can't confirm whether k-anonymity algorithms can be implemented with our service based on the available information. If you need help with this specific inquiry, I recommend reaching out to our technical support team or referring to our detailed documentation and developer resources.
+
+For further assistance, please contact our support team at support@example.com.",121,Is it possible to implement k-anonymity algorithms with your service?,PARTLY_RELEVANT,"The generated answer addresses the question by stating that there is no specific information about k-anonymity algorithms in the provided context. However, it acknowledges the inquiry and suggests contacting technical support for further assistance, indicating a partial relevance in terms of guiding the user toward a potential resolution."
+"For a large account, you should expect the data export process to take several hours.",58,How long should I expect the data export process to take for a large account?,RELEVANT,"The generated answer directly addresses the question by providing an estimation of the time required for the data export process for a large account, indicating that it may take several hours. This is relevant information for someone inquiring about the expected duration of this process."
+"Yes, you can visualize your usage across different features. Navigate to 'Settings' > 'Billing' > 'Usage Reports' to access detailed charts and tables that show your usage metrics for various features. Additionally, you can export this data and set up alerts for specific usage thresholds. For more detailed information, you can refer to [this article](https://help.example.com/billing/usage-reports).",51,Is there a way to visualize my usage across different features?,RELEVANT,"The generated answer directly addresses the question regarding visualizing usage across different features by providing a clear method to do so, including specific instructions and additional resources for more information."
+"Yes, there is additional information regarding the Service Level Agreement. You can access it through the following links:
+
+1. [General SLA Information](https://www.example.com/legal/service-level-agreement)
+2. [Enterprise SLA Details](https://www.example.com/enterprise-sla)
+
+Additionally, you can view and download the SLA applicable to your plan by logging into your account and navigating to 'Settings' > 'Legal & Compliance' > 'Service Agreements'. For custom SLAs, please contact your account manager.",44,Is there a link to additional information regarding the Service Level Agreement?,RELEVANT,"The generated answer provides clear links to additional information regarding the Service Level Agreement, which directly addresses the question asked. It not only includes URLs for further details but also mentions how to access the SLA applicable to the user's plan and information on custom SLAs, making it fully relevant."
+"Yes, you can test the federated search configuration before enabling it. To do so, go to 'Settings' > 'Search' > 'Federated Search'. After adding and configuring the external data sources, and setting up necessary API connections, you are able to test your configuration before making it live.",99,Is there a way to test the federated search configuration before enabling it?,RELEVANT,"The generated answer directly addresses the question by confirming that it is possible to test the federated search configuration before enabling it. It also provides a clear method on how to do so, including navigation steps and necessary actions to take, making it fully relevant to the inquiry."
+"To protect data management, our platform incorporates several robust security measures:
+
+1. **Encryption**: We use industry-standard encryption for both data at rest and in transit. Specifically, data at rest is encrypted using AES-256, and data in transit is secured with TLS 1.2+.
+
+2. **Data Backups**: We perform daily backups of all customer data, ensuring these backups are encrypted and stored in geographically distributed locations. Daily backups are retained for 30 days, and we keep monthly backups for 12 months. Regular tests are conducted to verify data integrity and recoverability.
+
+3. **Security Compliance**: Our platform undergoes regular security audits and complies with SOC 2, GDPR, and other industry standards such as ISO 27001 and PCI DSS. We are also HIPAA compliant for healthcare customers.
+
+4. **Bank-Level Encryption**: We implement bank-level encryption for all data to maintain the highest security standards.
+
+5. **Customer-Managed Encryption Keys**: For Enterprise customers, there is an option for customer-managed encryption keys, allowing even greater control over data security.
+
+6. **Data Access Controls**: Row-level security can be implemented via data policies, allowing granular control over data access based on user attributes.
+
+By combining these measures, we ensure the highest level of security for managing and protecting your data on our platform.",57,What security measures are in place to protect data management?,RELEVANT,"The generated answer provides a comprehensive overview of various security measures implemented to protect data management. It discusses specific techniques such as encryption, data backups, security compliance, and access controls, all of which are directly related to the question about security measures in place for data management."
+"There is no information in the provided CONTEXT that directly addresses whether you can customize dashboards programmatically using an API. 
+
+The available context covers various aspects of API functionalities, such as generating API tokens and keys, creating users, using pagination, and setting up webhooks, among other features. However, it does not specify the ability to customize dashboards via API. 
+
+For more detailed information, you may want to refer directly to the API documentation or contact your account representative for specific inquiries about dashboard customization capabilities.",114,Is there a way to customize dashboards programmatically using an API?,PARTLY_RELEVANT,"The generated answer acknowledges the question about programmatic customization of dashboards using an API and discusses the absence of specific information on that topic in the provided context. While it does not directly answer the question, it offers an indication that related information exists elsewhere, thus showing some relevance to the inquiry."
+"Yes, you can find the API key generation option in the 'Settings' section. To generate an API key, navigate to 'Settings' > 'API & Integrations' > 'API Keys'. There, you can click 'Generate New Key', give it a name, and select the appropriate permissions. Remember to copy the key immediately, as it won't be displayed again.",18,Is there a specific section in the settings where I can find the API key generation option?,RELEVANT,"The generated answer directly addresses the question about the location of the API key generation option in the settings. It provides clear instructions on how to navigate to the relevant section and includes detailed steps for generating an API key, which aligns perfectly with the query."
+"To create custom roles with specific permissions for your users, follow these steps:
+
+1. Navigate to 'Settings' > 'User Management' > 'Roles & Permissions'.
+2. Select 'Create Role' to define a new custom role.
+3. Specify the permissions for this custom role based on your requirements.
+4. Once created, you can assign users to this new custom role.
+
+For more details, refer to [this related article](https://help.example.com/account/role-based-access).
+
+If you need to modify individual user permissions directly, go to the 'User Management' section, click on a user, and adjust their permissions as needed.",61,How can I create custom roles with specific permissions for my users?,RELEVANT,"The generated answer provides clear and direct steps for creating custom roles with specific permissions, effectively addressing the question. It includes navigating to the appropriate settings, defining a new role, and specifying permissions, which are all essential components of the task described in the question."
+"Yes, it is possible to set filters while creating a custom report. 
+
+To do so, follow these steps:
+1. Go to 'Reports' > 'Custom Reports' > 'New Report'.
+2. Choose your data sources.
+3. Select the metrics and dimensions you want to include.
+4. Set any desired filters.
+5. You can then save and schedule the report as needed.
+
+This process allows you to tailor your reports to specific data criteria, ensuring that you get the most relevant insights for your needs.",20,"Is it possible to set filters while creating a custom report, and if so, how?",RELEVANT,"The generated answer directly addresses the question by confirming that it is possible to set filters while creating a custom report and provides a clear procedure on how to do so, which is relevant to the inquiry."
+"To troubleshoot slow performance in the application, follow these steps:
+
+1. **Check your internet connection**: Ensure that your internet connection is stable and has sufficient bandwidth.
+2. **Clear your browser cache**: Clear the cache in your web browser to remove any stored files that might be affecting performance.
+3. **Ensure you're using a supported browser version**: Verify that you are using a browser version that is supported by our application. Outdated browsers can lead to performance issues.
+4. **Check our status page for any ongoing issues**: Visit our system status page to see if there are any ongoing issues or maintenance activities that might be affecting performance.
+
+If these steps do not resolve the issue, contact our support team with detailed information about the problem for further assistance.",27,What steps should I take to troubleshoot slow performance in the application?,RELEVANT,"The generated answer provides clear and specific steps for troubleshooting slow performance in the application, directly addressing the question. It covers various aspects such as internet connection, browser settings, and checking for external issues, which are all relevant to potential performance problems."
+"We're committed to ethical AI use, which is guided by principles of fairness, transparency, privacy, and human oversight. Here's a detailed breakdown of our commitment:
+
+1. **Fairness**: We regularly audit our AI systems to identify and mitigate any biases. This ensures that our AI models are equitable and do not unfairly disadvantage any individual or group.
+
+2. **Transparency**: We provide clear and comprehensive information about the AI-driven features we offer. Users are informed about how these features work and the types of data they use.
+
+3. **Privacy**: User privacy is paramount. We ensure that AI processing respects user privacy and complies with applicable regulations. Users have control over their data and can opt-out of AI processing whenever possible.
+
+4. **Human Oversight**: We believe in the importance of human oversight to maintain accountability. Our AI systems are designed to augment human decision-making, not replace it. This helps in maintaining the human element in critical decisions.
+
+For more information, you can refer to our detailed articles on ethical AI use here: [Ethical AI Use](https://www.example.com/ai-ethics).",70,Can you explain your commitment to ethical AI use in detail?,RELEVANT,"The generated answer provides a comprehensive explanation of the commitment to ethical AI use, addressing key principles such as fairness, transparency, privacy, and human oversight. Each point elaborates on how these principles are implemented, directly answering the request for a detailed explanation."
+"The Authentication SDK provides methods for managing user sessions by offering functionalities for login, logout, and session management. This enables you to handle user credentials and token management effectively within your application.",102,What methods does the Authentication SDK provide for managing user sessions?,RELEVANT,"The generated answer directly addresses the question by describing the methods provided by the Authentication SDK for managing user sessions, specifically mentioning functionalities such as login, logout, and session management, which are pertinent to the topic."
+"To access the Audit Logs for user activity tracking, follow these steps:
+
+1. Go to 'Reports'.
+2. Click on 'Audit Logs'.
+
+Here, you will be able to view a detailed log of user actions, including logins, changes to settings, and data access. You can also filter the logs by user, action type, and date range.",24,What steps do I need to follow to access the Audit Logs for user activity tracking?,RELEVANT,"The generated answer directly addresses the question by providing specific steps to access the Audit Logs for user activity tracking. It lists the necessary actions to be taken and describes the functionality of the logs, which aligns well with the inquiry."
+"You can find more information about our SOC 2 compliance and security measures in our SOC 2 Type II report. This report covers our security, availability, and confidentiality controls, and is updated annually. To obtain the report, you will need to sign a non-disclosure agreement (NDA). You can contact your account manager or our security team to request the report and initiate the NDA process. For further details, you can also visit our related article on SOC 2 compliance: [https://www.example.com/security/soc2](https://www.example.com/security/soc2).",88,Where can I find more information about your SOC 2 compliance and security measures?,RELEVANT,"The generated answer directly addresses the question about where to find information on SOC 2 compliance and security measures. It provides specific guidance on obtaining the SOC 2 Type II report, mentions the need for a non-disclosure agreement, and includes a link to a related article for further information."
+A dedicated account manager for Enterprise customers provides personalized support and strategic advice. They also act as the primary point of contact for the customer.,96,What specific services does a dedicated account manager provide to Enterprise customers?,RELEVANT,"The generated answer directly addresses the question by outlining specific services provided by a dedicated account manager, including personalized support, strategic advice, and serving as the primary point of contact for Enterprise customers."
+"To add CAPTCHA to your forms, please follow these steps:
+
+1. Go to **'Settings'**.
+2. Navigate to **'Security'**.
+3. Select **'CAPTCHA Configuration'**.
+4. Enable CAPTCHA and then choose the type of CAPTCHA you want to use (image, audio, or invisible).
+5. Customize the appearance and behavior of the CAPTCHA as needed.
+6. Once enabled, CAPTCHA will be automatically added to designated form submissions.
+
+For more detailed guidance, you can refer to the related article: [CAPTCHA Setup](https://help.example.com/features/captcha-setup).",95,What steps should I follow to add CAPTCHA to my forms?,RELEVANT,"The generated answer provides a clear and structured set of steps for adding CAPTCHA to forms, directly addressing the question asked. Each step is relevant to the process, and the mention of customization options adds completeness to the guidance."
+"To set up email notifications in the application, follow these steps:
+
+1. **Navigate to Settings**: Go to 'Settings' in the application.
+
+2. **Access Notifications**: Click on 'Notifications'.
+
+3. **Select Events**: Choose which events you want to trigger email notifications.
+
+4. **Customize Frequency**: Customize the frequency of these notifications.
+
+5. **Save Changes**: Make sure to click 'Save Changes' after making your selections.
+
+For more detailed instructions, you can reference the related article here: [Notifications](https://help.example.com/features/notifications).",16,What steps should I follow to set up email notifications in the application?,RELEVANT,"The generated answer provides clear and specific steps to set up email notifications in the application, directly addressing the question with a logical sequence of actions to follow."
+"Yes, we offer a 14-day free trial for all our plans. You can sign up for the trial on our website without entering credit card information. If you decide to continue, you can upgrade to a paid plan at any time during or after the trial. For more details, you can visit [this link](https://www.example.com/free-trial).",32,Is there a free trial available for your services?,RELEVANT,"The generated answer directly addresses the question by confirming the availability of a free trial and providing specific details about its duration, sign-up process, and conditions for transitioning to a paid plan. Additionally, it includes a link for more information, making it a comprehensive response."
+"To contact our sales team for an enterprise licensing proposal, please provide details about your organization's size and needs. Our sales team will create a tailored proposal for you. You can reach the sales team directly through our [Enterprise Licensing contact page](https://www.example.com/enterprise-licensing).",78,How do I contact the sales team for an enterprise licensing proposal?,RELEVANT,"The generated answer provides clear instructions on how to contact the sales team for an enterprise licensing proposal, including a suggestion to provide organizational details and a direct link to the contact page, which directly addresses the question."
+"To test a webhook before going live with it, you need to follow these steps:
+
+1. **Navigate to Webhooks Settings:**
+   Go to 'Settings' > 'API & Integrations' > 'Webhooks'.
+
+2. **Add a Webhook:**
+   Click 'Add Webhook', enter the destination URL, select the events you want to trigger the webhook, and save.
+
+3. **Test the Webhook:**
+   Before activating it in your production environment, you can test the webhook to ensure it works as expected. This testing functionality is built into the webhook setup process.
+
+By following these steps, you can verify that your webhook is functioning correctly before going live with it.",47,How can I test a webhook before going live with it?,RELEVANT,"The generated answer provides clear and actionable steps for testing a webhook, directly addressing the question about how to test a webhook before going live. It includes relevant details about navigating to settings, adding a webhook, and testing functionality, making it highly pertinent to the inquiry."
+"We run a bug bounty program to encourage responsible disclosure of security vulnerabilities. Rewards for reported issues vary based on their severity and impact. Detailed information about the program, including its scope and rules, can be found on our security page. This initiative supports our commitment to maintaining a secure platform by collaborating with security researchers.
+
+For more details, you can visit our [security page](https://www.example.com/security/bug-bounty).",92,How do you handle the responsible disclosure of security vulnerabilities?,RELEVANT,"The generated answer directly addresses the question by explaining how the organization handles the responsible disclosure of security vulnerabilities through a bug bounty program. It provides specific details about the program's rewards, severity considerations, and further resources, which are all relevant to the topic of responsible disclosure."
+"To create a custom workflow in your application, follow these steps:
+
+1. **Navigate to Workflows**:
+   - Go to the main menu and select 'Automation' > 'Workflows'.
+
+2. **Create a New Workflow**:
+   - Click on 'Create Workflow'.
+
+3. **Define Workflow Elements**:
+   - **Triggers**: Set up the event that will start the workflow.
+   - **Conditions**: Define any conditions that need to be met for the workflow to proceed.
+   - **Actions**: Specify the actions that will be taken when the conditions are met.
+
+4. **Use the Visual Editor**:
+   - Utilize our visual editor to easily build and arrange your workflow elements.
+
+5. **Integrate with External Systems**:
+   - If needed, you can integrate with external systems via webhooks.
+
+6. **Advanced Configurations**:
+   - You can add branching logic and set up approval processes within your workflow.
+
+7. **Testing**:
+   - Test your workflow thoroughly to ensure everything works as expected.
+
+8. **Activate**:
+   - Once tested, activate it to move into production.
+
+For more detailed guidance, you can refer to the related article: [Custom Workflows Guide](https://help.example.com/features/custom-workflows).
+
+Tags: workflows, automation, business processes",124,What are the steps to create a custom workflow in your application?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide on how to create a custom workflow in an application, directly addressing the question. Each step is specific and relevant to the process of creating a custom workflow, making the answer highly relevant."
+"To receive password reset instructions, you don't need a specific email address. Simply click on the 'Forgot Password' link on the login page and enter your email address. We'll then send you instructions to create a new password.",0,Is there a specific email address I need to use to receive password reset instructions?,RELEVANT,"The generated answer directly addresses the question by stating that a specific email address is not needed to receive password reset instructions. It provides clear guidance on how to proceed with the password reset process, which is relevant to the user's inquiry."
+"Our company does **not** sell customer data to third parties. Data sharing with third parties occurs only when it's necessary to provide our services, such as with cloud hosting providers, or when required by law. All third-party vendors we engage with undergo thorough vetting to ensure they meet our security and compliance standards. Detailed information can be found in our privacy policy and Data Processing Agreement (DPA).",109,What is your company's approach to sharing customer data with third parties?,RELEVANT,"The generated answer directly addresses the question by outlining the company's approach to sharing customer data with third parties. It specifies that customer data is not sold and provides context on necessary data sharing for service provision and compliance with laws, as well as mentioning the vetting process for third parties."
+You can find more information about payment methods by visiting the related article provided in our support queue knowledge database: [Payment Methods](https://help.example.com/billing/payment-methods).,1,Where can I find more information about payment methods?,RELEVANT,The generated answer directly addresses the question by providing a clear source where the user can find more information about payment methods. The mention of a specific article link enhances its relevance.
+"For more information about custom domain setup and related features, you can refer to the article available at [https://help.example.com/features/custom-domains](https://help.example.com/features/custom-domains). This resource provides detailed instructions and additional information on configuring and managing custom domains.",65,Where can I find more information about custom domain setup and related features?,RELEVANT,"The generated answer directly addresses the question by providing a specific resource for information about custom domain setup and related features, along with a brief description of the content available at the provided link."
+"The CONTEXT provided does not contain specific information about the TLS (Transport Layer Security) version for securing data in transit. For detailed information regarding the TLS version, it is recommended to refer to our official security documentation or contact our support team directly.",90,What is your TLS version for securing data in transit?,PARTLY_RELEVANT,"The generated answer acknowledges the lack of specific information about the TLS version in the provided context. While it does not directly answer the question, it guides the user to seek detailed information from official documentation or support, which is somewhat relevant to the inquiry regarding TLS version."
+"To set up SAML authentication in your account, follow these steps:
+
+1. **Eligibility**: Ensure you are on an Enterprise plan, as SAML authentication is available only for Enterprise plans.
+   
+2. **Navigate to Settings**: Go to 'Settings' > 'Security' > 'SAML Configuration'.
+   
+3. **Enter Identity Provider Details**: You will need to enter your Identity Provider (IdP) details. This includes specifics such as Entity ID, Single Sign-On URL, and Single Logout URL.
+
+4. **Upload Metadata**: Upload the metadata file provided by your IdP.
+
+5. **Configure Assertions**: Configure the required assertions (attributes) that will be shared by the IdP. This typically includes attributes like email, first name, last name, etc.
+
+6. **Test and Enable**: Once configured, you should test the SAML setup to ensure everything is working correctly before enabling it for your users.
+
+For additional assistance or if you run into issues, you can contact support.
+
+For more detailed instructions, you can refer to the related article: [SAML Setup](https://help.example.com/account/saml-setup).",52,What steps are necessary to set up SAML authentication in my account?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide on how to set up SAML authentication, directly addressing the question asked. All necessary steps are included, making it fully relevant to the query."
+"To find the database connection settings in the application, go to **'Settings'** > **'Integrations'** > **'Databases'**. From there, you can click **'Add New Connection'** to select your database type and enter the necessary connection details, such as host, port, and credentials. Be sure to test the connection before saving it. Also, ensure that your firewall allows the necessary IP addresses.",37,Where can I find the database connection settings in the application?,RELEVANT,"The generated answer directly addresses the question by providing specific steps on how to find database connection settings in the application, detailing the path through the settings menu and including additional relevant information about adding a new connection."
+"Yes, data localization addresses specific regulatory requirements. Certain regulations mandate that data must be stored within particular geographic regions to comply with local laws and protect sensitive information. For instance, data localization might be a requirement under regional laws such as the GDPR in the European Union or other country-specific privacy laws, which dictate where data must be stored and processed. Our company offers data localization options to meet these regulatory demands, providing dedicated instances in specific geographic regions for Enterprise customers.",101,Are there specific regulatory requirements that data localization addresses?,RELEVANT,"The generated answer directly addresses the question about specific regulatory requirements related to data localization. It mentions that certain regulations mandate the storage of data within specific geographic regions and provides examples such as GDPR and other country-specific privacy laws that necessitate data localization. Additionally, it highlights the implications for businesses, indicating that these regulations impact how companies manage data storage and compliance."
+"To optimize our algorithms for energy efficiency, we employ several strategies:
+
+1. **Renewable Energy Sources**: Our data centers utilize renewable energy sources wherever possible to reduce the environmental impact.
+2. **Efficient Hardware**: We make use of energy-efficient hardware to minimize the power consumption of our infrastructure.
+3. **Algorithm Optimization**: We continuously optimize our algorithms to be more energy efficient, which includes refining computational processes and minimizing unnecessary computations.
+4. **Carbon Offset**: Beyond optimization, we also take measures to offset our carbon footprint and are committed to achieving carbon neutrality by 2025.
+
+For more detailed information, you can refer to our sustainability page here: [example.com/sustainability](https://www.example.com/sustainability).",80,How do you optimize your algorithms for energy efficiency?,PARTLY_RELEVANT,"The generated answer discusses strategies for energy efficiency, including algorithm optimization, but it also focuses on renewable energy sources and hardware efficiency, which are not directly related to optimizing algorithms. While there is relevant information, not all points are directly answering the question about optimizing algorithms specifically."
+You can find more information regarding security questionnaire completion by contacting your account manager or our security team. We also have a related article that might be useful: [Security Questionnaire Information](https://www.example.com/security/questionnaire).,123,Where can I find more information regarding security questionnaire completion?,RELEVANT,"The generated answer directly addresses the question by providing ways to find more information regarding security questionnaire completion. It mentions contacting an account manager or the security team and includes a link to a related article, making it highly relevant."
+"If you need a custom Service Level Agreement (SLA), you should contact your account manager. They can assist you in tailoring an SLA to meet your specific needs.",44,What should I do if we need a custom Service Level Agreement?,RELEVANT,"The generated answer directly addresses the question by providing a specific action to take if a custom Service Level Agreement is needed, which is to contact the account manager for assistance in tailoring the SLA."
+"Yes, there is a specific process to apply for education discounts. You need to contact our sales team with proof of your academic status. They will review your application and provide a custom quote.",82,Is there a specific application process for education discounts for my project?,RELEVANT,"The generated answer directly addresses the question about the application process for education discounts by outlining the steps needed to apply, including contacting the sales team and providing proof of academic status."
+"We guarantee 99.9% uptime for our services. This is backed by our Service Level Agreement (SLA). In the event of any unscheduled downtime, we provide service credits as outlined in our SLA. For more details, please refer to our [SLA](https://www.example.com/sla).",8,What is the uptime guarantee offered by your service?,RELEVANT,"The generated answer directly addresses the question about the uptime guarantee, stating that the service offers a 99.9% uptime guarantee and providing additional context about its backing by a Service Level Agreement (SLA) and the provision of service credits for unscheduled downtime."
+You can access information about contact options for support by visiting the related article: [https://help.example.com/support/contact-options](https://help.example.com/support/contact-options).,42,Where can I access information about contact options for support?,RELEVANT,The generated answer directly addresses the question by providing a specific resource (a URL) where the user can find information about contact options for support.
+"We accept major credit cards (Visa, MasterCard, American Express) and PayPal. For enterprise customers, we also offer invoicing options.",1,What are the accepted payment methods for your service?,RELEVANT,"The generated answer directly addresses the question by listing the accepted payment methods, including major credit cards and PayPal, as well as mentioning invoicing options for enterprise customers."
+"Based on the provided CONTEXT, there is no explicit mention of a Business Associate Agreement (BAA) being included in the Enterprise plan. The outlined features of the Enterprise plan are:
+
+- Unlimited users
+- Priority support
+- Custom integrations
+- Advanced analytics
+- Dedicated account management
+
+For confirmation or further details, it would be advisable to contact your account manager or our sales team.",72,Is a Business Associate Agreement included in the Enterprise plan?,PARTLY_RELEVANT,"The generated answer addresses the question about the Business Associate Agreement (BAA) by indicating that there is no explicit mention of it in the Enterprise plan details provided. However, it also includes additional information about the features of the Enterprise plan and suggests contacting sales, which, while relevant, does not directly answer the core question about the inclusion of the BAA."
+"The default location for data storage is in our US or EU data centers. For Enterprise customers, we also offer the option of dedicated instances in specific geographic regions.
+
+",60,What is the default location for data storage?,PARTLY_RELEVANT,"The generated answer provides information about the default location for data storage, specifying that it is in US or EU data centers. However, it includes additional information about dedicated instances for Enterprise customers, which is not directly related to the basic understanding of default data storage location."
+You'll know when your data export is ready for download because you'll receive an email notification.,7,How will I know when my data export is ready for download?,RELEVANT,"The generated answer directly addresses the question by stating that an email notification will inform the user when their data export is ready for download, thereby providing a clear and relevant piece of information."
+"To define failover policies in the system, you need to follow these steps:
+
+1. **Contact Your Account Manager:** Multi-region failover is available only for Enterprise plans. You first need to contact your account manager to enable this feature.
+
+2. **Access Failover Configuration:**
+   - Once the feature is activated, navigate to the settings in your account. 
+   - Go to **'Settings'** > **'Infrastructure'** > **'Failover Configuration'**.
+
+3. **Set Regions and Policies:**
+   - Within the Failover Configuration section, you can set your primary and secondary regions.
+   - Define your failover policies based on your specific requirements.
+
+For more details, you can refer to the related article: [Link to multi-region failover article](https://help.example.com/enterprise/multi-region-failover).",71,Can you explain how to define failover policies in the system?,RELEVANT,"The generated answer provides a clear and structured explanation of how to define failover policies, detailing specific steps required in the process, including contacting an account manager, accessing the failover configuration, and setting regions and policies. This directly addresses the question asked."
+"Yes, we provide an accessibility statement and VPAT upon request. If you need these documents, please reach out to our support team to obtain them.",105,Is there a way to obtain your accessibility statement and VPAT?,RELEVANT,The generated answer directly addresses the question about obtaining the accessibility statement and VPAT by confirming their availability and providing instructions on how to request them.
+"To set up federated search in the application, follow these steps:
+
+1. Navigate to `Settings` in the application.
+2. Select `Search` from the settings menu.
+3. Click on `Federated Search`.
+4. Add the external data sources that you want to include in your search results.
+5. Configure the search weights for each data source.
+6. Set up any necessary API connections for these external sources.
+7. Test your configuration to ensure everything is working as expected.
+8. Once you are satisfied with the setup, enable the federated search.
+
+For more details, you can refer to the related article: [Federated Search Setup Guide](https://help.example.com/features/federated-search).",99,What steps should I follow to set up federated search in the application?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide on how to set up federated search in an application, directly addressing the question asked."
+"Yes, updates are automatically applied to your account. We typically release minor updates weekly and major feature updates monthly. For more details on our release schedule and upcoming features, you can visit our product updates page.",13,Are updates automatically applied to my account?,RELEVANT,"The generated answer directly addresses the question by confirming that updates are automatically applied to the account. It also provides additional context about the frequency of updates, which adds to the relevance of the response."
+"To ensure that you are effectively monitoring all user actions in your account, you can utilize the Audit Logs feature. Here's how:
+
+1. Navigate to 'Reports' > 'Audit Logs'.
+2. In the Audit Logs section, you will find a detailed log of user actions, such as logins, changes to settings, and data access.
+3. You can filter the logs by user, action type, and date range to narrow down the specific actions you want to monitor.
+
+This will help you keep track of all user activities and maintain security and oversight over your account.
+
+For more detailed information, you can refer to this related article: [Audit Logs](https://help.example.com/features/audit-logs).",24,How can I ensure that I am monitoring all user actions in my account effectively?,RELEVANT,"The generated answer directly addresses the question by providing specific steps to effectively monitor user actions in an account through the Audit Logs feature. It outlines how to access the feature and the types of user actions that can be monitored, which aligns well with the user's need for effective monitoring."
+"Yes, there is a detailed guide available on data export and reporting features. You can find more information and step-by-step instructions on how to export your data [here](https://help.example.com/features/data-export), and on how to create custom reports [here](https://help.example.com/features/custom-reports).",7,Is there a detailed guide available on data export and reporting features?,RELEVANT,"The generated answer directly addresses the question by confirming that a detailed guide is available on data export and reporting features, and it provides specific links for further information, which enhances its relevance."
+"Yes, it is possible to track custom events with our analytics feature. To set up custom event tracking, navigate to 'Analytics' > 'Event Tracking' > 'Create New Event' in your dashboard. From there, you can define the event name, properties, and triggers. Custom events, along with user actions and system events, can be sent from your application using our SDK or API.",100,Is it possible to track custom events with your analytics feature?,RELEVANT,"The generated answer directly addresses the question by confirming that it is possible to track custom events with the analytics feature and provides specific instructions on how to set it up, demonstrating the capability of the analytics feature regarding custom events."
+"Yes, you can use a template for your error pages instead of uploading HTML files. To set up a custom error page, go to 'Settings' > 'Branding' > 'Error Pages'. Here, you have the option to either upload an HTML file or use our template editor to create your custom error pages for different error types (404, 500, etc.). Make sure your custom pages include links back to your main application to help users navigate errors.",89,Is there a way to use a template for error pages instead of uploading HTML files?,RELEVANT,"The generated answer directly addresses the question by confirming the existence of a template option for error pages instead of uploading HTML files. It provides specific guidance on how to access this feature, which is highly relevant to the inquiry."
+"To connect your database, please follow these steps:
+
+1. Go to 'Settings' in your dashboard.
+2. Navigate to 'Integrations'.
+3. Select 'Databases' from the options available.
+4. Click on 'Add New Connection'.
+5. Choose your database type from the list.
+6. Enter the required connection details, including host, port, and credentials.
+7. Test the connection to ensure everything is set up correctly.
+8. Save the connection.
+
+Additionally, please ensure that your firewall settings allow our IP to complete the connection process.
+
+For more detailed information, you may refer to the related article: [Database Connection Guide](https://help.example.com/integrations/database-connection).",37,What steps do I need to follow to connect my database?,RELEVANT,"The generated answer provides a clear, step-by-step guide on how to connect a database, directly addressing the question. It includes specific actions to be taken in a typical database connection process, making it highly relevant to the user's inquiry."
+"When customizing your forms, you can choose from various field types, including text and dropdown fields. 
+
+To add a custom field, navigate to 'Forms' > 'Edit Form' > 'Add Field,' then select the field type you wish to add, set the field properties, and click 'Save.' You can subsequently drag and drop to position the new field within your form.",29,What field types can I choose from when customizing my forms?,RELEVANT,"The generated answer directly addresses the question about available field types when customizing forms by mentioning specific types (text and dropdown fields) and providing additional relevant information about adding and positioning fields, which enhances the overall understanding of the customization process."
+"To submit a new bug through our platform:
+
+1. Go to the **'Support'** section.
+2. Select **'Bug Tracker'**.
+3. You can submit new bugs here by categorizing issues, setting priorities, and attaching relevant files.
+
+This system also allows you to monitor the status of existing bugs, and our support team will communicate updates and resolutions through this platform.
+
+For further details, you can refer to the related article: [Bug Tracker](https://help.example.com/support/bug-tracker).",111,How can I submit a new bug through your platform?,RELEVANT,"The generated answer provides clear and specific instructions on how to submit a new bug through the platform, directly addressing the user's question. It outlines the steps required and mentions additional features available in the 'Bug Tracker' section."
+"To set up feature flags using our system, follow these steps:
+
+1. **Access the Feature Management SDK**: Ensure you have access to our Feature Management SDK. You can find more details and download it from our [developer documentation](https://developers.example.com/feature-flags-sdk).
+
+2. **Create a Flag**:
+   - Navigate to **'Development'** in your dashboard.
+   - Select **'Feature Flags'**.
+   - Click on **'Create Flag'**.
+
+3. **Define the Flag**:
+   - **Flag Name**: Provide a unique name for your feature flag.
+   - **Variations**: Define the different variations for the flag, such as 'on' and 'off' states.
+   - **Targeting Rules**: Set up rules for how the flag should be applied, including user segments or conditions.
+
+4. **Integrate the SDK**:
+   - Incorporate the Feature Management SDK into your codebase.
+   - Use the SDK to check the states of the feature flag within your code and modify the application’s behavior accordingly.
+
+5. **Manage Flags in Real-Time**:
+   - You can update and manage feature flags in real-time from the dashboard, allowing you to turn features on or off and modify targeting rules without deploying new code.
+
+For more detailed guidance, you can refer to our [developer documentation](https://developers.example.com/feature-flags-sdk).",120,What steps should I follow to set up feature flags using your system?,RELEVANT,"The generated answer provides a comprehensive step-by-step guide for setting up feature flags using the specified system, directly addressing the question and offering clear instructions on each stage of the process."
+"Yes, there are upcoming features you should be aware of. You can view our public roadmap, which is updated quarterly and includes both near-term and long-term plans, at [example.com/roadmap](https://www.example.com/roadmap). If you are an Enterprise customer, we also offer private roadmap sessions with our product team for more in-depth discussions on upcoming features and improvements.",84,Are there any upcoming features in the product roadmap that I should be aware of?,RELEVANT,"The generated answer directly addresses the question about upcoming features in the product roadmap by confirming their existence and providing details on how to access the public roadmap, as well as offering additional information for Enterprise customers. This makes the answer highly relevant to the inquiry."
+"To discuss on-premise deployment options, you should contact our sales team. They can provide detailed information about custom implementation processes, pricing, and feature availability for on-premise deployments for Enterprise customers.",66,Who should I contact to discuss on-premise deployment options?,RELEVANT,"The generated answer directly addresses the question by specifying that the sales team should be contacted for discussing on-premise deployment options. It also provides additional context about what information can be obtained from them, making it fully relevant to the inquiry."
+"Yes, there are financial penalties for breaches of the Enterprise SLA. Our Enterprise SLA guarantees 99.99% uptime and includes financial penalties for any breaches. For specific details about these penalties, you should contact your account manager.",86,Are there any financial penalties for breaches of the Enterprise SLA?,RELEVANT,"The generated answer directly addresses the question about financial penalties for breaches of the Enterprise SLA by confirming their existence and providing information about the related uptime guarantee, which is pertinent to the question."
+"For assistance with your billing dispute, please contact our billing support team at billing@example.com. Make sure to include your account details and the specific charge in question.",6,Who should I contact for assistance with my billing dispute?,RELEVANT,"The generated answer directly addresses the question by providing the appropriate contact information for billing dispute assistance, making it clear and actionable."
+"Yes, you can get code examples for our API in Python. We provide a Python SDK that simplifies interactions with our API. You can find installation instructions, code examples, and full documentation in our Developer Center. Make sure to use Python 3.6 or later for compatibility.
+
+For more details and examples, please visit: [Python SDK Documentation](https://developers.example.com/python-sdk).",34,Can I get code examples for your API in Python?,RELEVANT,"The generated answer directly addresses the question by confirming the availability of code examples for the API in Python and provides additional context about the Python SDK, including a link to the documentation, which is helpful for the user."
+"To obtain an invoice for your subscription, please follow these steps:
+
+1. Go to 'Settings' in your account.
+2. Navigate to 'Billing'.
+3. Select 'Invoices'.
+
+Here, you'll find a list of all your invoices, which you can view or download as PDFs. 
+
+For more details, you can refer to this related article: [Invoices Help Article](https://help.example.com/billing/invoices).",19,How can I obtain an invoice for my subscription?,RELEVANT,"The generated answer provides a clear and concise set of steps for obtaining an invoice related to a subscription, directly addressing the question. It includes specific actions to take, which is precisely what the user is asking for."
+"Our platform holds several industry-standard certifications, including SOC 2 Type II, ISO 27001, and PCI DSS. Additionally, we are HIPAA compliant for customers in the healthcare industry. You can find detailed information about our certifications and compliance on our security page.",57,What industry-standard certifications does your platform hold?,RELEVANT,"The generated answer directly addresses the question by listing specific industry-standard certifications held by the platform, such as SOC 2 Type II, ISO 27001, and PCI DSS, and also mentions HIPAA compliance. This information is pertinent to the inquiry about the platform's certifications."
+"We perform daily backups of all customer data, which are encrypted and stored in geographically distributed locations. Daily backups are retained for 30 days, and monthly backups are retained for 12 months. We also regularly test these backups to ensure data integrity and recoverability. For more details, you can refer to our [data backup policy](https://www.example.com/security/data-backup).",40,Can you explain your policy regarding data backups for customer information?,RELEVANT,"The generated answer directly addresses the question by providing a detailed explanation of the data backup policy for customer information, including frequency, storage methods, retention periods, and testing for integrity. This information is highly relevant to the inquiry about the policy on data backups."
+"Our company is committed to sustainable computing practices. We ensure that our data centers use renewable energy sources wherever possible. Additionally, we optimize our algorithms for energy efficiency and employ efficient hardware to minimize energy consumption. We also offset our carbon footprint and are actively working towards achieving carbon neutrality by 2025.
+
+For more details, you can visit our [sustainability page](https://www.example.com/sustainability).",80,Can you explain your company's commitment to sustainable computing practices?,RELEVANT,"The generated answer directly addresses the question by outlining the company's commitment to sustainable computing practices, including the use of renewable energy, optimization of algorithms for energy efficiency, and efforts towards carbon neutrality. It provides specific examples that support the commitment, making it highly relevant to the question."
+"Yes, we support payments in five currencies: USD, EUR, GBP, CAD, and AUD. Your account will be billed in the currency you select during signup. To change your billing currency, please contact our support team. Note that changing currency may affect your pricing.",46,Is there a limit to the currencies supported for billing?,RELEVANT,"The generated answer directly addresses the question about the limits to currencies supported for billing by specifying that five currencies are supported. It also provides additional relevant details about billing selection and currency changes, enhancing the answer's overall relevance."
+"Yes, you need to test the database connection before saving it.",37,Do I need to test the database connection before saving it?,RELEVANT,"The generated answer directly addresses the question by confirming that it is necessary to test the database connection before saving, thus providing clear and accurate information relevant to the query."
+"No, you cannot recover your username using a different email address. You need to enter the email address associated with your account to recover your username. To do so, click 'Forgot Username' on the login page, and your username will be sent to the associated email address. For more details, you can visit this [related article](https://help.example.com/account/forgot-username).",14,Can I recover my username using a different email address?,RELEVANT,"The generated answer directly addresses the question about recovering a username using a different email address. It clearly states that it is not possible to do so and explains the correct procedure for recovering the username, which involves using the associated email address."
+"To enable IP restrictions for your account, follow these steps:
+
+1. Go to 'Settings'.
+2. Click on 'Security'.
+3. Select 'IP Restrictions'.
+4. Click 'Enable IP Restrictions'.
+5. Add the IP addresses or ranges you want to allow. Make sure to include your current IP address to avoid getting locked out.
+6. Save changes when you're done.
+
+For additional details, you can refer to this article: [IP Restrictions Support Article](https://help.example.com/account/ip-restrictions).",50,What steps should I follow to enable IP restrictions for my account?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide to enabling IP restrictions, directly addressing the question asked. Each step is relevant and necessary for accomplishing the task mentioned in the question."
+"Azure AD SSO setup falls under the **category** ""Technical"" and the **subcategory** ""Authentication"" in the support documentation.",67,What category and subcategory does Azure AD SSO setup fall under in the support documentation?,RELEVANT,"The generated answer accurately identifies both the category 'Technical' and the subcategory 'Authentication' for Azure AD SSO setup in the support documentation, directly addressing the question posed."
+"Our APIs offer robust functionalities for integrating with various facets of our service. Here are the detailed capabilities:
+
+1. **RESTful APIs**:
+    - **Data Retrieval**: Fetch information from your account, including user data, product details, and other resources.
+    - **User Management**: Manage user accounts, permissions, and roles programmatically.
+    - **Reporting**: Generate and retrieve various reports, including usage data and audit logs.
+
+    Full documentation, including endpoints and example requests, can be found in our [API documentation](https://developers.example.com/api).
+
+2. **GraphQL API**:
+    - To leverage our GraphQL API, you should send POST requests to the /graphql endpoint with your query in the request body.
+    - **Authentication**: You'll need to include an API key in the Authorization header.
+    - **Introspection**: Use introspection to explore available types and fields within the schema.
+    - **Client Libraries**: We provide client libraries for popular programming languages to simplify integration.
+
+    Detailed instructions and examples for using our GraphQL API can be found [here](https://developers.example.com/api/graphql).
+
+In summary, our APIs are designed to facilitate extensive integrations and provide flexible options for data interactions, user management, and reporting, ensuring seamless connectivity and operational efficiency for your business.",12,Can you explain the capabilities of your APIs in detail?,RELEVANT,"The generated answer thoroughly explains the capabilities of the APIs, detailing specific functionalities such as RESTful and GraphQL APIs, data retrieval, user management, reporting, and authentication. It directly addresses the question by providing comprehensive information about how the APIs can be used, along with references to the documentation for further details."
+"After uploading your data for bulk import, here are the next steps you should follow according to our B2B SaaS company's support guidelines:
+
+1. **Review the Preview**: Once the data is uploaded, review the preview to ensure the data appears correct.
+
+2. **Map Fields if Necessary**: Check if the fields are mapped correctly. Sometimes, you may need to adjust the mappings to align with your data structure.
+
+3. **Confirm**: After reviewing and mapping, confirm the upload to finalize the import process.
+
+4. **Wait for Completion**: Large imports run in the background, so you may need to wait a bit for the process to complete. 
+
+If you experience any issues or have further questions, you can refer to our [bulk import feature guide](https://help.example.com/features/bulk-import) for more detailed instructions.",69,What should I do after uploading my data for bulk import?,RELEVANT,"The generated answer directly addresses the question by providing clear and sequential steps to follow after uploading data for bulk import. It covers essential actions such as reviewing, mapping fields, confirming the upload, and waiting for completion, all of which are pertinent to the user's query."
+"To implement WebSocket connections using our SDK, follow these steps:
+
+1. **Initialize the WebSocket Client:**
+   - Use our Real-Time Communication SDK.
+   - Initialize the WebSocket client with your API key.
+
+2. **Subscribe to Channels or Topics:**
+   - Subscribe to the relevant channels or topics you need to listen to for real-time data.
+
+3. **Handle Incoming Messages:**
+   - Implement logic to handle incoming messages. This can involve updating your application UI or processing data as required.
+
+4. **Send Updates:**
+   - Implement functionality to send updates through the WebSocket connection as needed.
+
+This setup allows you to implement functionalities such as real-time notifications, live updates, or chat functionality. For more information and detailed code examples, you can refer to our [developer documentation](https://developers.example.com/websocket-sdk).",122,What steps should I follow to implement WebSocket connections using your SDK?,RELEVANT,"The generated answer directly addresses the question by providing clear and detailed steps to implement WebSocket connections using the SDK. It includes initialization, subscription, message handling, and sending updates, which are all essential components for implementing WebSocket functionality. Additionally, it references developer documentation for further assistance, enhancing its relevance."
+"To apply for a non-profit discount on our services, please contact our sales team at [sales@example.com](mailto:sales@example.com) with your organization's details and proof of non-profit status. We will review your application and get back to you with discount options.",15,How can I apply for a non-profit discount on your services?,RELEVANT,"The generated answer directly addresses the question by providing clear instructions on how to apply for a non-profit discount, including the necessary contact information and the requirement to provide proof of non-profit status."
+"Yes, there are resources available to help you understand how to implement webhooks in your custom integration. You can refer to the following related article for detailed instructions on setting up webhooks: [https://developers.example.com/webhooks](https://developers.example.com/webhooks).
+
+To set up webhooks, follow these steps:
+1. Go to 'Settings' > 'API & Integrations' > 'Webhooks'.
+2. Click 'Add Webhook'.
+3. Enter the destination URL.
+4. Select the events you want to trigger the webhook.
+5. Save the configuration.
+
+You also have the option to test the webhook before activating it in your production environment.
+
+For additional information, you can review the articles listed in the 'API & Integrations' section of the developer documentation.",54,Are there any resources available for understanding how to implement webhooks in my custom integration?,RELEVANT,"The generated answer directly addresses the question by confirming the availability of resources for understanding webhooks and providing specific instructions for implementation. Additionally, it includes a link to a relevant article and details the steps needed to set up webhooks, which aligns perfectly with the user's inquiry about implementing them in a custom integration."
+"When a user logs out of your app with single logout enabled, we'll send a logout request to the specified logout URL for your identity provider to end all associated sessions.",91,What happens when a user logs out of my app with single logout enabled?,RELEVANT,"The generated answer directly addresses the question by explaining what occurs when a user logs out of the app with single logout enabled, specifically mentioning the sending of a logout request to the identity provider, which is a key aspect of the single logout process."
+"Yes, it is possible to modify existing user roles in the role-based access control setup. You can go to 'Settings' > 'User Management' > 'Roles' to make changes to the roles. Modifications will affect all users assigned to those roles.",61,Is it possible to modify existing user roles in the role-based access control setup?,RELEVANT,The generated answer directly addresses the question by confirming that it is possible to modify existing user roles in a role-based access control setup and provides specific instructions on how to do so.
+You can find the release notes for updates on our [product updates page](https://www.example.com/product-updates).,13,Where can I find the release notes for updates?,RELEVANT,"The generated answer directly responds to the question by providing specific information about where to find the release notes for updates, including a link to the relevant page."
+"To access the query builder for creating reports, follow these steps:
+
+1. Go to the 'Reports' section.
+2. Navigate to 'Custom Reports'.
+3. Select 'Query Builder'.
+
+In the 'Query Builder', you can choose to use either the visual query builder or write raw SQL-like queries to create complex reports. This tool allows you to join multiple data sources and apply various transformations as needed.
+
+For further details, you can visit the related article: [Advanced Query Builder](https://help.example.com/features/advanced-query-builder).",73,What steps do I follow to access the query builder for creating reports?,RELEVANT,"The generated answer directly addresses the question by providing a clear, step-by-step guide on how to access the query builder for creating reports. It includes specific sections and actions which are essential for the user to follow, and also mentions additional options available within the query builder, aligning perfectly with the user's inquiry."
+"To help you implement serverless functions, you can refer to our Serverless SDK documentation. Here is the link to get you started: [Serverless SDK Documentation](https://developers.example.com/serverless-sdk).",112,Can you provide a link to the documentation for implementing serverless functions?,RELEVANT,"The generated answer directly addresses the request for documentation on implementing serverless functions by providing a specific link to the Serverless SDK documentation, which is pertinent to the inquiry."
+"Yes, white-labeling includes custom colors and logos for your interface. It is available for Enterprise customers, allowing you to customize the interface with your logo and colors. To explore this option further, please contact your account manager or our sales team for details and pricing.",23,Does white-labeling include custom colors and logos for my interface?,RELEVANT,"The generated answer directly addresses the question by confirming that white-labeling includes custom colors and logos. It also provides additional context about its availability for Enterprise customers, which adds value to the response without deviating from the main question."
+"If you encounter issues while trying to reset your password, the following resources are available:
+
+1. **Password Reset Process**: 
+   - Click on the 'Forgot Password' link on the login page.
+   - Enter your email address to receive instructions for creating a new password.
+
+2. **Help Article**: 
+   - Visit the related help article for detailed instructions: [Reset Password](https://help.example.com/account/reset-password).
+
+These resources should guide you through the process of resetting your password successfully.",0,What resources are available if I encounter issues while trying to reset my password?,RELEVANT,"The generated answer directly addresses the question by providing specific resources and steps for resetting a password. It includes details about the password reset process and a link to a help article, which are both relevant and useful for someone encountering issues with password reset."
+"Yes, there is a specific format for the exported data when you request a full export. The complete export of your data is typically provided in a standard format such as CSV or JSON.",58,Is there a specific format for the exported data when I request a full export?,RELEVANT,The generated answer directly addresses the question by confirming that there is a specific format for exported data and specifying examples of common formats (CSV or JSON).
+"You can export your data in standard, machine-readable formats such as CSV or JSON.",94,In what formats can I export my data for portability?,RELEVANT,"The generated answer directly addresses the question by mentioning specific formats (CSV and JSON) in which data can be exported, making it clear and relevant to the topic of data portability."
+"Academic discounts are available for academic institutions and educational projects. To qualify, organizations must provide proof of their academic status. Eligible organizations can receive up to 50% off the standard pricing. For more information and to apply, contact the sales team with your academic credentials.",82,What types of organizations qualify for your academic discounts?,RELEVANT,"The generated answer directly addresses the question by stating that academic institutions and educational projects qualify for academic discounts. It also provides additional details about the eligibility requirements and how to apply, which are pertinent to the inquiry."
+"To find the option to generate API tokens, go to 'Settings' > 'API & Integrations' > 'API Tokens'.",41,Where can I find the option to generate API tokens in the settings?,RELEVANT,"The generated answer directly addresses the question by specifying the steps to find the option for generating API tokens, clearly outlining the path within the settings."
+"The new user will receive their invitation to join via email. Once you invite them through the 'User Management' section by entering their email address and selecting their role, the system sends an email invitation to the new user with instructions to join your account.",3,How will the new user receive their invitation to join?,RELEVANT,The generated answer directly addresses the question by stating that the new user will receive their invitation via email and provides additional context about the process of inviting them through the 'User Management' section.
+"To test your alert before saving it in the system, follow these steps outlined in the 'Alert Configuration' section:
+
+1. Navigate to 'Monitoring' > 'Alerts' > 'Create Alert'.
+2. Choose the metric you want to monitor.
+3. Set the necessary thresholds.
+4. Define the alert message.
+5. Select the desired notification method (email, SMS, or integration with tools like PagerDuty).
+6. Before saving, ensure you test the alert functionality.
+
+Testing the alert may involve triggering the alert conditions to confirm that notifications are sent as expected. Unfortunately, the context does not provide specific details on how to perform the test, so you may need to simulate the threshold conditions manually or refer to additional documentation provided in the related articles: [Custom Alerts Documentation](https://help.example.com/features/custom-alerts).",81,How do I test my alert before saving it in the system?,RELEVANT,"The generated answer provides a clear set of steps to follow in order to test an alert before saving it in the system, directly addressing the question. It outlines the necessary actions and mentions the importance of testing the alert functionality, which is central to the user's inquiry."
+"Yes, users have the option to opt-out of AI processing where possible. We are committed to ethical AI use, and as part of our policy, we provide clear information on AI-driven features and allow opt-outs to ensure fairness, transparency, privacy, and human oversight.",70,Are there options for users to opt-out of AI processing?,RELEVANT,"The generated answer directly addresses the question by confirming that users have the option to opt-out of AI processing. It also provides context about the commitment to ethical AI use and the principles behind allowing opt-outs, which enhances the relevance of the response."
+"To contact your account manager regarding white-labeling options, please reach out to your dedicated account manager if you have one. If you do not have a dedicated account manager or are unsure who to contact, you can get in touch with our sales team for more information and assistance.",23,How can I contact my account manager regarding white-labeling?,RELEVANT,The generated answer directly addresses the question about how to contact the account manager regarding white-labeling by providing steps to reach out to a dedicated account manager or an alternative contact (the sales team) if one does not exist. This aligns well with the user's inquiry.
+"Yes, for Enterprise customers, specific regions are available regarding data storage. We offer dedicated instances in specific regions to meet geographic and regulatory requirements. By default, data is stored in our US or EU data centers, but for Enterprise customers, we can provision data residency and localization options for other specific regions. Please contact sales for more information on customizing data storage locations.",60,Are there specific regions available for Enterprise customers regarding data storage?,RELEVANT,"The generated answer directly addresses the question about the availability of specific regions for Enterprise customers regarding data storage. It provides clear information about dedicated instances, geographic and regulatory requirements, and options for data residency, aligning well with the inquiry."
+"For more information about non-profit discounts, please contact our sales team at sales@example.com with your organization's details and proof of non-profit status. They will review your application and provide you with discount options.",15,Who should I contact for more information about non-profit discounts?,RELEVANT,"The generated answer directly addresses the question by providing a specific contact point (the sales team) for obtaining more information about non-profit discounts, including necessary steps and details to be provided."
+"To set up event tracking in the application, follow these steps:
+
+1. Navigate to 'Analytics'.
+2. Go to 'Event Tracking'.
+3. Click on 'Create New Event'.
+4. Define the event name, properties, and triggers. You can track user actions, system events, or custom events.
+5. Use our SDK or API to send events from your application.
+6. View tracked events in the analytics dashboard.
+
+For more details, you can refer to the related article: [Event Tracking](https://help.example.com/features/event-tracking).",100,What steps do I take to set up event tracking in the application?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide on how to set up event tracking in the application, directly addressing the question asked."
+"During the 2FA setup, you can choose between SMS or an authenticator app for the second factor.",11,Which methods can I choose from for the second factor during the 2FA setup?,RELEVANT,The generated answer directly addresses the question by providing specific methods (SMS and an authenticator app) that can be chosen for the second factor during the 2FA setup.
+"We are fully GDPR compliant. We have implemented several measures to ensure compliance, including:
+
+1. **Data Encryption**: We use robust encryption methods to protect your data both at rest and in transit.
+2. **User Consent Management**: We have mechanisms in place to manage user consent for data processing activities.
+3. **Data Portability**: You can export your data at any time in standard, machine-readable formats.
+
+Additionally, our Data Processing Agreement (DPA) outlines our commitments to GDPR compliance. For more specific queries, you can contact our Data Protection Officer.
+
+For further details, you can refer to our GDPR compliance page: [GDPR Compliance](https://www.example.com/gdpr-compliance).",36,Can you provide details on your GDPR compliance measures?,RELEVANT,"The generated answer directly addresses the question about GDPR compliance measures by providing specific examples of implemented measures, such as data encryption, user consent management, and data portability. It also mentions the Data Processing Agreement and offers a link for further details, making it comprehensive and informative."
+"Educational institutions can receive a discount of up to 50% off the standard pricing. To apply for this discount, they need to contact our sales team with proof of their academic status for review and a custom quote.",82,How much of a discount can educational institutions receive?,RELEVANT,"The generated answer directly addresses the question by specifying the discount amount educational institutions can receive, which is up to 50%. It also provides additional context about the application process, enhancing the relevance to the question."
+"If you experience unscheduled downtime, our service guarantees should provide you with compensation in the form of service credits. According to our Service Level Agreement (SLA), we guarantee 99.9% uptime for our services. In the event of any unscheduled downtime, you are eligible for service credits as outlined in our SLA. 
+
+For more details, please refer to our [SLA documentation](https://www.example.com/sla). If you need immediate assistance or wish to claim service credits, please contact our support team.
+
+Tags: uptime, SLA, reliability",8,What should I do if I experience unscheduled downtime?,RELEVANT,"The generated answer directly addresses the question about unscheduled downtime by providing information on compensation through service credits, the guarantee of uptime, and a reference to the Service Level Agreement (SLA). It offers actionable guidance on how to claim service credits and contact support, which is pertinent to the situation described in the question."
+"To use the Search Customization API for implementing custom search algorithms, please follow these steps:
+
+1. **Navigate to the Custom Algorithms Section**:
+   - Go to the 'Search' menu.
+   - Click on 'Custom Algorithms'.
+
+2. **Create a New Algorithm**:
+   - Click on 'Create Algorithm'.
+
+3. **Define Ranking Factors**:
+   - Specify the factors that will influence the search ranking.
+
+4. **Set Boosting Rules**:
+   - Add any rules that will boost the ranking of certain search results.
+
+5. **Integrate Machine Learning Models**:
+   - Define any machine learning models you wish to include in your search algorithm.
+
+6. **Testing and Fine-Tuning**:
+   - Test your custom algorithm against sample queries.
+   - Fine-tune the algorithm based on the relevance metrics obtained from the tests.
+
+For more detailed information, you can refer to the related article: [Search Customization API](https://developers.example.com/search-customization-api). 
+
+Remember, the success of your custom algorithm depends on continuous testing and tweaking based on actual search behavior and relevance metrics.",118,What steps should I follow to use the Search Customization API for custom search algorithms?,RELEVANT,"The generated answer provides a clear and detailed step-by-step guide on how to use the Search Customization API for implementing custom search algorithms, directly addressing the question asked."
