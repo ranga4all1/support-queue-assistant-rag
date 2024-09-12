@@ -48,6 +48,17 @@ Here’s the structure of the dataset:
 | `tags`              | Keywords to aid in search and retrieval of similar queries.                             |
 
 
+You can find data in [`data/data-clean.csv`](data/data-clean.csv).
+
+## Technologies
+
+- Python 3.12
+- Minsearch for in memory full-text search
+- Docker and Docker Compose for containerization
+- Flask as the API interface
+- Grafana for monitoring and PostgreSQL as the backend for it
+- OpenAI as an LLM
+
 ## Running the application
 
 
@@ -62,6 +73,28 @@ Here’s the structure of the dataset:
 
 
 ## Experiments
+
+For experiments, we use Jupyter notebooks. They are in the [`notebooks`](notebooks) folder.
+
+To start Jupyter, run:
+
+```
+cd notebooks
+pipenv run jupyter notebook
+```
+
+Alternatively you can use Jupyter notebooks via `jupyter-lab`:
+
+```
+pipenv run jupyter-lab
+```
+
+We have the following notebooks:
+
+- [data-cleaning.ipynb](notebooks/data-cleaning.ipynb): Checking data and cleaning if needed.
+- [evaluation-data-generation.ipynb](notebooks/evaluation-data-generation.ipynb): Generating the ground truth dataset for retrieval evaluation.
+- [rag-test.ipynb](notebooks/rag-test.ipynb): The RAG flow and evaluating the system.
+
 
 ### Retrieval evaluation
 
