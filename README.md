@@ -59,17 +59,36 @@ You can find data in [`data/data-clean.csv`](data/data-clean.csv).
 - Grafana for monitoring and PostgreSQL as the backend for it
 - OpenAI as an LLM
 
-## Running the application
+## prerequisites
 
+1. Since we use OpenAI, you need to provide the API key.
+    - For OpenAI, it's recommended to create a new project and use a separate key.
+    - Go to `https://platform.openai.com/`
+    - Create project: `support-queue-assistant-rag`
+    - Within that project, create `project API Key`
 
+2. GitHub:
+    - Create repo:`support-queue-assistant-rag`
+    - Start codespace and connect to it from your IDE e. g. VS Code
 
-## Using the application
+3. Codespace:
 
+    - Install `direnv`. If you use Ubuntu, run `sudo apt install direnv` and then `direnv hook bash >> ~/.bashrc`.
 
+        Alternatively, follow instructions from `https://direnv.net/docs/installation.html`
+    - Copy `.envrc_template` into `.envrc` and insert your key there.
+    - Run `direnv allow` to load the key into your environment.
 
-## Code
+For dependency management, we use pipenv, so you need to install it:
+```
+pip install pipenv
+```
 
-
+Once installed, you can install the app dependencies:
+```
+    pipenv install openai scikit-learn pandas flask
+    pipenv install --dev tqdm notebook==7.1.2 ipywidgets
+```
 
 
 ## Experiments
@@ -91,9 +110,9 @@ pipenv run jupyter-lab
 
 We have the following notebooks:
 
-- [data-cleaning.ipynb](notebooks/data-cleaning.ipynb): Checking data and cleaning if needed.
-- [evaluation-data-generation.ipynb](notebooks/evaluation-data-generation.ipynb): Generating the ground truth dataset for retrieval evaluation.
-- [rag-test.ipynb](notebooks/rag-test.ipynb): The RAG flow and evaluating the system.
+- [`data-cleaning.ipynb`](notebooks/data-cleaning.ipynb): Checking data and cleaning if needed.
+- [`evaluation-data-generation.ipynb`](notebooks/evaluation-data-generation.ipynb): Generating the ground truth dataset for retrieval evaluation.
+- [`rag-test.ipynb`](notebooks/rag-test.ipynb): The RAG flow and evaluating the system.
 
 
 ### Retrieval evaluation
@@ -141,6 +160,66 @@ We also tested `gpt-4o`:
 The difference is minimal, so we opted for `gpt-4o-mini`.
 
 
+## Running the application
+
+1. Run Flask app
+```
+cd support-queue-assistant-flask
+pipenv run python app.py
+```
+
+## Using the application
+
+When the application is running, we can start using it.
+
+### Using `requests`
+
+When the application is running, you can use requests to send questions — use `test.py` for testing it:
+
+```
+pipenv run python test.py
+```
+It will pick a random question from the ground truth dataset and send it to the app.
+
+You will see something like the following in the response:
+
+```
+question:  How does your company ensure transparent communication during a security incident?
+
+{'answer': 'Our company ensures transparent communication during a security incident by committing to keep customers informed throughout our incident response process, which includes the following steps: detection and alerting, assessment and triage, containment and mitigation, customer communication, resolution and recovery, and a post-incident review. You can find more details on our incident response in the related articles.',
+'conversation_id': 'dd68ba3e-230b-4dd2-b6fa-92e639acebe0',
+'question': 'How does your company ensure transparent communication during a security incident?'}
+```
+
+## Code
+
+The code for the application is in the [`support-queue-assistant-flask`](support-queue-assistant-flask) folder:
+
+- [`app.py`](support-queue-assistant-flask/app.py) - the Flask API, the main entrypoint to the application
+- [`rag.py`](support-queue-assistant-flask/rag.py) - the main RAG logic for building the retrieving the data and building the prompt
+- [`ingest.py`](support-queue-assistant-flask/ingest.py) - loading the data into the knowledge base
+- [`minsearch.py`](support-queue-assistant-flask/minsearch.py) - an in-memory search engine
+- [`db.py`](support-queue-assistant-flask/db.py) - the logic for logging the requests and responses to postgres
+- [`db_prep.py`](support-queue-assistant-flask/db_prep.py) - the script for initializing the database
+
+
+We also have some code in the project root directory:
+
+- [`test.py`](test.py) - select a random question for testing
+
+### Interface
+
+We use Flask for serving the application as an API.
+
+### Data Ingestion
+
+The ingestion script is in [`ingest.py`](support-queue-assistant-flask/ingest.py).
+
+Since we use an in-memory database, `minsearch`, as our knowledge base, we run the ingestion script at the startup of the application.
+
+It's executed inside [`rag.py`](support-queue-assistant-flask/rag.py) when we import it.
+
+
 ## Monitoring
 
 
@@ -150,9 +229,6 @@ The difference is minimal, so we opted for `gpt-4o-mini`.
 ## Conclusion
 
 The **Support Queue Assistant** streamlines the customer support process for B2B SaaS companies by automating responses to frequent inquiries, improving response time, and ensuring consistency. The RAG-based approach ensures users get the most relevant and accurate information based on their needs, while freeing up valuable resources for more complex tasks.
-
-
-## Background
 
 
 ## Acknowledgements
