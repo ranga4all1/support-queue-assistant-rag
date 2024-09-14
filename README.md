@@ -2,7 +2,9 @@
 
 This is your friendly customer-support-queue assistant which is a RAG application built with LLM.
 
-<img src="images/banner.jpg"  width="700" height="400">
+<p align="center">
+    <img src="images/banner.jpg"  width="700" height="400">
+</p>
 
 <!-- ![Support Queue Assistant](images/banner.jpg) -->
 
@@ -215,7 +217,11 @@ pipenv run streamlit run streamlit-app.py
 ```
 Open this link in your browser to use the app: `http://localhost:8501`
 
-![streamlit](images/streamlit.png)
+<p align="center">
+    <img src="images/streamlit.png"  width="700" height="400">
+</p>
+
+<!-- ![streamlit](images/streamlit.png) -->
 
 
 ## Containerization
@@ -240,7 +246,7 @@ docker-compose run streamlit python db_prep.py
 
 4. To connect `Grafana` to `PostgreSQL` database:
 
-Log in to `Grafana` (default credentials are admin/your_grafana_password).
+Log in to `Grafana` (default credentials are `admin`/`your_grafana_password`).
 Add a new PostgreSQL data source with the following details:
 
 - Host: postgres
@@ -249,6 +255,20 @@ Add a new PostgreSQL data source with the following details:
 - Password: your_password
 
 5. Create dashboards in Grafana to visualize data from the PostgreSQL database.
+
+- Create a new Dashboard with name: `Support Queue Assistant`
+- Add visualizations for below metrics using SQL code from [`grafana/grafana.md`](grafana/grafana.md)
+
+    - Last 5 Conversations (Table)
+    - +1/-1 (Pie Chart)
+    - Relevancy (Gauge)
+    - OpenAI Cost (Time Series)
+    - Tokens (Time Series)
+    - Model Used (Bar Chart)
+    - Response Time (Time Series)
+
+- Save dashboard by clicking on `save` icon.
+- Go to `Dashboard Settings`-> `JSON MOdel` and download/save contents to `dashboard.json` file. This can be used to import model as needed later or to include in docker Containerization.
 
 
 ## Code
@@ -291,8 +311,27 @@ It's executed inside [`rag.py`](support-queue-assistant/rag.py) when we import i
 
 ## Monitoring
 
+We used Grafana for monitoring the application.
+After running `docker-compose up` It's accessible at [localhost:3000](http://localhost:3000):
 
 ### Dashboards
+
+<!-- <p align="center">
+    <img src="images/grafana.png"  width="700" height="400">
+</p> -->
+
+![grafana-dashboard](images/grafana.png)
+
+The monitoring dashboard contains several panels:
+
+- **Last 5 Conversations (Table)**: Displays a table showing the five most recent conversations, including details such as the question, answer, relevance, and timestamp. This panel helps monitor recent interactions with users.
+- **+1/-1 (Pie Chart)**: A pie chart that visualizes the feedback from users, showing the count of positive (thumbs up) and negative (thumbs down) feedback received. This panel helps track user satisfaction.
+- **Relevancy (Gauge)**: A gauge chart representing the relevance of the responses provided during conversations. The chart categorizes relevance and indicates thresholds using different colors to highlight varying levels of response quality.
+- **OpenAI Cost (Time Series)**: A time series line chart depicting the cost associated with OpenAI usage over time. This panel helps monitor and analyze the expenditure linked to the AI model's usage.
+- **Tokens (Time Series)**: Another time series chart that tracks the number of tokens used in conversations over time. This helps to understand the usage patterns and the volume of data processed.
+- **Model Used (Bar Chart)**: A bar chart displaying the count of conversations based on the different models used. This panel provides insights into which AI models are most frequently used.
+- **Response Time (Time Series)**: A time series chart showing the response time of conversations over time. This panel is useful for identifying performance issues and ensuring the system's responsiveness.
+
 
 
 ## Conclusion
