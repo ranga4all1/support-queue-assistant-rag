@@ -227,7 +227,7 @@ The code for the application is in the [`support-queue-assistant`](support-queue
 - [`minsearch.py`](support-queue-assistant/minsearch.py) - an in-memory search engine
 - [`db.py`](support-queue-assistant/db.py) - the logic for logging the requests and responses to postgres
 - [`db_prep.py`](support-queue-assistant/db_prep.py) - the script for initializing the database
--[`streamlit-app.py`](support-queue-assistant/streamlit-app.py)
+- [`streamlit-app.py`](support-queue-assistant/streamlit-app.py) - Streamlit user interface
 
 
 We also have some code in the project root directory:
