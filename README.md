@@ -52,6 +52,8 @@ Here’s the structure of the dataset:
 
 You can find data in [`data/data-clean.csv`](data/data-clean.csv).
 
+It was created using [`https://claude.ai/new`](https://claude.ai/new)
+
 ## Technologies
 
 - Python 3.12
@@ -62,7 +64,7 @@ You can find data in [`data/data-clean.csv`](data/data-clean.csv).
 - Grafana for monitoring and PostgreSQL as the backend for it
 - OpenAI as an LLM
 
-## prerequisites
+## Prerequisites
 
 1. Since we use OpenAI, you need to provide the API key.
     - For OpenAI, it's recommended to create a new project and use a separate key.
@@ -82,7 +84,7 @@ You can find data in [`data/data-clean.csv`](data/data-clean.csv).
     - Copy `.envrc_template` into `.envrc` and insert your key there.
     - Run `direnv allow` to load the key into your environment.
 
-For dependency management, we use pipenv, so you need to install it:
+For dependency management, we use pipenv during experimentation, so you need to install it:
 ```
 pip install pipenv
 ```
@@ -268,7 +270,7 @@ Add a new PostgreSQL data source with the following details:
     - Response Time (Time Series)
 
 - Save dashboard by clicking on `save` icon.
-- Go to `Dashboard Settings`-> `JSON MOdel` and download/save contents to `dashboard.json` file. This can be used to import model as needed later or to include in docker Containerization.
+- Go to `Dashboard Settings`-> `JSON MOdel` and download/save contents to `dashboard.json` file. This can be used to import JSON model dashboard as needed later or to include in docker Containerization.
 
 
 ## Code
@@ -341,5 +343,19 @@ The **Support Queue Assistant** streamlines the customer support process for B2B
 
 ## Acknowledgements
 
+`Minsearch` for in memory full-text search is referrenced from
+[`Minsearch`](https://raw.githubusercontent.com/alexeygrigorev/minsearch/main/minsearch.py).
+
 
 ## Next steps
+
+Consider below steps in next iteration of the project:
+
+- Explore vector search capabilities e. g. use ElasticSearch
+- Explore using workflow orchestrator for Ingestion Pipeline (e.g., Mage, dlt, Airflow, Prefect)
+- Explore chunking, re-ranking and user query rewriting
+- Explore frameworks to see how it can be used for this project e. g. langchain, llamaindex, haystack
+- Cloud deployment: Separate 3 services and use managed solutions where possible
+    - Use Cloud SQL for PostgreSQL
+    - Deploy Grafana separately or use a managed monitoring solution
+    - Keep only the Streamlit app in serverless

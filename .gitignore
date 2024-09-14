@@ -3,7 +3,6 @@
 .envrc
 commands
 streamlit-app-flask.py
-/workspaces/support-queue-assistant-rag/grafana/init.py
 
 
 ###############################################
