@@ -217,6 +217,40 @@ Open this link in your browser to use the app: `http://localhost:8501`
 
 ![streamlit](images/streamlit.png)
 
+
+## Containerization
+
+1. Set env variables.
+```
+cd support-queue-assistant
+cp .env-template .env
+```
+Update your `.env` with your key : OPENAI_API_KEY=your_openai_api_key_here
+
+2. Docker build
+```
+docker-compose up --build
+```
+Access Streamlit application at http://localhost:8501 and Grafana at http://localhost:3000
+
+3. For the first run, need to initialize the database by running:
+```
+docker-compose run streamlit python db_prep.py
+```
+
+4. To connect `Grafana` to `PostgreSQL` database:
+
+Log in to `Grafana` (default credentials are admin/your_grafana_password).
+Add a new PostgreSQL data source with the following details:
+
+- Host: postgres
+- Database: sq_assistant
+- User: your_username
+- Password: your_password
+
+5. Create dashboards in Grafana to visualize data from the PostgreSQL database.
+
+
 ## Code
 
 The code for the application is in the [`support-queue-assistant`](support-queue-assistant) folder:
@@ -229,6 +263,11 @@ The code for the application is in the [`support-queue-assistant`](support-queue
 - [`db_prep.py`](support-queue-assistant/db_prep.py) - the script for initializing the database
 - [`streamlit-app.py`](support-queue-assistant/streamlit-app.py) - Streamlit user interface
 
+**Containerization**:
+- [docker-compose.yml](support-queue-assistant/docker-compose.yml) - Streamlit + PostgreSQL + Grafana
+- [Dockerfile.streanlit](support-queue-assistant/Dockerfile.streanlit) - Dockerfile for streamlit app
+- [requirements.txt](support-queue-assistant/requirements.txt) - dependency management
+
 
 We also have some code in the project root directory:
 
@@ -237,7 +276,9 @@ We also have some code in the project root directory:
 
 ### Interface
 
-We use Flask for serving the application as an API.
+We use Flask for serving the application as an API - to be used by any other UX.
+
+We also provide direct user interface via streamlit.
 
 ### Data Ingestion
 
