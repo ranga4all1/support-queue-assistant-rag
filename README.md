@@ -64,7 +64,7 @@ You can find data in [`data/data-clean.csv`](data/data-clean.csv).
 
 1. Since we use OpenAI, you need to provide the API key.
     - For OpenAI, it's recommended to create a new project and use a separate key.
-    - Go to `https://platform.openai.com/`
+    - Go to https://platform.openai.com/
     - Create project: `support-queue-assistant-rag`
     - Within that project, create `project API Key`
 
@@ -76,7 +76,7 @@ You can find data in [`data/data-clean.csv`](data/data-clean.csv).
 
     - Install `direnv`. If you use Ubuntu, run `sudo apt install direnv` and then `direnv hook bash >> ~/.bashrc`.
 
-        Alternatively, follow instructions from `https://direnv.net/docs/installation.html`
+        Alternatively, follow instructions from https://direnv.net/docs/installation.html
     - Copy `.envrc_template` into `.envrc` and insert your key there.
     - Run `direnv allow` to load the key into your environment.
 
@@ -87,7 +87,7 @@ pip install pipenv
 
 Once installed, you can install the app dependencies:
 ```
-    pipenv install openai scikit-learn pandas flask
+    pipenv install openai scikit-learn pandas flask streamlit
     pipenv install --dev tqdm notebook==7.1.2 ipywidgets
 ```
 
