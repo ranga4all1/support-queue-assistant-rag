@@ -1,0 +1,20 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Copy requirements file from the support-queue-assistant directory
+COPY support-queue-assistant/requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the entire support-queue-assistant directory
+COPY support-queue-assistant .
+
+# Copy the data directory
+COPY data ./data
+
+# Set environment variable for data path
+ENV DATA_PATH=/app/data/data-clean.csv
+
+CMD ["streamlit", "run", "streamlit-app.py"]

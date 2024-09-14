@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  streamlit:
+    build:
+      context: ..
+      dockerfile: support-queue-assistant/Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=sq_assistant
+      - POSTGRES_USER=your_username
+      - POSTGRES_PASSWORD=your_password
+      - TZ=America/Los_Angeles
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - DATA_PATH=/app/data/data-clean.csv
+    depends_on:
+      - postgres
+    volumes:
+      - ../support-queue-assistant:/app
+      - ../data:/app/data
+
+  postgres:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=sq_assistant
+      - POSTGRES_USER=your_username
+      - POSTGRES_PASSWORD=your_password
+      - TZ=America/Los_Angeles
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=your_grafana_password
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+volumes:
+  postgres_data:
+  grafana_data:

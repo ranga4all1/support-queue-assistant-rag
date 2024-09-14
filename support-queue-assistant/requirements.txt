@@ -1,0 +1,8 @@
+psycopg2-binary
+python-dotenv
+uuid
+openai
+scikit-learn
+pandas
+flask
+streamlit

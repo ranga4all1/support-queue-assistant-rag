@@ -1,11 +1,17 @@
 import json
-
+import os
 from time import time
-
+from dotenv import load_dotenv
+import pandas as pd
+import openai
 from openai import OpenAI
-
 import ingest
 
+# Load environment variables
+load_dotenv()
+
+# Set OpenAI API key
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI()
 index = ingest.load_index()

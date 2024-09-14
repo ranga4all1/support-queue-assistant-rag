@@ -2,7 +2,12 @@ import streamlit as st
 import uuid
 from rag import rag  # Assuming you have this function
 
-# import db  # Assuming this is your database module
+import db  # Assuming this is your database module
+
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Streamlit UI
 st.title("Support Queue Assistant")
@@ -26,11 +31,11 @@ if submit_button:
         st.write(f"**Answer**: {answer}")
 
         # Save the conversation to the database
-        # db.save_conversation(
-        #     conversation_id=conversation_id,
-        #     question=user_question,
-        #     answer_data=answer_data,
-        # )
+        db.save_conversation(
+            conversation_id=conversation_id,
+            question=user_question,
+            answer_data=answer_data,
+        )
 
         # Store the conversation ID for feedback
         st.session_state.conversation_id = conversation_id
