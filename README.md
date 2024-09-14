@@ -2,7 +2,7 @@
 
 This is your friendly customer-support-queue assistant which is a RAG application built with LLM.
 
-<img src="images/banner.jpg"  width="600" height="300">
+<img src="images/banner.jpg"  width="700" height="400">
 
 <!-- ![Support Queue Assistant](images/banner.jpg) -->
 
@@ -55,7 +55,8 @@ You can find data in [`data/data-clean.csv`](data/data-clean.csv).
 - Python 3.12
 - Minsearch for in memory full-text search
 - Docker and Docker Compose for containerization
-- Flask as the API interface
+- Flask as the API interface - to be used by any other UX
+- Streamlit as direct user interface
 - Grafana for monitoring and PostgreSQL as the backend for it
 - OpenAI as an LLM
 
@@ -160,7 +161,7 @@ We also tested `gpt-4o`:
 The difference is minimal, so we opted for `gpt-4o-mini`.
 
 
-## Running the application
+## Running the API
 
 1. Run Flask app
 ```
@@ -168,13 +169,9 @@ cd support-queue-assistant-flask
 pipenv run python app.py
 ```
 
-## Using the application
+### Testing the API using `requests`
 
-When the application is running, we can start using it.
-
-### Using `requests`
-
-When the application is running, you can use requests to send questions — use `test.py` for testing it:
+When the API is running, you can use requests to send questions — use `test.py` for testing it:
 
 ```
 pipenv run python test.py
@@ -191,21 +188,52 @@ question:  How does your company ensure transparent communication during a secur
 'question': 'How does your company ensure transparent communication during a security incident?'}
 ```
 
+## Using the application
+
+When the API is running, we can start using it.
+
+### Using user's question
+```
+pipenv run python user-query.py
+```
+User will see a prompt to ask question and something like the following in the response:
+```
+Please enter your question: Do you support SSO? If yes, how can I use it?
+
+Response:
+{'answer': "Yes, we support SSO (Single Sign-On) for Enterprise plans. To use it, go to 'Settings' > 'Security' > 'Single Sign-On'. From there, you can choose your identity provider (e.g., Okta, Azure AD) and follow the setup instructions provided. If you need further assistance, you can contact support.",
+'conversation_id': '70d99e6a-4541-47f1-9f3b-63782f5e7e07',
+'question': 'Do you support SSO? If yes, how can I use it?'}
+```
+
+### Using `streamlit` user interface
+
+Start streamlit.
+```
+cd support-queue-assistant/
+pipenv run streamlit run streamlit-app.py
+```
+Open this link in your browser to use the app: `http://localhost:8501`
+
+![streamlit](images/streamlit.png)
+
 ## Code
 
-The code for the application is in the [`support-queue-assistant-flask`](support-queue-assistant-flask) folder:
+The code for the application is in the [`support-queue-assistant`](support-queue-assistant) folder:
 
-- [`app.py`](support-queue-assistant-flask/app.py) - the Flask API, the main entrypoint to the application
-- [`rag.py`](support-queue-assistant-flask/rag.py) - the main RAG logic for building the retrieving the data and building the prompt
-- [`ingest.py`](support-queue-assistant-flask/ingest.py) - loading the data into the knowledge base
-- [`minsearch.py`](support-queue-assistant-flask/minsearch.py) - an in-memory search engine
-- [`db.py`](support-queue-assistant-flask/db.py) - the logic for logging the requests and responses to postgres
-- [`db_prep.py`](support-queue-assistant-flask/db_prep.py) - the script for initializing the database
+- [`app.py`](support-queue-assistant/app.py) - the Flask API, the main entrypoint to the application
+- [`rag.py`](support-queue-assistant/rag.py) - the main RAG logic for building the retrieving the data and building the prompt
+- [`ingest.py`](support-queue-assistant/ingest.py) - loading the data into the knowledge base
+- [`minsearch.py`](support-queue-assistant/minsearch.py) - an in-memory search engine
+- [`db.py`](support-queue-assistant/db.py) - the logic for logging the requests and responses to postgres
+- [`db_prep.py`](support-queue-assistant/db_prep.py) - the script for initializing the database
+-[`streamlit-app.py`](support-queue-assistant/streamlit-app.py)
 
 
 We also have some code in the project root directory:
 
 - [`test.py`](test.py) - select a random question for testing
+- [`user-query.py`](user-query.py) - User will see a prompt to ask question
 
 ### Interface
 
@@ -213,11 +241,11 @@ We use Flask for serving the application as an API.
 
 ### Data Ingestion
 
-The ingestion script is in [`ingest.py`](support-queue-assistant-flask/ingest.py).
+The ingestion script is in [`ingest.py`](support-queue-assistant/ingest.py).
 
 Since we use an in-memory database, `minsearch`, as our knowledge base, we run the ingestion script at the startup of the application.
 
-It's executed inside [`rag.py`](support-queue-assistant-flask/rag.py) when we import it.
+It's executed inside [`rag.py`](support-queue-assistant/rag.py) when we import it.
 
 
 ## Monitoring
