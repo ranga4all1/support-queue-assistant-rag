@@ -31,6 +31,10 @@ The **Support Queue Assistant** helps users by providing immediate and accurate 
 - **Consistency and Accuracy**: Responses are based on predefined categories and intents, ensuring users receive consistent answers across similar inquiries.
 - **Improved Response Time**: By automating common support queries, the assistant reduces the response time and workload on the human support team.
 
+
+![screen-capture.webm](images/screen-capture.webm)
+
+
 ## Dataset
 
 The dataset for this project is designed to address frequent customer support queries and contains 125 records. Each record includes information about the customer query, its category, intent, and a recommended response, along with related articles and tags for better searchability.
