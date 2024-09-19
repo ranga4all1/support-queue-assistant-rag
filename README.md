@@ -32,7 +32,8 @@ The **Support Queue Assistant** helps users by providing immediate and accurate 
 - **Improved Response Time**: By automating common support queries, the assistant reduces the response time and workload on the human support team.
 
 
-![screen-capture.webm](images/screen-capture.webm)
+![screen-capture.webm](https://github.com/user-attachments/assets/6b0966d3-1b3b-4b59-bd96-9b63de2599c0)
+
 
 
 ## Dataset
